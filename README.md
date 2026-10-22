@@ -6,14 +6,14 @@
 
 ## 下载并查看
 
-**[下载完整离线展示包（约 240 MB）](https://github.com/aichiloo/moon-terrain/releases/download/v0.1.0/Lunar_Detail_Regions_03.zip)**
+**[下载完整离线展示包（约 240 MB）](https://github.com/moonspace123/moon-terrain/releases/download/v0.1.0/Lunar_Detail_Regions_03.zip)**
 
 完整解压后，在 Windows 双击 `START_HERE.cmd`；或用 Edge / Chrome 打开 `START.html`（图片入口）和 `index.html`（三维交互）。完整包可离线使用，不需要安装 Python。请保留所有子目录。
 
 也可以克隆仓库后，用 Python 3.10+ 下载和启动：
 
 ```console
-git clone https://github.com/aichiloo/moon-terrain.git
+git clone https://github.com/moonspace123/moon-terrain.git
 cd moon-terrain
 python tools/download_demo.py
 python tools/verify_demo.py

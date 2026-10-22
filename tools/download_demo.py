@@ -7,7 +7,7 @@ import urllib.request
 import zipfile
 
 REPO = Path(__file__).resolve().parents[1]
-URL = 'https://github.com/aichiloo/moon-terrain/releases/download/v0.1.0/Lunar_Detail_Regions_03.zip'
+URL = 'https://github.com/moonspace123/moon-terrain/releases/download/v0.1.0/Lunar_Detail_Regions_03.zip'
 SHA256 = 'ced7ff4d8f11e35f970ca5328d5c69ab9f2bced6a2a6e4abe4d00067dc20e5ce'
 
 def main():
