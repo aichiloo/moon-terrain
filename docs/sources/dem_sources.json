@@ -1,0 +1,128 @@
+[
+  {
+    "site": "LINNECRATER",
+    "source_page": "https://data.lroc.im-ldi.com/lroc/view_rdr/NAC_DTM_LINNECRATER",
+    "original_acquisition": [
+      {
+        "file": "<local>/NAC_DTM_LINNECRATER.LBL",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER.LBL",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER.LBL",
+        "bytes": 3617,
+        "sha256": "45f8dcd173d7ff23c925cadba54e436624549a897c7cf9194ea6bba2f616fc4c",
+        "seconds": 0.0
+      },
+      {
+        "file": "<local>/NAC_DTM_LINNECRATER_README.TXT",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER_README.TXT",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER_README.TXT",
+        "bytes": 8805,
+        "sha256": "e5a01699b04cf202a66c3112c4d2886b695980dd2f5029f934ac285d99a05ee8",
+        "seconds": 0.0
+      },
+      {
+        "file": "<local>/NAC_DTM_LINNECRATER.TIF",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER.TIF",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER.TIF",
+        "bytes": 140432179,
+        "sha256": "b12bb28688ba394bdbb0711eadbcc4732378952cbd343fcda005ef276c8bdd17",
+        "seconds": 0.14
+      },
+      {
+        "file": "<local>/NAC_DTM_LINNECRATER_CONF.TIF",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER_CONF.TIF",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER_CONF.TIF",
+        "bytes": 35118012,
+        "sha256": "fbb390f6eaaa8f42e16ceb22da754600f394703aa4d009c753ff58b52e73c369",
+        "seconds": 0.03
+      },
+      {
+        "file": "<local>/NAC_DTM_LINNECRATER_CONF.IMG",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER_CONF.IMG",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/LINNECRATER/NAC_DTM_LINNECRATER_CONF.IMG",
+        "bytes": 35084345,
+        "sha256": "d9e3fe397932a7e59cc150379d5d1531d6525ad916e4a6b8e952b543405abe6b",
+        "seconds": 6.67
+      }
+    ],
+    "local_original_tiff": "<local>/NAC_DTM_LINNECRATER.TIF"
+  },
+  {
+    "site": "SHACKRDGE02",
+    "source_page": "https://data.lroc.im-ldi.com/lroc/view_rdr/NAC_DTM_SHACKRDGE02",
+    "original_acquisition": [
+      {
+        "file": "<local>/NAC_DTM_SHACKRDGE02.LBL",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02.LBL",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02.LBL",
+        "bytes": 3590,
+        "sha256": "cd901f773d194e04bdeca2f9b3b33aaae7e5b88d05be16d32d2fd45a97546e72",
+        "seconds": 0.0
+      },
+      {
+        "file": "<local>/NAC_DTM_SHACKRDGE02_README.TXT",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02_README.TXT",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02_README.TXT",
+        "bytes": 9368,
+        "sha256": "47934d934b7f7df18b81e681e919ba14c69e4bca19199bd51a275793a7799969",
+        "seconds": 0.0
+      },
+      {
+        "file": "<local>/NAC_DTM_SHACKRDGE02.TIF",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02.TIF",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02.TIF",
+        "bytes": 10073090,
+        "sha256": "89d19c6ba6b0c987b503cedc3324606d9fd61d522f83db9788d3314c45f80c8a",
+        "seconds": 0.01,
+        "matches_srb_catalog_sha256": true
+      },
+      {
+        "file": "<local>/NAC_DTM_SHACKRDGE02_CONF.TIF",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02_CONF.TIF",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02_CONF.TIF",
+        "bytes": 2518744,
+        "sha256": "8bb44ef79e462da1ed461e1a0a22a7cd20c624c9c2e54714d51dea36bbd99439",
+        "seconds": 0.0
+      },
+      {
+        "file": "<local>/NAC_DTM_SHACKRDGE02_CONF.IMG",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02_CONF.IMG",
+        "final_url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/SHACKRDGE02/NAC_DTM_SHACKRDGE02_CONF.IMG",
+        "bytes": 2520498,
+        "sha256": "8dbfa7f236cfc40f9dc527e4bcc4b068ddd014ccf9f62313a68400cc0b713e52",
+        "seconds": 2.43
+      }
+    ],
+    "local_original_tiff": "<local>/NAC_DTM_SHACKRDGE02.TIF"
+  },
+  {
+    "site": "MERSENIUS1",
+    "source_page": "https://data.lroc.im-ldi.com/lroc/view_rdr/NAC_DTM_MERSENIUS1",
+    "original_acquisition": [
+      {
+        "file": "NAC_DTM_MERSENIUS1.LBL",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/MERSENIUS1/NAC_DTM_MERSENIUS1.LBL",
+        "bytes": 3580,
+        "sha256": "33c1bbc22f31cb09df07c1654e1b37642e9de29fd17098b9a50685cfc1c2892b"
+      },
+      {
+        "file": "NAC_DTM_MERSENIUS1_README.TXT",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/MERSENIUS1/NAC_DTM_MERSENIUS1_README.TXT",
+        "bytes": 8649,
+        "sha256": "d431114969e4316bb993cd5a660445e92d375e4eecc4017b020ef6e49090b35a"
+      },
+      {
+        "file": "NAC_DTM_MERSENIUS1.TIF",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/MERSENIUS1/NAC_DTM_MERSENIUS1.TIF",
+        "bytes": 218130059,
+        "sha256": "79f904a162f761857a7cf5916081b5be7a7c1878a25cfa18d025dce7b0232a0b"
+      },
+      {
+        "file": "NAC_DTM_MERSENIUS1_CONF.IMG",
+        "url": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-5-rdr/LROLRC_2001/DATA/SDP/NAC_DTM/MERSENIUS1/NAC_DTM_MERSENIUS1_CONF.IMG",
+        "bytes": 54509955,
+        "sha256": "e5d49103c023e4192cf25bebbb7010874e350e26f9eb6d77a1d1e47a878bb222"
+      }
+    ],
+    "local_original_tiff": "<local>/NAC_DTM_MERSENIUS1.TIF"
+  }
+]

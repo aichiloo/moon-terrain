@@ -1,0 +1,827 @@
+{
+  "passed": true,
+  "before": [
+    {
+      "group": "existing",
+      "count": 495,
+      "fully_above_1cm": 34,
+      "fully_above_5cm": 13,
+      "min_clearance_range_m": [
+        -0.2502527708718816,
+        0.28447222192031063
+      ],
+      "worst": [
+        {
+          "group": "existing",
+          "index": 29,
+          "displaced": true,
+          "type": 1,
+          "width_m": 0.027519178539250788,
+          "min_vertex_clearance_m": 0.28447222192031063,
+          "q10_vertex_clearance_m": 0.28581169768714576,
+          "q25_vertex_clearance_m": 0.2878352514185707,
+          "height_m": 0.027597469209240444,
+          "xy": [
+            -1516.4448674141577,
+            -38.33383140373016
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 61,
+          "displaced": true,
+          "type": 0,
+          "width_m": 0.03977163656918492,
+          "min_vertex_clearance_m": 0.18059322425301616,
+          "q10_vertex_clearance_m": 0.18216881824501313,
+          "q25_vertex_clearance_m": 0.18360463483781686,
+          "height_m": 0.01925778295888847,
+          "xy": [
+            -1518.2040288690353,
+            -36.04501117499574
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 27,
+          "displaced": true,
+          "type": 4,
+          "width_m": 0.027810683793177304,
+          "min_vertex_clearance_m": 0.15439216141469103,
+          "q10_vertex_clearance_m": 0.15757977654295985,
+          "q25_vertex_clearance_m": 0.15944044961178605,
+          "height_m": 0.0289158882561793,
+          "xy": [
+            -1532.392493034804,
+            18.678551487345914
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 37,
+          "displaced": true,
+          "type": 1,
+          "width_m": 0.06275534174828579,
+          "min_vertex_clearance_m": 0.11290144046022021,
+          "q10_vertex_clearance_m": 0.11595841048516604,
+          "q25_vertex_clearance_m": 0.12008591720692152,
+          "height_m": 0.05727601186218578,
+          "xy": [
+            -1478.3990748140734,
+            -30.997466876764037
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 59,
+          "displaced": true,
+          "type": 4,
+          "width_m": 0.027025851827147562,
+          "min_vertex_clearance_m": 0.09942767806599306,
+          "q10_vertex_clearance_m": 0.10133636039022065,
+          "q25_vertex_clearance_m": 0.10338802623786236,
+          "height_m": 0.02660703796220787,
+          "xy": [
+            -1493.1219026978254,
+            -23.592430751779514
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 57,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.037847727152705346,
+          "min_vertex_clearance_m": 0.08570764751762283,
+          "q10_vertex_clearance_m": 0.08661124291170666,
+          "q25_vertex_clearance_m": 0.08748600659531292,
+          "height_m": 0.013249136653371352,
+          "xy": [
+            -1527.5471461664151,
+            22.942949953227426
+          ]
+        }
+      ]
+    },
+    {
+      "group": "approved_gravel",
+      "count": 1563,
+      "fully_above_1cm": 6,
+      "fully_above_5cm": 1,
+      "min_clearance_range_m": [
+        -0.08359440782990646,
+        0.050032527682091654
+      ],
+      "worst": [
+        {
+          "group": "approved_gravel",
+          "index": 198,
+          "displaced": true,
+          "type": 0,
+          "width_m": 0.023016264139641862,
+          "min_vertex_clearance_m": 0.050032527682091654,
+          "q10_vertex_clearance_m": 0.052135228916978346,
+          "q25_vertex_clearance_m": 0.053270102175002165,
+          "height_m": 0.015285198465974759,
+          "xy": [
+            -1493.7576603185742,
+            -22.502460335480027
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 1005,
+          "displaced": true,
+          "type": 5,
+          "width_m": 0.024161225168755962,
+          "min_vertex_clearance_m": 0.046452208218951796,
+          "q10_vertex_clearance_m": 0.047803409268652786,
+          "q25_vertex_clearance_m": 0.049008925334305786,
+          "height_m": 0.013384679918075904,
+          "xy": [
+            -1474.1793193630806,
+            -10.169221859331104
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 103,
+          "displaced": true,
+          "type": 6,
+          "width_m": 0.05493524177075315,
+          "min_vertex_clearance_m": 0.04257393491857897,
+          "q10_vertex_clearance_m": 0.04562533480722948,
+          "q25_vertex_clearance_m": 0.0480012202955038,
+          "height_m": 0.03380608442087407,
+          "xy": [
+            -1492.9310915610563,
+            -22.29871862867453
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 869,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.022812915270733924,
+          "min_vertex_clearance_m": 0.013801333785821157,
+          "q10_vertex_clearance_m": 0.014321422058989697,
+          "q25_vertex_clearance_m": 0.01506571957739311,
+          "height_m": 0.008506812295451027,
+          "xy": [
+            -1493.9533840886397,
+            21.558129774562076
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 856,
+          "displaced": true,
+          "type": 1,
+          "width_m": 0.026427335634934934,
+          "min_vertex_clearance_m": 0.011769955012752575,
+          "q10_vertex_clearance_m": 0.013930921173979982,
+          "q25_vertex_clearance_m": 0.016444830785502518,
+          "height_m": 0.024169106826789744,
+          "xy": [
+            -1490.3519709990562,
+            22.110291573604506
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 949,
+          "displaced": true,
+          "type": 6,
+          "width_m": 0.029282541334623602,
+          "min_vertex_clearance_m": 0.010900283746380524,
+          "q10_vertex_clearance_m": 0.01377363984187525,
+          "q25_vertex_clearance_m": 0.015097426028162886,
+          "height_m": 0.018227759958108436,
+          "xy": [
+            -1491.1524010148946,
+            21.31766122221373
+          ]
+        }
+      ]
+    },
+    {
+      "group": "uniform",
+      "count": 811,
+      "fully_above_1cm": 0,
+      "fully_above_5cm": 0,
+      "min_clearance_range_m": [
+        -0.06609238567692444,
+        5.18260118553826e-06
+      ],
+      "worst": [
+        {
+          "group": "uniform",
+          "index": 642,
+          "displaced": true,
+          "type": 2,
+          "width_m": 0.020437826889747157,
+          "min_vertex_clearance_m": 5.18260118553826e-06,
+          "q10_vertex_clearance_m": 0.0007849853465700107,
+          "q25_vertex_clearance_m": 0.0014875241435703401,
+          "height_m": 0.009065842963480009,
+          "xy": [
+            -1493.888184042012,
+            5.0382631356469005
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 83,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.07133185478755877,
+          "min_vertex_clearance_m": 5.079891238324308e-06,
+          "q10_vertex_clearance_m": 0.0019379261756142796,
+          "q25_vertex_clearance_m": 0.004598339997322398,
+          "height_m": 0.0333723864551132,
+          "xy": [
+            -1493.36987426507,
+            -1.744619661054533
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 749,
+          "displaced": true,
+          "type": 4,
+          "width_m": 0.01881279888152676,
+          "min_vertex_clearance_m": 4.926135616756255e-06,
+          "q10_vertex_clearance_m": 0.0009535511737965408,
+          "q25_vertex_clearance_m": 0.002116327465419232,
+          "height_m": 0.016522106252764956,
+          "xy": [
+            -1496.4133987066718,
+            -5.044350823191265
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 666,
+          "displaced": true,
+          "type": 4,
+          "width_m": 0.020121929928532567,
+          "min_vertex_clearance_m": 4.641546624384318e-06,
+          "q10_vertex_clearance_m": 0.002141691748335006,
+          "q25_vertex_clearance_m": 0.0035229146002713208,
+          "height_m": 0.016237925876751547,
+          "xy": [
+            -1490.100051628115,
+            -0.780739867105809
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 324,
+          "displaced": true,
+          "type": 1,
+          "width_m": 0.03031590050977684,
+          "min_vertex_clearance_m": 4.415829565118656e-06,
+          "q10_vertex_clearance_m": 0.00207716720660045,
+          "q25_vertex_clearance_m": 0.004104482029621437,
+          "height_m": 0.01824805401740548,
+          "xy": [
+            -1493.956210133712,
+            -1.7351192641618018
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 378,
+          "displaced": true,
+          "type": 5,
+          "width_m": 0.027522771987265715,
+          "min_vertex_clearance_m": 4.391608328546681e-06,
+          "q10_vertex_clearance_m": 0.002774246411732406,
+          "q25_vertex_clearance_m": 0.004522233532384234,
+          "height_m": 0.01126562255456065,
+          "xy": [
+            -1495.9290765673802,
+            -1.5825314563955777
+          ]
+        }
+      ]
+    },
+    {
+      "group": "clustered",
+      "count": 811,
+      "fully_above_1cm": 0,
+      "fully_above_5cm": 0,
+      "min_clearance_range_m": [
+        -0.06609309820768772,
+        5.7101778310197915e-06
+      ],
+      "worst": [
+        {
+          "group": "clustered",
+          "index": 410,
+          "displaced": true,
+          "type": 1,
+          "width_m": 0.02632975072085042,
+          "min_vertex_clearance_m": 5.7101778310197915e-06,
+          "q10_vertex_clearance_m": 0.0024747921610995148,
+          "q25_vertex_clearance_m": 0.005799866816040833,
+          "height_m": 0.02733305146644227,
+          "xy": [
+            -1493.8739982628206,
+            2.8596200871254247
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 322,
+          "displaced": true,
+          "type": 2,
+          "width_m": 0.03044811719481107,
+          "min_vertex_clearance_m": 5.6083417234731314e-06,
+          "q10_vertex_clearance_m": 0.0014870772682229472,
+          "q25_vertex_clearance_m": 0.0029000711661950618,
+          "height_m": 0.016157808247854177,
+          "xy": [
+            -1494.2318058331066,
+            0.030354435827946613
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 616,
+          "displaced": true,
+          "type": 1,
+          "width_m": 0.020928413290221215,
+          "min_vertex_clearance_m": 5.411040007174961e-06,
+          "q10_vertex_clearance_m": 0.0006472569261262606,
+          "q25_vertex_clearance_m": 0.0015861454499841443,
+          "height_m": 0.014891631086811685,
+          "xy": [
+            -1490.7005104088132,
+            2.0271572831569076
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 221,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.03749409277406812,
+          "min_vertex_clearance_m": 4.827589890510353e-06,
+          "q10_vertex_clearance_m": 0.0006353159960241328,
+          "q25_vertex_clearance_m": 0.0014310711494402995,
+          "height_m": 0.014870658820896665,
+          "xy": [
+            -1491.562175399145,
+            -2.328438606176032
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 327,
+          "displaced": true,
+          "type": 1,
+          "width_m": 0.029968357113375532,
+          "min_vertex_clearance_m": 4.757270588129359e-06,
+          "q10_vertex_clearance_m": 0.002588670603120136,
+          "q25_vertex_clearance_m": 0.005861492858389994,
+          "height_m": 0.027436669408103853,
+          "xy": [
+            -1489.255111903508,
+            2.2698639852141267
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 548,
+          "displaced": true,
+          "type": 1,
+          "width_m": 0.022330013549242245,
+          "min_vertex_clearance_m": 4.4018385523258985e-06,
+          "q10_vertex_clearance_m": 0.0014555431329924319,
+          "q25_vertex_clearance_m": 0.002879396106667542,
+          "height_m": 0.013793511005559367,
+          "xy": [
+            -1494.9311227130868,
+            0.77737525800779
+          ]
+        }
+      ]
+    }
+  ],
+  "after": [
+    {
+      "group": "existing",
+      "count": 495,
+      "fully_above_1cm": 0,
+      "fully_above_5cm": 0,
+      "min_clearance_range_m": [
+        -0.11118122567579292,
+        -0.0009941880137844805
+      ],
+      "worst": [
+        {
+          "group": "existing",
+          "index": 36,
+          "displaced": true,
+          "type": 0,
+          "width_m": 0.0257706185752431,
+          "min_vertex_clearance_m": -0.0009941880137844805,
+          "q10_vertex_clearance_m": 0.0004807447064330007,
+          "q25_vertex_clearance_m": 0.0012353734527401627,
+          "height_m": 0.008284900114901461,
+          "xy": [
+            -1448.17420352922,
+            6.52280737535181
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 277,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.032108214976233285,
+          "min_vertex_clearance_m": -0.0010377664237353201,
+          "q10_vertex_clearance_m": 0.0001657136969697606,
+          "q25_vertex_clearance_m": 0.0014062819070161936,
+          "height_m": 0.008648053531160826,
+          "xy": [
+            -1505.9688650496191,
+            -9.761007528430131
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 191,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.02466297040729637,
+          "min_vertex_clearance_m": -0.0010447048941131243,
+          "q10_vertex_clearance_m": -0.000493307770122442,
+          "q25_vertex_clearance_m": 0.00029396229651013073,
+          "height_m": 0.00870587411763779,
+          "xy": [
+            -1485.5763463220724,
+            0.9195396577730541
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 433,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.02398884777812782,
+          "min_vertex_clearance_m": -0.0010558087782186476,
+          "q10_vertex_clearance_m": -0.0003293746090633931,
+          "q25_vertex_clearance_m": 0.0004608652401287827,
+          "height_m": 0.008798406485098553,
+          "xy": [
+            -1479.7571280781049,
+            -19.484993891170326
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 428,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.02627606729811305,
+          "min_vertex_clearance_m": -0.0010595680910228111,
+          "q10_vertex_clearance_m": -0.00036437763330354755,
+          "q25_vertex_clearance_m": 0.0005168572469216315,
+          "height_m": 0.008829734091818864,
+          "xy": [
+            -1496.2220685919854,
+            -13.210366402189972
+          ]
+        },
+        {
+          "group": "existing",
+          "index": 122,
+          "displaced": true,
+          "type": 0,
+          "width_m": 0.021328089021153573,
+          "min_vertex_clearance_m": -0.0010889473227848612,
+          "q10_vertex_clearance_m": 0.0005740944347422785,
+          "q25_vertex_clearance_m": 0.0016108620869381696,
+          "height_m": 0.009074561023226124,
+          "xy": [
+            -1472.9673818079054,
+            -22.473188747656266
+          ]
+        }
+      ]
+    },
+    {
+      "group": "approved_gravel",
+      "count": 1563,
+      "fully_above_1cm": 0,
+      "fully_above_5cm": 0,
+      "min_clearance_range_m": [
+        -0.019740309078599694,
+        -0.0007172580460093059
+      ],
+      "worst": [
+        {
+          "group": "approved_gravel",
+          "index": 244,
+          "displaced": true,
+          "type": 0,
+          "width_m": 0.015616426049815502,
+          "min_vertex_clearance_m": -0.0007172580460093059,
+          "q10_vertex_clearance_m": 0.0006165713484449498,
+          "q25_vertex_clearance_m": 0.0015669966361144816,
+          "height_m": 0.0059771503833871975,
+          "xy": [
+            -1482.5529168195676,
+            -5.14638733975681
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 693,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.01901461638270696,
+          "min_vertex_clearance_m": -0.0007195976412646132,
+          "q10_vertex_clearance_m": -0.00022024631130932438,
+          "q25_vertex_clearance_m": 0.0006172261473977869,
+          "height_m": 0.005996647010491074,
+          "xy": [
+            -1483.3021045705252,
+            4.871360239449905
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 249,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.019363510015745433,
+          "min_vertex_clearance_m": -0.0007549021337638351,
+          "q10_vertex_clearance_m": -5.066388950467625e-05,
+          "q25_vertex_clearance_m": 0.0006960515799434575,
+          "height_m": 0.006290851114655993,
+          "xy": [
+            -1490.4728562909852,
+            -9.581270930892796
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 1339,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.020340116097941063,
+          "min_vertex_clearance_m": -0.000765414878003412,
+          "q10_vertex_clearance_m": -0.0003451098737485836,
+          "q25_vertex_clearance_m": 0.0001926093467190526,
+          "height_m": 0.006378457316642994,
+          "xy": [
+            -1497.249518794271,
+            16.977463955307492
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 1462,
+          "displaced": true,
+          "type": 0,
+          "width_m": 0.01810930398721755,
+          "min_vertex_clearance_m": -0.0007700224658577781,
+          "q10_vertex_clearance_m": 0.0004350648113131683,
+          "q25_vertex_clearance_m": 0.0011314950592478112,
+          "height_m": 0.006416853882086571,
+          "xy": [
+            -1492.6902273906683,
+            -1.4132079136251847
+          ]
+        },
+        {
+          "group": "approved_gravel",
+          "index": 765,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.018719471637268725,
+          "min_vertex_clearance_m": -0.0007707151673912449,
+          "q10_vertex_clearance_m": 0.00024144541095267872,
+          "q25_vertex_clearance_m": 0.0011158590942628166,
+          "height_m": 0.0064226263949649365,
+          "xy": [
+            -1492.884965250681,
+            -0.536547955613762
+          ]
+        }
+      ]
+    },
+    {
+      "group": "uniform",
+      "count": 811,
+      "fully_above_1cm": 0,
+      "fully_above_5cm": 0,
+      "min_clearance_range_m": [
+        -0.08897522835295035,
+        -0.0005466630835542219
+      ],
+      "worst": [
+        {
+          "group": "uniform",
+          "index": 810,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.01802177754173484,
+          "min_vertex_clearance_m": -0.0005466630835542219,
+          "q10_vertex_clearance_m": -4.920010150328837e-05,
+          "q25_vertex_clearance_m": 0.0005162766881738889,
+          "height_m": 0.0045555256962757085,
+          "xy": [
+            -1491.6217004375792,
+            -1.503272821697876
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 765,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.01859909196348397,
+          "min_vertex_clearance_m": -0.0006259861592212701,
+          "q10_vertex_clearance_m": 0.00010780914099086658,
+          "q25_vertex_clearance_m": 0.0007344820096335525,
+          "height_m": 0.005216551326881813,
+          "xy": [
+            -1486.7329041225498,
+            5.080172628171439
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 599,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.021158917008997413,
+          "min_vertex_clearance_m": -0.0007048465600973941,
+          "q10_vertex_clearance_m": -0.0004144667048905149,
+          "q25_vertex_clearance_m": -0.00010740125043895432,
+          "height_m": 0.005873721334197057,
+          "xy": [
+            -1495.1825785527394,
+            5.265946132021087
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 314,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.030698075049377493,
+          "min_vertex_clearance_m": -0.0007218632195105101,
+          "q10_vertex_clearance_m": -0.00034748909257018565,
+          "q25_vertex_clearance_m": 0.00046351101909181125,
+          "height_m": 0.006015526829244777,
+          "xy": [
+            -1492.3516856988792,
+            -4.244475316739776
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 628,
+          "displaced": true,
+          "type": 0,
+          "width_m": 0.020688328637601394,
+          "min_vertex_clearance_m": -0.0007319269955701202,
+          "q10_vertex_clearance_m": 4.5229252606304726e-05,
+          "q25_vertex_clearance_m": 0.0007461811606930269,
+          "height_m": 0.006099391629746265,
+          "xy": [
+            -1489.5297726594529,
+            3.819136603891378
+          ]
+        },
+        {
+          "group": "uniform",
+          "index": 669,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.020068330926655387,
+          "min_vertex_clearance_m": -0.0007384619826353855,
+          "q10_vertex_clearance_m": -0.00038870590937847285,
+          "q25_vertex_clearance_m": 0.00011228445978872514,
+          "height_m": 0.0061538498552948795,
+          "xy": [
+            -1493.1439173369595,
+            -1.7865753740011066
+          ]
+        }
+      ]
+    },
+    {
+      "group": "clustered",
+      "count": 811,
+      "fully_above_1cm": 0,
+      "fully_above_5cm": 0,
+      "min_clearance_range_m": [
+        -0.09876002685761875,
+        -0.0005621545483052159
+      ],
+      "worst": [
+        {
+          "group": "clustered",
+          "index": 810,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.018021777541734618,
+          "min_vertex_clearance_m": -0.0005621545483052159,
+          "q10_vertex_clearance_m": -0.00022929799004032248,
+          "q25_vertex_clearance_m": 0.0004898559586195006,
+          "height_m": 0.004684621235853115,
+          "xy": [
+            -1493.4393448547441,
+            2.151441153957948
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 765,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.01859909196348397,
+          "min_vertex_clearance_m": -0.000619080079573564,
+          "q10_vertex_clearance_m": 1.7381576859065712e-05,
+          "q25_vertex_clearance_m": 0.0006403546709492502,
+          "height_m": 0.005159000663098823,
+          "xy": [
+            -1489.5796809312105,
+            2.6131751114524455
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 802,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.01810189346934532,
+          "min_vertex_clearance_m": -0.0006406400828922187,
+          "q10_vertex_clearance_m": -0.00026289238053891497,
+          "q25_vertex_clearance_m": 0.0007420907181270309,
+          "height_m": 0.005338667357435156,
+          "xy": [
+            -1494.5960902620327,
+            3.960183795023275
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 772,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.01848889308348589,
+          "min_vertex_clearance_m": -0.0006538636594797254,
+          "q10_vertex_clearance_m": -0.00010641070135193332,
+          "q25_vertex_clearance_m": 0.0004077304837437623,
+          "height_m": 0.00544886382903087,
+          "xy": [
+            -1493.590685812589,
+            -0.6890071235563902
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 775,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.018472312068070096,
+          "min_vertex_clearance_m": -0.0006760681445854289,
+          "q10_vertex_clearance_m": -0.00031763651081178067,
+          "q25_vertex_clearance_m": 0.00023643553945618123,
+          "height_m": 0.005633901204888048,
+          "xy": [
+            -1486.7495838164218,
+            -2.887654158258184
+          ]
+        },
+        {
+          "group": "clustered",
+          "index": 599,
+          "displaced": true,
+          "type": 3,
+          "width_m": 0.021158917008997413,
+          "min_vertex_clearance_m": -0.0007057015589140292,
+          "q10_vertex_clearance_m": -0.0003740416443974937,
+          "q25_vertex_clearance_m": 1.8383539533317617e-05,
+          "height_m": 0.005880846324316735,
+          "xy": [
+            -1486.254381536508,
+            -2.181517994215453
+          ]
+        }
+      ]
+    }
+  ],
+  "all_groups": true,
+  "both_geometry_states": true,
+  "method": "every displayed rock mesh vertex against exact display triangle surface; static geometry only",
+  "checked_poses": 7360
+}

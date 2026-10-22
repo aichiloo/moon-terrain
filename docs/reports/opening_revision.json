@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-21",
+  "revision": 3,
+  "purpose": "Repair the opening path and provide a lightweight image entry",
+  "changed_files": [
+    "START_HERE.cmd",
+    "START.html",
+    "index.html (favicon only)",
+    "README.md",
+    "HOW_TO_OPEN.txt"
+  ],
+  "geometry_material_data_unchanged": true,
+  "preserved_assets": 95,
+  "previous_seating_report_preserved": true,
+  "current_opening_verification": "opening_verification.json",
+  "scope": "Browser viewer only; MuJoCo/UE/robot tests have not been run."
+}

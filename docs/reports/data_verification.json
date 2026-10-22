@@ -1,0 +1,249 @@
+{
+  "passed": true,
+  "regions": [
+    {
+      "region": "plain",
+      "native_copy_preserved": true,
+      "height16_decode_max_error_m": 3.3630145317327387e-07,
+      "glb_vertices": 361201,
+      "glb_triangles": 720000,
+      "glb_max_coordinate_error_m": 2.2888183615066282e-07,
+      "float32_world_height_ulp_m": 1.4901161193847656e-08,
+      "float32_error_budget_m": 2.0298023223876952e-06,
+      "normal_conventions_consistent": true,
+      "layouts": {
+        "uniform": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004158619818654168,
+          "minimum_gap_to_existing_rocks_m": 0.007430821660614033,
+          "maximum_contact_error_from_declared_burial_m": 1.1382770559453803e-08,
+          "exposed_vertex_gap_range_m": [
+            -1.1382770559453803e-08,
+            9.282831892054588e-09
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        },
+        "clustered": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004230092588369094,
+          "minimum_gap_to_existing_rocks_m": 0.005470082348530081,
+          "maximum_contact_error_from_declared_burial_m": 9.08833563961764e-09,
+          "exposed_vertex_gap_range_m": [
+            -5.211197223742303e-09,
+            9.08833563961764e-09
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        }
+      }
+    },
+    {
+      "region": "slope",
+      "native_copy_preserved": true,
+      "height16_decode_max_error_m": 3.3606075877483377e-07,
+      "glb_vertices": 361201,
+      "glb_triangles": 720000,
+      "glb_max_coordinate_error_m": 2.0137149476795457e-06,
+      "float32_world_height_ulp_m": 3.814697265625e-06,
+      "float32_error_budget_m": 9.62939453125e-06,
+      "normal_conventions_consistent": true,
+      "layouts": {
+        "uniform": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.005071037596166915,
+          "minimum_gap_to_existing_rocks_m": 0.03362738579225867,
+          "maximum_contact_error_from_declared_burial_m": 3.0594827933327906e-06,
+          "exposed_vertex_gap_range_m": [
+            -2.80255819973263e-06,
+            3.0594827933327906e-06
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        },
+        "clustered": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004224208072167831,
+          "minimum_gap_to_existing_rocks_m": 0.02516132287058808,
+          "maximum_contact_error_from_declared_burial_m": 2.9323802053227155e-06,
+          "exposed_vertex_gap_range_m": [
+            -2.9323802053227155e-06,
+            2.634198814632782e-06
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        }
+      }
+    },
+    {
+      "region": "rim",
+      "native_copy_preserved": true,
+      "height16_decode_max_error_m": 3.363884492589564e-07,
+      "glb_vertices": 361201,
+      "glb_triangles": 720000,
+      "glb_max_coordinate_error_m": 1.527800486655906e-05,
+      "float32_world_height_ulp_m": 3.0517578125e-05,
+      "float32_error_budget_m": 6.303515625e-05,
+      "normal_conventions_consistent": true,
+      "layouts": {
+        "uniform": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004051714663899289,
+          "minimum_gap_to_existing_rocks_m": 0.007607129665307414,
+          "maximum_contact_error_from_declared_burial_m": 2.389482619946648e-05,
+          "exposed_vertex_gap_range_m": [
+            -2.389482619946648e-05,
+            2.35171830240688e-05
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        },
+        "clustered": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004013256058534476,
+          "minimum_gap_to_existing_rocks_m": 0.015572775870037026,
+          "maximum_contact_error_from_declared_burial_m": 2.2952675692522462e-05,
+          "exposed_vertex_gap_range_m": [
+            -2.2952675692522462e-05,
+            1.94525246683952e-05
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        }
+      }
+    },
+    {
+      "region": "depression",
+      "native_copy_preserved": true,
+      "height16_decode_max_error_m": 3.3724066311746626e-07,
+      "glb_vertices": 361201,
+      "glb_triangles": 720000,
+      "glb_max_coordinate_error_m": 2.2888183792701966e-07,
+      "float32_world_height_ulp_m": 1.1920928955078125e-07,
+      "float32_error_budget_m": 2.2384185791015624e-06,
+      "normal_conventions_consistent": true,
+      "layouts": {
+        "uniform": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004129233572027607,
+          "minimum_gap_to_existing_rocks_m": 0.01652493474443527,
+          "maximum_contact_error_from_declared_burial_m": 9.362067010521002e-08,
+          "exposed_vertex_gap_range_m": [
+            -8.139666962669878e-08,
+            9.362067010521002e-08
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        },
+        "clustered": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004363517779533303,
+          "minimum_gap_to_existing_rocks_m": 0.02398845091120764,
+          "maximum_contact_error_from_declared_burial_m": 9.776192277932694e-08,
+          "exposed_vertex_gap_range_m": [
+            -9.776192277932694e-08,
+            8.446549348839483e-08
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        }
+      }
+    },
+    {
+      "region": "ridge",
+      "native_copy_preserved": true,
+      "height16_decode_max_error_m": 3.359592935445188e-07,
+      "glb_vertices": 361201,
+      "glb_triangles": 720000,
+      "glb_max_coordinate_error_m": 2.2888183615066282e-07,
+      "float32_world_height_ulp_m": 2.384185791015625e-07,
+      "float32_error_budget_m": 2.476837158203125e-06,
+      "normal_conventions_consistent": true,
+      "layouts": {
+        "uniform": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.006119156378256697,
+          "minimum_gap_to_existing_rocks_m": 0.008371769180511253,
+          "maximum_contact_error_from_declared_burial_m": 2.0411355978154633e-07,
+          "exposed_vertex_gap_range_m": [
+            -1.713036006378843e-07,
+            1.317065683181795e-07
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        },
+        "clustered": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004016871335924344,
+          "minimum_gap_to_existing_rocks_m": 0.00458484083612485,
+          "maximum_contact_error_from_declared_burial_m": 1.545202459318773e-07,
+          "exposed_vertex_gap_range_m": [
+            -1.093628188009177e-07,
+            1.545202459318773e-07
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        }
+      }
+    },
+    {
+      "region": "ejecta",
+      "native_copy_preserved": true,
+      "height16_decode_max_error_m": 3.36315367745893e-07,
+      "glb_vertices": 361201,
+      "glb_triangles": 720000,
+      "glb_max_coordinate_error_m": 2.9643470256246474e-07,
+      "float32_world_height_ulp_m": 4.76837158203125e-07,
+      "float32_error_budget_m": 2.95367431640625e-06,
+      "normal_conventions_consistent": true,
+      "layouts": {
+        "uniform": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.00413259726902699,
+          "minimum_gap_to_existing_rocks_m": 0.007903334874182044,
+          "maximum_contact_error_from_declared_burial_m": 3.510267578832327e-07,
+          "exposed_vertex_gap_range_m": [
+            -3.510267578832327e-07,
+            3.490446198739505e-07
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        },
+        "clustered": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004324486660911155,
+          "minimum_gap_to_existing_rocks_m": 0.004505921182135966,
+          "maximum_contact_error_from_declared_burial_m": 3.7025032373350086e-07,
+          "exposed_vertex_gap_range_m": [
+            -3.154024996732119e-07,
+            3.7025032373350086e-07
+          ],
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        }
+      }
+    },
+    {
+      "region": "rille",
+      "native_copy_preserved": true,
+      "height16_decode_max_error_m": 3.3627894022170146e-07,
+      "glb_vertices": 361201,
+      "glb_triangles": 720000,
+      "glb_max_coordinate_error_m": 3.9131332982833555e-06,
+      "float32_world_height_ulp_m": 7.62939453125e-06,
+      "float32_error_budget_m": 1.72587890625e-05,
+      "normal_conventions_consistent": true,
+      "layouts": {
+        "uniform": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.004707327170783156,
+          "minimum_gap_to_existing_rocks_m": 0.0056553849732298225,
+          "maximum_contact_error_from_declared_burial_m": 8.1451772410146e-15,
+          "exposed_vertex_gap_range_m": null,
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        },
+        "clustered": {
+          "count": 811,
+          "minimum_new_rock_circle_gap_m": 0.0043361995029559015,
+          "minimum_gap_to_existing_rocks_m": 0.02957323058938839,
+          "maximum_contact_error_from_declared_burial_m": 7.094585335876147e-15,
+          "exposed_vertex_gap_range_m": null,
+          "checked_against": "displayed planar triangles at transformed vertices; static check only"
+        }
+      }
+    }
+  ],
+  "source_resolution_improved": false,
+  "image_model_called": false,
+  "mesh_model_called": false,
+  "mujoco_or_ue_tested": false,
+  "physics_stability_tested": false
+}

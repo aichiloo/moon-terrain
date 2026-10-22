@@ -1,0 +1,99 @@
+{
+  "key": "plain",
+  "name": "平坦岩块区",
+  "source_region": "mare_plain",
+  "source_dem_spacing_m": 2.0000000000006,
+  "source_dem_sha256": "70e8b9961361a4b7c89e16d71d1bf053deb6e74d01986599dc6019408214df77",
+  "source_copy_identical": true,
+  "field_width_m": 12.0,
+  "field_step_m": 0.02,
+  "field_vertices": 361201,
+  "field_triangles": 720000,
+  "low_detail_height_range_m": [
+    0.0,
+    0.02764727776336997
+  ],
+  "fine_detail_height_range_m": [
+    -0.0016,
+    0.0016
+  ],
+  "edge_height_m": 0.0,
+  "mound_count": 190,
+  "synthetic": true,
+  "site_statistics_calibrated": false,
+  "seed": 2026102121,
+  "height16_decode": {
+    "minimum_m": -0.004,
+    "maximum_m": 0.04,
+    "formula": "height_m = pixel / 65535 * (maximum_m-minimum_m) + minimum_m",
+    "includes": "low plus fine detail; no base DEM"
+  },
+  "glb_coordinate_system": "Y up, metres; local glTF=(source_x-focus_x, source_z-center_z, -(source_y-focus_y))",
+  "source_patch_center_xyz_m": [
+    2.9,
+    3.1,
+    -0.027586824260652065
+  ],
+  "glb_contains": "approved base height plus low detail; no rocks or textures",
+  "normal_convention": "RGB tangent-space OpenGL +Y; DirectX copy flips green",
+  "normal_combination": "normal-only uses low+fine; displaced surface uses fine only to avoid repeating low-frequency slopes",
+  "layouts": {
+    "uniform": {
+      "requested": 811,
+      "placed": 811,
+      "skipped_template_ids": [],
+      "counts": {
+        "fine": 740,
+        "medium": 66,
+        "large": 5
+      },
+      "minimum_bounding_circle_gap_m": 0.004158619818654168,
+      "vertex_clearance_base_range_m": [
+        -0.08777390260071208,
+        6.938893903907228e-18
+      ],
+      "vertex_clearance_displaced_range_m": [
+        -0.08777390260071208,
+        1.7801244419496376e-17
+      ],
+      "partial_burial_count": 315,
+      "diameter_range_m": [
+        0.018004395437405677,
+        0.887006327266273
+      ],
+      "spatial_model": "uniform candidates plus rejection"
+    },
+    "clustered": {
+      "requested": 811,
+      "placed": 811,
+      "skipped_template_ids": [],
+      "counts": {
+        "fine": 740,
+        "medium": 66,
+        "large": 5
+      },
+      "minimum_bounding_circle_gap_m": 0.004230092588369112,
+      "vertex_clearance_base_range_m": [
+        -0.08803725373128862,
+        1.3877787807814457e-17
+      ],
+      "vertex_clearance_displaced_range_m": [
+        -0.08803725373128864,
+        9.405453846311751e-18
+      ],
+      "partial_burial_count": 315,
+      "diameter_range_m": [
+        0.018004395437405677,
+        0.887006327266273
+      ],
+      "spatial_model": "68 percent cluster candidates plus 32 percent uniform candidates and rejection"
+    }
+  },
+  "engine": "Three.js WebGL",
+  "image_model_called": false,
+  "mesh_model_called": false,
+  "mujoco_run": false,
+  "ue_run": false,
+  "physics_stability_tested": false,
+  "experimental_crop": false
+}

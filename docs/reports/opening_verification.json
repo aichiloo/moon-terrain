@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "root": "<local>/Lunar_Detail_Regions",
+  "checked_at": "2026-10-21T13:37:47.185Z",
+  "errors": [],
+  "failures": [],
+  "remote_requests": [],
+  "regions": [
+    {
+      "key": "plain",
+      "presets": 4,
+      "rendered": true
+    },
+    {
+      "key": "slope",
+      "presets": 4,
+      "rendered": true
+    },
+    {
+      "key": "rim",
+      "presets": 4,
+      "rendered": true
+    },
+    {
+      "key": "depression",
+      "presets": 4,
+      "rendered": true
+    },
+    {
+      "key": "ridge",
+      "presets": 4,
+      "rendered": true
+    },
+    {
+      "key": "ejecta",
+      "presets": 4,
+      "rendered": true
+    },
+    {
+      "key": "rille",
+      "presets": 4,
+      "rendered": true
+    }
+  ],
+  "preview_pages": [
+    {
+      "url": "<local>/START.html",
+      "images": 8,
+      "links": 7
+    },
+    {
+      "url": "http://127.0.0.1:8794/Lunar_Detail_Regions/START.html",
+      "images": 8,
+      "links": 7
+    }
+  ],
+  "offline_file_rille_opened": true,
+  "textures": {
+    "loaded": 43,
+    "expected": 43,
+    "failed": []
+  },
+  "missing_links": [],
+  "http_preview_link_clicked": true,
+  "detail_button_verified": true
+}

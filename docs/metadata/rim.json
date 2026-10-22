@@ -1,0 +1,99 @@
+{
+  "key": "rim",
+  "name": "完整坑区与坑缘",
+  "source_region": "crater_rim",
+  "source_dem_spacing_m": 2.0000000000006,
+  "source_dem_sha256": "f0b2b7afa99c9d61a17a09165f81644444f77b1462a068d4a06543c0c6e1fd90",
+  "source_copy_identical": true,
+  "field_width_m": 12.0,
+  "field_step_m": 0.02,
+  "field_vertices": 361201,
+  "field_triangles": 720000,
+  "low_detail_height_range_m": [
+    0.0,
+    0.028512784145425574
+  ],
+  "fine_detail_height_range_m": [
+    -0.0016,
+    0.0016
+  ],
+  "edge_height_m": 0.0,
+  "mound_count": 190,
+  "synthetic": true,
+  "site_statistics_calibrated": false,
+  "seed": 2026102321,
+  "height16_decode": {
+    "minimum_m": -0.004,
+    "maximum_m": 0.04,
+    "formula": "height_m = pixel / 65535 * (maximum_m-minimum_m) + minimum_m",
+    "includes": "low plus fine detail; no base DEM"
+  },
+  "glb_coordinate_system": "Y up, metres; local glTF=(source_x-focus_x, source_z-center_z, -(source_y-focus_y))",
+  "source_patch_center_xyz_m": [
+    -673.2,
+    -768.8,
+    505.4596411753446
+  ],
+  "glb_contains": "approved base height plus low detail; no rocks or textures",
+  "normal_convention": "RGB tangent-space OpenGL +Y; DirectX copy flips green",
+  "normal_combination": "normal-only uses low+fine; displaced surface uses fine only to avoid repeating low-frequency slopes",
+  "layouts": {
+    "uniform": {
+      "requested": 811,
+      "placed": 811,
+      "skipped_template_ids": [],
+      "counts": {
+        "fine": 740,
+        "medium": 66,
+        "large": 5
+      },
+      "minimum_bounding_circle_gap_m": 0.004051714663899289,
+      "vertex_clearance_base_range_m": [
+        -0.12254150912502837,
+        0.0
+      ],
+      "vertex_clearance_displaced_range_m": [
+        -0.12254150912500898,
+        2.8248237082806327e-14
+      ],
+      "partial_burial_count": 343,
+      "diameter_range_m": [
+        0.018024448116600422,
+        0.7086869748674388
+      ],
+      "spatial_model": "uniform candidates plus rejection"
+    },
+    "clustered": {
+      "requested": 811,
+      "placed": 811,
+      "skipped_template_ids": [],
+      "counts": {
+        "fine": 740,
+        "medium": 66,
+        "large": 5
+      },
+      "minimum_bounding_circle_gap_m": 0.004013256058534476,
+      "vertex_clearance_base_range_m": [
+        -0.11724994887481444,
+        0.0
+      ],
+      "vertex_clearance_displaced_range_m": [
+        -0.1172499488748088,
+        2.836110168192912e-14
+      ],
+      "partial_burial_count": 343,
+      "diameter_range_m": [
+        0.018024448116600422,
+        0.7086869748674388
+      ],
+      "spatial_model": "68 percent cluster candidates plus 32 percent uniform candidates and rejection"
+    }
+  },
+  "engine": "Three.js WebGL",
+  "image_model_called": false,
+  "mesh_model_called": false,
+  "mujoco_run": false,
+  "ue_run": false,
+  "physics_stability_tested": false,
+  "experimental_crop": false
+}

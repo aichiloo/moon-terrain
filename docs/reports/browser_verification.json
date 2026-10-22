@@ -1,0 +1,3237 @@
+{
+  "passed": true,
+  "actual_browser": true,
+  "offline_file_url": true,
+  "regions": 7,
+  "views": [
+    "low",
+    "high",
+    "detail",
+    "orbit",
+    "overview"
+  ],
+  "same_camera_and_lighting": true,
+  "normal_only_preserves_vertices": true,
+  "displacement_changes_vertices": true,
+  "drag_verified": true,
+  "wheel_verified": true,
+  "rocks_control_verified": true,
+  "mobile_no_overflow": true,
+  "all_links_resolve": true,
+  "textures": {
+    "loaded": 43,
+    "expected": 43,
+    "failed": []
+  },
+  "errors": [],
+  "remote_requests": [],
+  "failed_requests": [],
+  "samples": [
+    {
+      "name": "plain_A",
+      "state": {
+        "region": "plain",
+        "preset": "A",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 69.34393771965337,
+      "bright": 524650,
+      "gl_error": 0,
+      "triangles": 19151500,
+      "image_sha256": "cf32a71ab9259df884df463da1e1f1401bc9135e1e076b2a7f2bb2fa26ff7f9c"
+    },
+    {
+      "name": "plain_B",
+      "state": {
+        "region": "plain",
+        "preset": "B",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 69.31966480960753,
+      "bright": 524648,
+      "gl_error": 0,
+      "triangles": 19151500,
+      "image_sha256": "da271c9ea66deb2bc43bf19cd935dcc32b494b3cba14fe6a6fd2cbe6f982a4a4"
+    },
+    {
+      "name": "plain_C",
+      "state": {
+        "region": "plain",
+        "preset": "C",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 69.31820640912701,
+      "bright": 524753,
+      "gl_error": 0,
+      "triangles": 19151500,
+      "image_sha256": "391080d08b878aa9c5ce7e4a09aa9461ecf55f7ed963f4e4ef9c81ca05245fe3"
+    },
+    {
+      "name": "plain_D",
+      "state": {
+        "region": "plain",
+        "preset": "D",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 67.58824378040126,
+      "bright": 518476,
+      "gl_error": 0,
+      "triangles": 18971332,
+      "image_sha256": "f4e5968de80379a8980c642d772586b9ed1e6a355bfc0dd04593c361b8f55d81"
+    },
+    {
+      "name": "plain_uniform",
+      "state": {
+        "region": "plain",
+        "preset": "custom",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "uniform",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 67.92328260969062,
+      "bright": 518038,
+      "gl_error": 0,
+      "triangles": 18971332,
+      "image_sha256": "fe94a6c0d142135a599dafc8ea26e0b08f51ef9d28bc5aaf0c0437451829b0e1"
+    },
+    {
+      "name": "plain_detail",
+      "state": {
+        "region": "plain",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          1.842651971447657,
+          2.0425652935231384,
+          0.31103631796814696
+        ],
+        "quaternion": [
+          0.46572356361179235,
+          -0.18353537083565682,
+          -0.31739857086756074,
+          0.8054033009369782
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 104.1518904339036,
+      "bright": 796733,
+      "gl_error": 0,
+      "triangles": 18971332,
+      "image_sha256": "e42560fe3aa2f09b906ec4b227112c1329937933f1912e5919f1b4166829df98"
+    },
+    {
+      "name": "plain_detail_A",
+      "state": {
+        "region": "plain",
+        "preset": "A",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          1.842651971447657,
+          2.0425652935231384,
+          0.31103631796814696
+        ],
+        "quaternion": [
+          0.46572356361179235,
+          -0.18353537083565682,
+          -0.31739857086756074,
+          0.8054033009369782
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 105.12663796678748,
+      "bright": 802069,
+      "gl_error": 0,
+      "triangles": 19151500,
+      "image_sha256": "e7fe66db61e25c2ee7c10ed77fb22fc6aecc0d9d420e7f2d6eb38f2834ce818b"
+    },
+    {
+      "name": "plain_detail_B",
+      "state": {
+        "region": "plain",
+        "preset": "B",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          1.842651971447657,
+          2.0425652935231384,
+          0.31103631796814696
+        ],
+        "quaternion": [
+          0.46572356361179235,
+          -0.18353537083565682,
+          -0.31739857086756074,
+          0.8054033009369782
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 105.17147428521587,
+      "bright": 802070,
+      "gl_error": 0,
+      "triangles": 19151500,
+      "image_sha256": "45be8e72b55337c1b9e1115aca27066e30469dcc53786ce85e513afe09b095e0"
+    },
+    {
+      "name": "plain_detail_C",
+      "state": {
+        "region": "plain",
+        "preset": "C",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          1.842651971447657,
+          2.0425652935231384,
+          0.31103631796814696
+        ],
+        "quaternion": [
+          0.46572356361179235,
+          -0.18353537083565682,
+          -0.31739857086756074,
+          0.8054033009369782
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 105.21518639596536,
+      "bright": 802168,
+      "gl_error": 0,
+      "triangles": 19151500,
+      "image_sha256": "15c45c120550b8fbb6efea8b9dd57b8a85b90e58c1360a169f718a53c5593dc4"
+    },
+    {
+      "name": "plain_orbit",
+      "state": {
+        "region": "plain",
+        "preset": "D",
+        "view": "orbit",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -4.443773730011872,
+          10.53532387616656,
+          10.732754538300867
+        ],
+        "quaternion": [
+          -0.14278506526143592,
+          0.3477562072609575,
+          0.8572060993173672,
+          -0.351959868085646
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 113.88504151508286,
+      "bright": 861792,
+      "gl_error": 0,
+      "triangles": 18971332,
+      "image_sha256": "03cb918fcbf13326c62e6d5fc72deaae00fa0196b93886c6dd624fdf01a6a19b"
+    },
+    {
+      "name": "plain_high",
+      "state": {
+        "region": "plain",
+        "preset": "D",
+        "view": "high",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          1.5930389956571163
+        ],
+        "quaternion": [
+          0.5852929487536636,
+          -0.23065605176580922,
+          -0.284999773544402,
+          0.723190900801918
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 71.55109543103359,
+      "bright": 541875,
+      "gl_error": 0,
+      "triangles": 18971332,
+      "image_sha256": "c9deb728a93b60489f601eb8d919adaea9b0497cbd843c6cf30a4d328449d1b1"
+    },
+    {
+      "name": "plain_overview",
+      "state": {
+        "region": "plain",
+        "preset": "D",
+        "view": "overview",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -423.0013668488108,
+          428.27465526732243,
+          619.7887015330308
+        ],
+        "quaternion": [
+          -0.14278506526143592,
+          0.3477562072609577,
+          0.8572060993173672,
+          -0.351959868085646
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 35.81186748929646,
+      "bright": 256643,
+      "gl_error": 0,
+      "triangles": 18971332,
+      "image_sha256": "d70445dc9756e711b9a8013655a0bf002b1915283025e28e42ff2d4556706544"
+    },
+    {
+      "name": "plain_grazing",
+      "state": {
+        "region": "plain",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          1.842651971447657,
+          2.0425652935231384,
+          0.31103631796814696
+        ],
+        "quaternion": [
+          0.46572356361179235,
+          -0.18353537083565682,
+          -0.31739857086756074,
+          0.8054033009369782
+        ],
+        "fov": 66,
+        "sun": [
+          10,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 54.616184370057184,
+      "bright": 737135,
+      "gl_error": 0,
+      "triangles": 18971332,
+      "image_sha256": "2677c632a8bba2d747c197599daa471b2308059f53e51b09d193771c4067f7d1"
+    },
+    {
+      "name": "slope_A",
+      "state": {
+        "region": "slope",
+        "preset": "A",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -70,
+          -150.5,
+          40.53693548003211
+        ],
+        "quaternion": [
+          -0.12740081296213882,
+          0.7595274383778922,
+          0.6290884999522351,
+          -0.1055213837833354
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 87.76931795503822,
+      "bright": 522721,
+      "gl_error": 0,
+      "triangles": 13364272,
+      "image_sha256": "83473526ae6e61d28078e98948c2cbe0fea22d3c68f5179fb97c35b895a98995"
+    },
+    {
+      "name": "slope_B",
+      "state": {
+        "region": "slope",
+        "preset": "B",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -70,
+          -150.5,
+          40.53693548003211
+        ],
+        "quaternion": [
+          -0.12740081296213882,
+          0.7595274383778922,
+          0.6290884999522351,
+          -0.1055213837833354
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 87.71051153362575,
+      "bright": 522721,
+      "gl_error": 0,
+      "triangles": 13364272,
+      "image_sha256": "1038e114879c90c90252ff74e4a754893d0959eee8f4a8854254c9458e0cb83c"
+    },
+    {
+      "name": "slope_C",
+      "state": {
+        "region": "slope",
+        "preset": "C",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -70,
+          -150.5,
+          40.53693548003211
+        ],
+        "quaternion": [
+          -0.12740081296213882,
+          0.7595274383778922,
+          0.6290884999522351,
+          -0.1055213837833354
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 87.74773431859123,
+      "bright": 522721,
+      "gl_error": 0,
+      "triangles": 13364272,
+      "image_sha256": "0ba593c68c25ee68c7f3132991ea2e558d70913fd0c918fc2e4cba58ebec1f22"
+    },
+    {
+      "name": "slope_D",
+      "state": {
+        "region": "slope",
+        "preset": "D",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -70,
+          -150.5,
+          40.53693548003211
+        ],
+        "quaternion": [
+          -0.12740081296213882,
+          0.7595274383778922,
+          0.6290884999522351,
+          -0.1055213837833354
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 86.71918903565945,
+      "bright": 521078,
+      "gl_error": 0,
+      "triangles": 13487136,
+      "image_sha256": "4078a7bc95b20e05a180131b05a741b72490ba4589a5f4b7edfc8b80b1d770a6"
+    },
+    {
+      "name": "slope_uniform",
+      "state": {
+        "region": "slope",
+        "preset": "custom",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "uniform",
+        "rocksOn": true,
+        "camera": [
+          -70,
+          -150.5,
+          40.53693548003211
+        ],
+        "quaternion": [
+          -0.12740081296213882,
+          0.7595274383778922,
+          0.6290884999522351,
+          -0.1055213837833354
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 82.84128374535916,
+      "bright": 501687,
+      "gl_error": 0,
+      "triangles": 13487136,
+      "image_sha256": "f500d396e707adc1a1d3e16508e7356ebe8a2ce629f52e23f5b704d293cd38dc"
+    },
+    {
+      "name": "slope_detail",
+      "state": {
+        "region": "slope",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -69.34435247045813,
+          -153.24672984989462,
+          41.14627640808995
+        ],
+        "quaternion": [
+          -0.09729715762481699,
+          0.5800580009971271,
+          0.7976007684927673,
+          -0.13378711708193522
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 141.49452898401,
+      "bright": 865494,
+      "gl_error": 0,
+      "triangles": 13487136,
+      "image_sha256": "07a98b83c5b7070c4b0e387babee98306458ca74b778872acc06350145ac0bd5"
+    },
+    {
+      "name": "slope_detail_A",
+      "state": {
+        "region": "slope",
+        "preset": "A",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -69.34435247045813,
+          -153.24672984989462,
+          41.14627640808995
+        ],
+        "quaternion": [
+          -0.09729715762481699,
+          0.5800580009971271,
+          0.7976007684927673,
+          -0.13378711708193522
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 143.63068933517175,
+      "bright": 868577,
+      "gl_error": 0,
+      "triangles": 13364272,
+      "image_sha256": "68011cef8b9b55a181945b231a1af957ec8c15e814aca5415393e438d940e3f1"
+    },
+    {
+      "name": "slope_detail_B",
+      "state": {
+        "region": "slope",
+        "preset": "B",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -69.34435247045813,
+          -153.24672984989462,
+          41.14627640808995
+        ],
+        "quaternion": [
+          -0.09729715762481699,
+          0.5800580009971271,
+          0.7976007684927673,
+          -0.13378711708193522
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 143.8172939977567,
+      "bright": 868577,
+      "gl_error": 0,
+      "triangles": 13364272,
+      "image_sha256": "23a89de4ac024775c3d422b85329fe126fe6f1380a3697a132f06ac8e0559309"
+    },
+    {
+      "name": "slope_detail_C",
+      "state": {
+        "region": "slope",
+        "preset": "C",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -69.34435247045813,
+          -153.24672984989462,
+          41.14627640808995
+        ],
+        "quaternion": [
+          -0.09729715762481699,
+          0.5800580009971271,
+          0.7976007684927673,
+          -0.13378711708193522
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 143.84138810890985,
+      "bright": 868575,
+      "gl_error": 0,
+      "triangles": 13364272,
+      "image_sha256": "c161951858f1cc05ddc177ccd212bc47de761fe60a5ef3cdc8bb41a62786584c"
+    },
+    {
+      "name": "slope_orbit",
+      "state": {
+        "region": "slope",
+        "preset": "D",
+        "view": "orbit",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -75.94377373001187,
+          -147.06467612383344,
+          51.98260088497722
+        ],
+        "quaternion": [
+          -0.14278506526143595,
+          0.3477562072609577,
+          0.8572060993173672,
+          -0.351959868085646
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 143.25235239551316,
+      "bright": 867790,
+      "gl_error": 0,
+      "triangles": 13487136,
+      "image_sha256": "c4fe8faa3ccec98857b9451df86aa9e38179a88208dfc9694c5c3838fe49e883"
+    },
+    {
+      "name": "slope_high",
+      "state": {
+        "region": "slope",
+        "preset": "D",
+        "view": "high",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -70,
+          -150.5,
+          41.58693548003212
+        ],
+        "quaternion": [
+          -0.12363029348936441,
+          0.7370486728981024,
+          0.6552812557979834,
+          -0.10991487665779168
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 93.69379383636795,
+      "bright": 565400,
+      "gl_error": 0,
+      "triangles": 13487136,
+      "image_sha256": "a1928cf9d87ed88368a5cc86e89ded1660268c76d755d4daad6031fafca75b95"
+    },
+    {
+      "name": "slope_overview",
+      "state": {
+        "region": "slope",
+        "preset": "D",
+        "view": "overview",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -555.1892939888975,
+          562.110485038192,
+          853.4687417419241
+        ],
+        "quaternion": [
+          -0.1427850652614359,
+          0.3477562072609575,
+          0.8572060993173672,
+          -0.351959868085646
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 47.33828138188707,
+      "bright": 281004,
+      "gl_error": 0,
+      "triangles": 13487136,
+      "image_sha256": "da10bbac2e081bfb3e78729bfec4da74949500649079751aa4fe9c890849a605"
+    },
+    {
+      "name": "slope_grazing",
+      "state": {
+        "region": "slope",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -69.34435247045813,
+          -153.24672984989462,
+          41.14627640808995
+        ],
+        "quaternion": [
+          -0.09729715762481699,
+          0.5800580009971271,
+          0.7976007684927673,
+          -0.13378711708193522
+        ],
+        "fov": 66,
+        "sun": [
+          10,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 111.90033841338747,
+      "bright": 863701,
+      "gl_error": 0,
+      "triangles": 13487136,
+      "image_sha256": "0a233718e50f05dd6d160010746907b500ff0399cc58734acc28123fee735da6"
+    },
+    {
+      "name": "rim_A",
+      "state": {
+        "region": "rim",
+        "preset": "A",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -676.0000000002028,
+          -772.0000000002316,
+          505.8274628237821
+        ],
+        "quaternion": [
+          0.6279716477130168,
+          -0.23608240371782352,
+          -0.2609550047648464,
+          0.6941319714662278
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 70.3549495833041,
+      "bright": 547621,
+      "gl_error": 0,
+      "triangles": 14530620,
+      "image_sha256": "89d4344abe334c79d1d157e1159a4a1a3cc8cce973aea3ae81c5ad8f06bdbb2b"
+    },
+    {
+      "name": "rim_B",
+      "state": {
+        "region": "rim",
+        "preset": "B",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -676.0000000002028,
+          -772.0000000002316,
+          505.8274628237821
+        ],
+        "quaternion": [
+          0.6279716477130168,
+          -0.23608240371782352,
+          -0.2609550047648464,
+          0.6941319714662278
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 70.36869906532661,
+      "bright": 547627,
+      "gl_error": 0,
+      "triangles": 14530620,
+      "image_sha256": "c2eda2c930333cd04701ae4744cbd55c3e5343d137b3ae4dd4834006caa66604"
+    },
+    {
+      "name": "rim_C",
+      "state": {
+        "region": "rim",
+        "preset": "C",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -676.0000000002028,
+          -772.0000000002316,
+          505.8274628237821
+        ],
+        "quaternion": [
+          0.6279716477130168,
+          -0.23608240371782352,
+          -0.2609550047648464,
+          0.6941319714662278
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 70.37429094340298,
+      "bright": 547624,
+      "gl_error": 0,
+      "triangles": 14530620,
+      "image_sha256": "f50fd976161315f8bef0104180b03b2b71a6225179419679f51b0a99fe4807b1"
+    },
+    {
+      "name": "rim_D",
+      "state": {
+        "region": "rim",
+        "preset": "D",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -676.0000000002028,
+          -772.0000000002316,
+          505.8274628237821
+        ],
+        "quaternion": [
+          0.6279716477130168,
+          -0.23608240371782352,
+          -0.2609550047648464,
+          0.6941319714662278
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 68.58445945945277,
+      "bright": 536995,
+      "gl_error": 0,
+      "triangles": 13395046,
+      "image_sha256": "30afab6d51c6fbe2194db536aa33a222e05fc0361d24c776d2aaaceeb1334d29"
+    },
+    {
+      "name": "rim_uniform",
+      "state": {
+        "region": "rim",
+        "preset": "custom",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "uniform",
+        "rocksOn": true,
+        "camera": [
+          -676.0000000002028,
+          -772.0000000002316,
+          505.8274628237821
+        ],
+        "quaternion": [
+          0.6279716477130168,
+          -0.23608240371782352,
+          -0.2609550047648464,
+          0.6941319714662278
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 69.50407822643066,
+      "bright": 543236,
+      "gl_error": 0,
+      "triangles": 13395046,
+      "image_sha256": "cc460bc8bfa78aa281ab5cbca0496aae1c1e4a278e498068db5b11dbf8e9c3cf"
+    },
+    {
+      "name": "rim_detail",
+      "state": {
+        "region": "rim",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -675.957373892236,
+          -770.6142918191998,
+          505.7137201392348
+        ],
+        "quaternion": [
+          0.47136742055960185,
+          -0.17720792664008478,
+          -0.3040226415794219,
+          0.8086905087720396
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 107.55437098087401,
+      "bright": 859314,
+      "gl_error": 0,
+      "triangles": 13395046,
+      "image_sha256": "19bd547161f7b3deea61c5bc681b8a97d81c6ae5c55e9179d3bbf174ea53100d"
+    },
+    {
+      "name": "rim_detail_A",
+      "state": {
+        "region": "rim",
+        "preset": "A",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -675.957373892236,
+          -770.6142918191998,
+          505.7137201392348
+        ],
+        "quaternion": [
+          0.47136742055960185,
+          -0.17720792664008478,
+          -0.3040226415794219,
+          0.8086905087720396
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 108.60943720553907,
+      "bright": 865653,
+      "gl_error": 0,
+      "triangles": 14530620,
+      "image_sha256": "0a5cf9a43db2e0c95b252fef3e767f8056edad0928933fc3a5ffc54720b7a599"
+    },
+    {
+      "name": "rim_detail_B",
+      "state": {
+        "region": "rim",
+        "preset": "B",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -675.957373892236,
+          -770.6142918191998,
+          505.7137201392348
+        ],
+        "quaternion": [
+          0.47136742055960185,
+          -0.17720792664008478,
+          -0.3040226415794219,
+          0.8086905087720396
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 108.51089905921354,
+      "bright": 865602,
+      "gl_error": 0,
+      "triangles": 14530620,
+      "image_sha256": "f670046c07e5774a189e5b13a233ed1b0f8beb93a2b31e33332cb4590499b4aa"
+    },
+    {
+      "name": "rim_detail_C",
+      "state": {
+        "region": "rim",
+        "preset": "C",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -675.957373892236,
+          -770.6142918191998,
+          505.7137201392348
+        ],
+        "quaternion": [
+          0.47136742055960185,
+          -0.17720792664008478,
+          -0.3040226415794219,
+          0.8086905087720396
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 108.60937274584703,
+      "bright": 865623,
+      "gl_error": 0,
+      "triangles": 14530620,
+      "image_sha256": "2e21a9e69539aa0145fc15e64feb98e66a64bffc312a22aba410321469768544"
+    },
+    {
+      "name": "rim_orbit",
+      "state": {
+        "region": "rim",
+        "preset": "D",
+        "view": "orbit",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -680.5437737300119,
+          -761.3646761238334,
+          516.2199971252116
+        ],
+        "quaternion": [
+          -0.1427850652614359,
+          0.34775620726095613,
+          0.8572060993173672,
+          -0.3519598680856475
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 110.38522223240632,
+      "bright": 866769,
+      "gl_error": 0,
+      "triangles": 13395046,
+      "image_sha256": "681693243cb4a4bb2001fc9a5dbe648507948d51c0b772dea25914627ddc3598"
+    },
+    {
+      "name": "rim_high",
+      "state": {
+        "region": "rim",
+        "preset": "D",
+        "view": "high",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -676.0000000002028,
+          -772.0000000002316,
+          506.87746282378214
+        ],
+        "quaternion": [
+          0.6032973951880313,
+          -0.22680625746623143,
+          -0.2690563833681854,
+          0.7156813795973248
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 70.58162706998262,
+      "bright": 549812,
+      "gl_error": 0,
+      "triangles": 13395046,
+      "image_sha256": "43eee84ffbdf57fe282d382588731cbe192f93ad034a310721b4dd27595f3fe7"
+    },
+    {
+      "name": "rim_overview",
+      "state": {
+        "region": "rim",
+        "preset": "D",
+        "view": "overview",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -2115.0068342440536,
+          2141.373276336612,
+          3604.255778507181
+        ],
+        "quaternion": [
+          -0.1427850652614359,
+          0.34775620726095763,
+          0.8572060993173674,
+          -0.35195986808564594
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 33.004565127307345,
+      "bright": 228693,
+      "gl_error": 0,
+      "triangles": 13395046,
+      "image_sha256": "6e41c05725f0d169794b95e983263d658717580382cb04e50df885e48dee90ff"
+    },
+    {
+      "name": "rim_grazing",
+      "state": {
+        "region": "rim",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -675.957373892236,
+          -770.6142918191998,
+          505.7137201392348
+        ],
+        "quaternion": [
+          0.47136742055960185,
+          -0.17720792664008478,
+          -0.3040226415794219,
+          0.8086905087720396
+        ],
+        "fov": 66,
+        "sun": [
+          10,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 48.8378409073406,
+      "bright": 749081,
+      "gl_error": 0,
+      "triangles": 13395046,
+      "image_sha256": "b089a2e63f01f72fc4609dff67d0691b7f22d4f7afcda007bb04fe02bee465c6"
+    },
+    {
+      "name": "depression_A",
+      "state": {
+        "region": "depression",
+        "preset": "A",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -70.000000000021,
+          -50.000000000015,
+          1.9976288394071162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 88.45795424898787,
+      "bright": 700996,
+      "gl_error": 0,
+      "triangles": 13297594,
+      "image_sha256": "90bfda825e35e63829a809436713ca256414a80528c53d8e13a6e5cd2094dd90"
+    },
+    {
+      "name": "depression_B",
+      "state": {
+        "region": "depression",
+        "preset": "B",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -70.000000000021,
+          -50.000000000015,
+          1.9976288394071162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 88.54995625951771,
+      "bright": 700954,
+      "gl_error": 0,
+      "triangles": 13297594,
+      "image_sha256": "6d4b112424dc45c20778e6fafd911bb93e1fc607db84039f11a49b63fbf0091f"
+    },
+    {
+      "name": "depression_C",
+      "state": {
+        "region": "depression",
+        "preset": "C",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -70.000000000021,
+          -50.000000000015,
+          1.9976288394071162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 88.60026858206076,
+      "bright": 700982,
+      "gl_error": 0,
+      "triangles": 13297594,
+      "image_sha256": "5aa09315f86376b6b43dffd64ca1c595b13407802fc58ee49dc90d22c6f76110"
+    },
+    {
+      "name": "depression_D",
+      "state": {
+        "region": "depression",
+        "preset": "D",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -70.000000000021,
+          -50.000000000015,
+          1.9976288394071162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 87.39986417424895,
+      "bright": 694647,
+      "gl_error": 0,
+      "triangles": 12738896,
+      "image_sha256": "392f3575c3c89c125a8f7d7df3264d3997cd88311665d3a8f5bdef552590cd8b"
+    },
+    {
+      "name": "depression_uniform",
+      "state": {
+        "region": "depression",
+        "preset": "custom",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "uniform",
+        "rocksOn": true,
+        "camera": [
+          -70.000000000021,
+          -50.000000000015,
+          1.9976288394071162
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 86.31162039384337,
+      "bright": 685913,
+      "gl_error": 0,
+      "triangles": 12738896,
+      "image_sha256": "c1d84ec5c1852bd3fac83df78df6a005e5fb81a02595d8deacaf023fc5b7a1b6"
+    },
+    {
+      "name": "depression_detail",
+      "state": {
+        "region": "depression",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -69.90586940590542,
+          -50.646996864208916,
+          1.806676020846278
+        ],
+        "quaternion": [
+          0.44333930809048916,
+          -0.17471403784120484,
+          -0.32233847135856136,
+          0.8179383673390643
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 107.12173365871291,
+      "bright": 860691,
+      "gl_error": 0,
+      "triangles": 12738896,
+      "image_sha256": "95f2ed33eb8896a134dfd8d259afab4af75e859bae2c76246a8027f5e8d99355"
+    },
+    {
+      "name": "depression_detail_A",
+      "state": {
+        "region": "depression",
+        "preset": "A",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -69.90586940590542,
+          -50.646996864208916,
+          1.806676020846278
+        ],
+        "quaternion": [
+          0.44333930809048916,
+          -0.17471403784120484,
+          -0.32233847135856136,
+          0.8179383673390643
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 108.42987476403991,
+      "bright": 868265,
+      "gl_error": 0,
+      "triangles": 13297594,
+      "image_sha256": "78e9d1bfbfc51bd4422c6ed34978c7e73ce62ee2efaa6c16a1c64b9ad437cb79"
+    },
+    {
+      "name": "depression_detail_B",
+      "state": {
+        "region": "depression",
+        "preset": "B",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -69.90586940590542,
+          -50.646996864208916,
+          1.806676020846278
+        ],
+        "quaternion": [
+          0.44333930809048916,
+          -0.17471403784120484,
+          -0.32233847135856136,
+          0.8179383673390643
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 108.33001058982028,
+      "bright": 868215,
+      "gl_error": 0,
+      "triangles": 13297594,
+      "image_sha256": "e8e290c8ad4a2956026e3d4791e6f4ab988c7f119c3a8f37daa33c527dc6a50b"
+    },
+    {
+      "name": "depression_detail_C",
+      "state": {
+        "region": "depression",
+        "preset": "C",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -69.90586940590542,
+          -50.646996864208916,
+          1.806676020846278
+        ],
+        "quaternion": [
+          0.44333930809048916,
+          -0.17471403784120484,
+          -0.32233847135856136,
+          0.8179383673390643
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 108.40425011895822,
+      "bright": 868225,
+      "gl_error": 0,
+      "triangles": 13297594,
+      "image_sha256": "ecc270ce677d1a60cf18acf80fc12443f1ff5ccd36c9e93084578e09925edd27"
+    },
+    {
+      "name": "depression_orbit",
+      "state": {
+        "region": "depression",
+        "preset": "D",
+        "view": "orbit",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -74.44377373001187,
+          -39.46467612383344,
+          12.07468874985301
+        ],
+        "quaternion": [
+          -0.142785065261436,
+          0.3477562072609575,
+          0.8572060993173671,
+          -0.35195986808564617
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 108.40325329583239,
+      "bright": 867066,
+      "gl_error": 0,
+      "triangles": 12738896,
+      "image_sha256": "e4e8d6b3dc2723cb697621cfa1686d18fd5ab278ca60127ead2e900cf44ed07d"
+    },
+    {
+      "name": "depression_high",
+      "state": {
+        "region": "depression",
+        "preset": "D",
+        "view": "high",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -70.000000000021,
+          -50.000000000015,
+          3.0476288394071163
+        ],
+        "quaternion": [
+          0.5852929487536634,
+          -0.2306560517658092,
+          -0.284999773544402,
+          0.723190900801918
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 92.95078963119599,
+      "bright": 743466,
+      "gl_error": 0,
+      "triangles": 12738896,
+      "image_sha256": "eb718d21a0b9e2c3622cbbf62362a61b147ac44706a2cd957adf059dcf92bcf5"
+    },
+    {
+      "name": "depression_overview",
+      "state": {
+        "region": "depression",
+        "preset": "D",
+        "view": "overview",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -317.25102513660806,
+          321.20599145049175,
+          466.2943757587355
+        ],
+        "quaternion": [
+          -0.14278506526143592,
+          0.3477562072609575,
+          0.8572060993173672,
+          -0.351959868085646
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 33.97557476559183,
+      "bright": 280626,
+      "gl_error": 0,
+      "triangles": 12738896,
+      "image_sha256": "88783254543041b7ef7547fa91411b6387d8c3186d35f3050fd773501f099a0a"
+    },
+    {
+      "name": "depression_grazing",
+      "state": {
+        "region": "depression",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -69.90586940590542,
+          -50.646996864208916,
+          1.806676020846278
+        ],
+        "quaternion": [
+          0.44333930809048916,
+          -0.17471403784120484,
+          -0.32233847135856136,
+          0.8179383673390643
+        ],
+        "fov": 66,
+        "sun": [
+          10,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 2.4828188068817947,
+      "bright": 14378,
+      "gl_error": 0,
+      "triangles": 12738896,
+      "image_sha256": "f758f2ace3e781d140770d7f7c5a3e82cdf5a7cfa36daaab8997c0dee09315ca"
+    },
+    {
+      "name": "ridge_A",
+      "state": {
+        "region": "ridge",
+        "preset": "A",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.14625021097221022,
+          0.7509818416970365,
+          0.6320493114749409,
+          0.12308865543162054
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 75.91972044442589,
+      "bright": 495386,
+      "gl_error": 0,
+      "triangles": 13427004,
+      "image_sha256": "aad54f95ebd1b5a98f9d2ce39e2e63a48283165435cf085e5dba6c5ff84f4d81"
+    },
+    {
+      "name": "ridge_B",
+      "state": {
+        "region": "ridge",
+        "preset": "B",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.14625021097221022,
+          0.7509818416970365,
+          0.6320493114749409,
+          0.12308865543162054
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 75.81484145981963,
+      "bright": 495386,
+      "gl_error": 0,
+      "triangles": 13427004,
+      "image_sha256": "86e9ba99d03784fb20b8a36a2d75f2121583b20defaae1d50aa7e87e611cbff8"
+    },
+    {
+      "name": "ridge_C",
+      "state": {
+        "region": "ridge",
+        "preset": "C",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.14625021097221022,
+          0.7509818416970365,
+          0.6320493114749409,
+          0.12308865543162054
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 75.83924367293662,
+      "bright": 495385,
+      "gl_error": 0,
+      "triangles": 13427004,
+      "image_sha256": "d5cc9c72802cef23d97f274644f6825deea15ef472242650f5986d4251ae1836"
+    },
+    {
+      "name": "ridge_D",
+      "state": {
+        "region": "ridge",
+        "preset": "D",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.14625021097221022,
+          0.7509818416970365,
+          0.6320493114749409,
+          0.12308865543162054
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 73.61267783964128,
+      "bright": 486338,
+      "gl_error": 0,
+      "triangles": 12911722,
+      "image_sha256": "08822d315dd5093fdc793c27def05d11e5e825e28b1ed3e330261e5fe01928cb"
+    },
+    {
+      "name": "ridge_uniform",
+      "state": {
+        "region": "ridge",
+        "preset": "custom",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "uniform",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          0.5430389956571162
+        ],
+        "quaternion": [
+          0.14625021097221022,
+          0.7509818416970365,
+          0.6320493114749409,
+          0.12308865543162054
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 74.70472819493673,
+      "bright": 492654,
+      "gl_error": 0,
+      "triangles": 12911722,
+      "image_sha256": "05217230ed612a811dc7ba64d4f7b7c06af23b433b9ec15a37c19cce4092dfc7"
+    },
+    {
+      "name": "ridge_detail",
+      "state": {
+        "region": "ridge",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          1.2295774004109343,
+          -1.8680397720864583,
+          0.8514088324662741
+        ],
+        "quaternion": [
+          0.11743533985330454,
+          0.6030200381735504,
+          0.774484920612267,
+          0.15082732596886778
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 123.14363460570029,
+      "bright": 808038,
+      "gl_error": 0,
+      "triangles": 12911722,
+      "image_sha256": "5b178941ed65219bc5c1c3c3cf1314ffdde5976e2d56cd12490ff64ffdc00620"
+    },
+    {
+      "name": "ridge_detail_A",
+      "state": {
+        "region": "ridge",
+        "preset": "A",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          1.2295774004109343,
+          -1.8680397720864583,
+          0.8514088324662741
+        ],
+        "quaternion": [
+          0.11743533985330454,
+          0.6030200381735504,
+          0.774484920612267,
+          0.15082732596886778
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 123.96378056085587,
+      "bright": 811337,
+      "gl_error": 0,
+      "triangles": 13427004,
+      "image_sha256": "675c87a89f02ae936c0ae924197e47aef153b64b2591d516ca92d051a34ce7f0"
+    },
+    {
+      "name": "ridge_detail_B",
+      "state": {
+        "region": "ridge",
+        "preset": "B",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          1.2295774004109343,
+          -1.8680397720864583,
+          0.8514088324662741
+        ],
+        "quaternion": [
+          0.11743533985330454,
+          0.6030200381735504,
+          0.774484920612267,
+          0.15082732596886778
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 124.05145724946743,
+      "bright": 811337,
+      "gl_error": 0,
+      "triangles": 13427004,
+      "image_sha256": "86f251a43dc7a07cdae06206ada99fc0c4e593d7066fca478c13d0984b5fbf9b"
+    },
+    {
+      "name": "ridge_detail_C",
+      "state": {
+        "region": "ridge",
+        "preset": "C",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          1.2295774004109343,
+          -1.8680397720864583,
+          0.8514088324662741
+        ],
+        "quaternion": [
+          0.11743533985330454,
+          0.6030200381735504,
+          0.774484920612267,
+          0.15082732596886778
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 124.07994306066354,
+      "bright": 811335,
+      "gl_error": 0,
+      "triangles": 13427004,
+      "image_sha256": "f5b6670b8e2b3833d2dd08950ce4a7037c99d331403e7142b52626ed1dff2c9a"
+    },
+    {
+      "name": "ridge_orbit",
+      "state": {
+        "region": "ridge",
+        "preset": "D",
+        "view": "orbit",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -8.943773730011872,
+          3.53532387616656,
+          12.231051283422346
+        ],
+        "quaternion": [
+          -0.14278506526143592,
+          0.3477562072609575,
+          0.8572060993173672,
+          -0.351959868085646
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 130.11659645182974,
+      "bright": 867573,
+      "gl_error": 0,
+      "triangles": 12911722,
+      "image_sha256": "93df61ed687d28c7e2a4bde83d5378460dad0996756ca74ffe79c82983f4860c"
+    },
+    {
+      "name": "ridge_high",
+      "state": {
+        "region": "ridge",
+        "preset": "D",
+        "view": "high",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          0,
+          0,
+          1.5930389956571163
+        ],
+        "quaternion": [
+          0.1418534184391012,
+          0.7284047026137882,
+          0.6579412191865914,
+          0.1281309836945049
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 80.27049549547202,
+      "bright": 526099,
+      "gl_error": 0,
+      "triangles": 12911722,
+      "image_sha256": "38c56dcdffeb737dc1c714ed8df0f6123a536da9456d76cbf7fa2d351614175f"
+    },
+    {
+      "name": "ridge_overview",
+      "state": {
+        "region": "ridge",
+        "preset": "D",
+        "view": "overview",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -370.12619599259835,
+          374.7403233587946,
+          542.3142437156963
+        ],
+        "quaternion": [
+          -0.14278506526143592,
+          0.3477562072609575,
+          0.8572060993173672,
+          -0.351959868085646
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 42.90693286987297,
+      "bright": 272073,
+      "gl_error": 0,
+      "triangles": 12911722,
+      "image_sha256": "da346072cab14a47092d6b766d7e122c4a196f5afbb7c33bf4051e116167c694"
+    },
+    {
+      "name": "ridge_grazing",
+      "state": {
+        "region": "ridge",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          1.2295774004109343,
+          -1.8680397720864583,
+          0.8514088324662741
+        ],
+        "quaternion": [
+          0.11743533985330454,
+          0.6030200381735504,
+          0.774484920612267,
+          0.15082732596886778
+        ],
+        "fov": 66,
+        "sun": [
+          10,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 89.40859117208566,
+      "bright": 807484,
+      "gl_error": 0,
+      "triangles": 12911722,
+      "image_sha256": "4ce8140e8f004c65fda3f0eb2fdb6fe2d069e9862bc7bc4a84a4eccbff3ffc09"
+    },
+    {
+      "name": "ejecta_A",
+      "state": {
+        "region": "ejecta",
+        "preset": "A",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          150.000000000045,
+          -120.000000000036,
+          -4.654714910592884
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 79.77476710100068,
+      "bright": 694693,
+      "gl_error": 0,
+      "triangles": 15118850,
+      "image_sha256": "f009c2fe243badbc68b64817621a731253e77e35f32b766c9dd9ea330c4eb522"
+    },
+    {
+      "name": "ejecta_B",
+      "state": {
+        "region": "ejecta",
+        "preset": "B",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          150.000000000045,
+          -120.000000000036,
+          -4.654714910592884
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 79.68343385975338,
+      "bright": 694514,
+      "gl_error": 0,
+      "triangles": 15118850,
+      "image_sha256": "b2183dfc6f8961f108ce32ee528ba5892e52d96b07ea8d26a707cea5ab9cea4c"
+    },
+    {
+      "name": "ejecta_C",
+      "state": {
+        "region": "ejecta",
+        "preset": "C",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          150.000000000045,
+          -120.000000000036,
+          -4.654714910592884
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 79.66510083337138,
+      "bright": 694607,
+      "gl_error": 0,
+      "triangles": 15118850,
+      "image_sha256": "374af6a8629b66383de4324c9184de15be095c0db58af049c03a94d3d2828ab2"
+    },
+    {
+      "name": "ejecta_D",
+      "state": {
+        "region": "ejecta",
+        "preset": "D",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          150.000000000045,
+          -120.000000000036,
+          -4.654714910592884
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 78.35195374251192,
+      "bright": 686251,
+      "gl_error": 0,
+      "triangles": 14542274,
+      "image_sha256": "8018e908fae84c61c91e6bda206f5b67eecbe63d8069b5017af388f4f871a680"
+    },
+    {
+      "name": "ejecta_uniform",
+      "state": {
+        "region": "ejecta",
+        "preset": "custom",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "uniform",
+        "rocksOn": true,
+        "camera": [
+          150.000000000045,
+          -120.000000000036,
+          -4.654714910592884
+        ],
+        "quaternion": [
+          0.6102410074600492,
+          -0.24048774499343162,
+          -0.2767539153192349,
+          0.7022669205349146
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 63.5126406219078,
+      "bright": 559483,
+      "gl_error": 0,
+      "triangles": 14542274,
+      "image_sha256": "b55134b74d33dcccc8c6e974add44b664dd9bd381ec4de828796eae48dcf482c"
+    },
+    {
+      "name": "ejecta_detail",
+      "state": {
+        "region": "ejecta",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          151.1616537071619,
+          -119.67606128804938,
+          -4.682431531840761
+        ],
+        "quaternion": [
+          0.5285190347380743,
+          -0.20828221849477366,
+          -0.3017376386787828,
+          0.7656634670551952
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 93.10801909233687,
+      "bright": 827368,
+      "gl_error": 0,
+      "triangles": 14542274,
+      "image_sha256": "2f00a56f9733c6f99609a6841bb3972ed74f6e6b358d03531c883e7da9a96092"
+    },
+    {
+      "name": "ejecta_detail_A",
+      "state": {
+        "region": "ejecta",
+        "preset": "A",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          151.1616537071619,
+          -119.67606128804938,
+          -4.682431531840761
+        ],
+        "quaternion": [
+          0.5285190347380743,
+          -0.20828221849477366,
+          -0.3017376386787828,
+          0.7656634670551952
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 95.58494712768277,
+      "bright": 843389,
+      "gl_error": 0,
+      "triangles": 15118850,
+      "image_sha256": "5db0a592fe61dafb179dd9e10278800f5a3f601a088fa4d2ca56ef08f559bf7d"
+    },
+    {
+      "name": "ejecta_detail_B",
+      "state": {
+        "region": "ejecta",
+        "preset": "B",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          151.1616537071619,
+          -119.67606128804938,
+          -4.682431531840761
+        ],
+        "quaternion": [
+          0.5285190347380743,
+          -0.20828221849477366,
+          -0.3017376386787828,
+          0.7656634670551952
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 95.38096827659717,
+      "bright": 843245,
+      "gl_error": 0,
+      "triangles": 15118850,
+      "image_sha256": "3c8ed6c8b5e48c454bf5bba21504943c1c820d4e9babcc60052194fdfd74ee1f"
+    },
+    {
+      "name": "ejecta_detail_C",
+      "state": {
+        "region": "ejecta",
+        "preset": "C",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          151.1616537071619,
+          -119.67606128804938,
+          -4.682431531840761
+        ],
+        "quaternion": [
+          0.5285190347380743,
+          -0.20828221849477366,
+          -0.3017376386787828,
+          0.7656634670551952
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 95.43460756324654,
+      "bright": 843203,
+      "gl_error": 0,
+      "triangles": 15118850,
+      "image_sha256": "9355c4a6bdb6a55202627c5681ef15ab752765e60a52215b18be3d0e8b134c4d"
+    },
+    {
+      "name": "ejecta_orbit",
+      "state": {
+        "region": "ejecta",
+        "preset": "D",
+        "view": "orbit",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          145.55622626998814,
+          -109.46467612383344,
+          6.478827672544355
+        ],
+        "quaternion": [
+          -0.1427850652614357,
+          0.3477562072609576,
+          0.8572060993173675,
+          -0.3519598680856456
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 100.31722800310025,
+      "bright": 856970,
+      "gl_error": 0,
+      "triangles": 14542274,
+      "image_sha256": "eeb1148941e2a2eb010fdf67331cca0c7e64a65180364f5b418d7c033a777c1f"
+    },
+    {
+      "name": "ejecta_high",
+      "state": {
+        "region": "ejecta",
+        "preset": "D",
+        "view": "high",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          150.000000000045,
+          -120.000000000036,
+          -3.6047149105928837
+        ],
+        "quaternion": [
+          0.5852929487536636,
+          -0.23065605176580892,
+          -0.2849997735444016,
+          0.7231909008019181
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 76.69646430929707,
+      "bright": 684700,
+      "gl_error": 0,
+      "triangles": 14542274,
+      "image_sha256": "3149a2e59b312946a172a1abdb14bf3d8260b941e9ffc66971fdd1a95cee05fd"
+    },
+    {
+      "name": "ejecta_overview",
+      "state": {
+        "region": "ejecta",
+        "preset": "D",
+        "view": "overview",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -660.9396357012669,
+          669.1791488551913,
+          963.226007939561
+        ],
+        "quaternion": [
+          -0.14278506526143592,
+          0.3477562072609577,
+          0.8572060993173672,
+          -0.351959868085646
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 33.56177732247211,
+      "bright": 256654,
+      "gl_error": 0,
+      "triangles": 14542274,
+      "image_sha256": "86f64b5e4ce71dbdb13d657a53a9f14561256c546dbcec1fd924d3cfdb184502"
+    },
+    {
+      "name": "ejecta_grazing",
+      "state": {
+        "region": "ejecta",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          151.1616537071619,
+          -119.67606128804938,
+          -4.682431531840761
+        ],
+        "quaternion": [
+          0.5285190347380743,
+          -0.20828221849477366,
+          -0.3017376386787828,
+          0.7656634670551952
+        ],
+        "fov": 66,
+        "sun": [
+          10,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "mean": 29.160831530007524,
+      "bright": 522581,
+      "gl_error": 0,
+      "triangles": 14542274,
+      "image_sha256": "77a6df4b5a868b44c594f56caf32bc495e10fc90a280822a95074fbebb8b8970"
+    },
+    {
+      "name": "rille_A",
+      "state": {
+        "region": "rille",
+        "preset": "A",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -1496.0000000004488,
+          0,
+          76.42011419096961
+        ],
+        "quaternion": [
+          0.47438554556214413,
+          -0.47438554556214413,
+          -0.5243647148328222,
+          0.5243647148328221
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 479356,
+      "mean": 45.681438678862186,
+      "gl_error": 0,
+      "triangles": 13787656,
+      "image_sha256": "129035d88724338ca25c9b08134b3d995aa8cefdce1a60f7ce22e229e6923368"
+    },
+    {
+      "name": "rille_B",
+      "state": {
+        "region": "rille",
+        "preset": "B",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -1496.0000000004488,
+          0,
+          76.42011419096961
+        ],
+        "quaternion": [
+          0.47438554556214413,
+          -0.47438554556214413,
+          -0.5243647148328222,
+          0.5243647148328221
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 475203,
+      "mean": 45.51477431432749,
+      "gl_error": 0,
+      "triangles": 13787656,
+      "image_sha256": "11984969c049df62b458a8ffc760954ba5729a7e766b23a762fdec89d55b5583"
+    },
+    {
+      "name": "rille_C",
+      "state": {
+        "region": "rille",
+        "preset": "C",
+        "view": "low",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -1496.0000000004488,
+          0,
+          76.42011419096961
+        ],
+        "quaternion": [
+          0.47438554556214413,
+          -0.47438554556214413,
+          -0.5243647148328222,
+          0.5243647148328221
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 476590,
+      "mean": 45.569943751226305,
+      "gl_error": 0,
+      "triangles": 13787656,
+      "image_sha256": "01eec2a91ad0a0728f34b80204f9bd57943c65abeae2eb579c6024f0530b3860"
+    },
+    {
+      "name": "rille_D",
+      "state": {
+        "region": "rille",
+        "preset": "D",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -1496.0000000004488,
+          0,
+          76.42011419096961
+        ],
+        "quaternion": [
+          0.47438554556214413,
+          -0.47438554556214413,
+          -0.5243647148328222,
+          0.5243647148328221
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 459096,
+      "mean": 45.71061589696677,
+      "gl_error": 0,
+      "triangles": 12514510,
+      "image_sha256": "a360e1d67647b01b44b44b84b13d102bf0fe8453c28dacc6915e179650978f17"
+    },
+    {
+      "name": "rille_uniform",
+      "state": {
+        "region": "rille",
+        "preset": "custom",
+        "view": "low",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "uniform",
+        "rocksOn": true,
+        "camera": [
+          -1496.0000000004488,
+          0,
+          76.42011419096961
+        ],
+        "quaternion": [
+          0.47438554556214413,
+          -0.47438554556214413,
+          -0.5243647148328222,
+          0.5243647148328221
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 467184,
+      "mean": 45.49104355631148,
+      "gl_error": 0,
+      "triangles": 12514510,
+      "image_sha256": "43fb0251b309d6fa645762e36e26cd83152f5c220d147540ca849818c19ec672"
+    },
+    {
+      "name": "rille_detail",
+      "state": {
+        "region": "rille",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -1492.357879995406,
+          -3.4666325339129442,
+          74.66906438552017
+        ],
+        "quaternion": [
+          0.2933186729873457,
+          -0.2933186729873457,
+          -0.6434004632240659,
+          0.6434004632240659
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 833357,
+      "mean": 66.81339341899582,
+      "gl_error": 0,
+      "triangles": 12514510,
+      "image_sha256": "712c4b69832b310241f79a9ec7b519881fb27d3c6f3a76c1bc2d1238ccc20761"
+    },
+    {
+      "name": "rille_detail_A",
+      "state": {
+        "region": "rille",
+        "preset": "A",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -1492.357879995406,
+          -3.4666325339129442,
+          74.66906438552017
+        ],
+        "quaternion": [
+          0.2933186729873457,
+          -0.2933186729873457,
+          -0.6434004632240659,
+          0.6434004632240659
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 827021,
+      "mean": 65.95308485659933,
+      "gl_error": 0,
+      "triangles": 13787656,
+      "image_sha256": "318c93468d395b2f8e22c3bb025571d0e056b126efd78675b0c07d6f5675d2ed"
+    },
+    {
+      "name": "rille_detail_B",
+      "state": {
+        "region": "rille",
+        "preset": "B",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": false,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -1492.357879995406,
+          -3.4666325339129442,
+          74.66906438552017
+        ],
+        "quaternion": [
+          0.2933186729873457,
+          -0.2933186729873457,
+          -0.6434004632240659,
+          0.6434004632240659
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 825078,
+      "mean": 66.01867028871189,
+      "gl_error": 0,
+      "triangles": 13787656,
+      "image_sha256": "0dcbea046981f18d1206f4498bb06de3a6743e5901f7a95ae0c8599774c79b63"
+    },
+    {
+      "name": "rille_detail_C",
+      "state": {
+        "region": "rille",
+        "preset": "C",
+        "view": "detail",
+        "normalOn": false,
+        "geometryOn": true,
+        "layout": "approved",
+        "rocksOn": true,
+        "camera": [
+          -1492.357879995406,
+          -3.4666325339129442,
+          74.66906438552017
+        ],
+        "quaternion": [
+          0.2933186729873457,
+          -0.2933186729873457,
+          -0.6434004632240659,
+          0.6434004632240659
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 826217,
+      "mean": 66.0611342603486,
+      "gl_error": 0,
+      "triangles": 13787656,
+      "image_sha256": "03f351598abe327cd80fada6d6d043dce163d10e00204405d75de0c925e0b62b"
+    },
+    {
+      "name": "rille_orbit",
+      "state": {
+        "region": "rille",
+        "preset": "D",
+        "view": "orbit",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -1499.1437737300118,
+          7.43532387616656,
+          85.39410753780925
+        ],
+        "quaternion": [
+          -0.14278506526143622,
+          0.3477562072609578,
+          0.8572060993173669,
+          -0.3519598680856465
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 844059,
+      "mean": 59.15431074184369,
+      "gl_error": 0,
+      "triangles": 12514510,
+      "image_sha256": "bd64ffcc3f3b964450e0b0d9564d2966a3254969f304cd460ff873387a448268"
+    },
+    {
+      "name": "rille_high",
+      "state": {
+        "region": "rille",
+        "preset": "D",
+        "view": "high",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -1496.0000000004488,
+          0,
+          77.47011419096961
+        ],
+        "quaternion": [
+          0.4557459958499375,
+          -0.4557459958499375,
+          -0.5406436786523529,
+          0.540643678652353
+        ],
+        "fov": 66,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 500490,
+      "mean": 48.22155332502397,
+      "gl_error": 0,
+      "triangles": 12514510,
+      "image_sha256": "d4f3c9701eec405d6e74d7ae10e1e40195452335fe39f378666f27c41e49afce"
+    },
+    {
+      "name": "rille_overview",
+      "state": {
+        "region": "rille",
+        "preset": "D",
+        "view": "overview",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -2643.7585428050675,
+          2676.7165954207653,
+          3949.5930080460857
+        ],
+        "quaternion": [
+          -0.14278506526143592,
+          0.3477562072609577,
+          0.8572060993173672,
+          -0.351959868085646
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 251890,
+      "mean": 30.635713353907562,
+      "gl_error": 0,
+      "triangles": 12514510,
+      "image_sha256": "78ac969338db9813ab7c5a5e4c97fc3625047151dd6c23922a6d6832237ee07d"
+    },
+    {
+      "name": "rille_grazing",
+      "state": {
+        "region": "rille",
+        "preset": "D",
+        "view": "detail",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -1492.357879995406,
+          -3.4666325339129442,
+          74.66906438552017
+        ],
+        "quaternion": [
+          0.2933186729873457,
+          -0.2933186729873457,
+          -0.6434004632240659,
+          0.6434004632240659
+        ],
+        "fov": 66,
+        "sun": [
+          10,
+          135
+        ],
+        "detailVertices": 361201
+      },
+      "bright": 82768,
+      "mean": 5.686319965620961,
+      "gl_error": 0,
+      "triangles": 12514510,
+      "image_sha256": "aa60640c3ac5ade12b1cd364d1cf21f8ab888da4ea5b7a7d666e33b34f1f4496"
+    }
+  ],
+  "rille_revision_2": {
+    "passed": true,
+    "supplemental_samples": [
+      {
+        "name": "rille_fixed_left",
+        "state": {
+          "region": "rille",
+          "preset": "D",
+          "view": "low",
+          "normalOn": true,
+          "geometryOn": true,
+          "layout": "clustered",
+          "rocksOn": true,
+          "camera": [
+            -1496.0000000004488,
+            0,
+            76.42011419096961
+          ],
+          "quaternion": [
+            -0.3650733657417362,
+            0.5628540923743794,
+            0.6221539176338908,
+            -0.40353588576013383
+          ],
+          "fov": 66,
+          "sun": [
+            25,
+            135
+          ],
+          "detailVertices": 361201
+        },
+        "bright": 464467,
+        "mean": 46.456705726145074,
+        "gl_error": 0,
+        "triangles": 12514510,
+        "image_sha256": "ca5e4914fa9288d6f6d063bca29af58d931a6b5f30d59f29b70ed416fd1edc99"
+      },
+      {
+        "name": "rille_fixed_right",
+        "state": {
+          "region": "rille",
+          "preset": "D",
+          "view": "low",
+          "normalOn": true,
+          "geometryOn": true,
+          "layout": "clustered",
+          "rocksOn": true,
+          "camera": [
+            -1496.0000000004488,
+            0,
+            76.42011419096961
+          ],
+          "quaternion": [
+            0.5628540923743794,
+            -0.36507336574173616,
+            -0.40353588576013383,
+            0.6221539176338908
+          ],
+          "fov": 66,
+          "sun": [
+            25,
+            135
+          ],
+          "detailVertices": 361201
+        },
+        "bright": 434171,
+        "mean": 38.762389305832905,
+        "gl_error": 0,
+        "triangles": 12514510,
+        "image_sha256": "728e897de9ecc7ab83a86690e9de317c6e7719b317a81a4121673d6373605594"
+      },
+      {
+        "name": "rille_fixed_down",
+        "state": {
+          "region": "rille",
+          "preset": "D",
+          "view": "low",
+          "normalOn": true,
+          "geometryOn": true,
+          "layout": "clustered",
+          "rocksOn": true,
+          "camera": [
+            -1496.0000000004488,
+            0,
+            76.42011419096961
+          ],
+          "quaternion": [
+            0.4139545383806901,
+            -0.4139545383806901,
+            -0.5732727449949369,
+            0.5732727449949367
+          ],
+          "fov": 66,
+          "sun": [
+            25,
+            135
+          ],
+          "detailVertices": 361201
+        },
+        "bright": 595273,
+        "mean": 54.29875991834121,
+        "gl_error": 0,
+        "triangles": 12514510,
+        "image_sha256": "6314025355db9790e2ca243f126a1bf5f3d96b158d91074ddf023a0f821d0141"
+      }
+    ],
+    "all_four_presets": true,
+    "three_extra_directions": true,
+    "errors": [],
+    "remote_requests": [],
+    "failed_requests": []
+  }
+}

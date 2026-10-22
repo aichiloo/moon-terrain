@@ -1,0 +1,114 @@
+{
+  "key": "rille",
+  "name": "沟谷与两岸",
+  "source_region": "natural_rille",
+  "source_dem_spacing_m": 2.0000000000006,
+  "source_dem_sha256": "7a5b855ac718c27d8985345dd3ecb3f021fa22379505495d06a40638b2824af0",
+  "source_copy_identical": true,
+  "field_width_m": 12.0,
+  "field_step_m": 0.02,
+  "field_vertices": 361201,
+  "field_triangles": 720000,
+  "low_detail_height_range_m": [
+    0.0,
+    0.025502046785666387
+  ],
+  "fine_detail_height_range_m": [
+    -0.0016,
+    0.0016
+  ],
+  "edge_height_m": 0.0,
+  "mound_count": 190,
+  "synthetic": true,
+  "site_statistics_calibrated": false,
+  "seed": 2026102721,
+  "height16_decode": {
+    "minimum_m": -0.004,
+    "maximum_m": 0.04,
+    "formula": "height_m = pixel / 65535 * (maximum_m-minimum_m) + minimum_m",
+    "includes": "low plus fine detail; no base DEM"
+  },
+  "glb_coordinate_system": "Y up, metres; local glTF=(source_x-focus_x, source_z-center_z, -(source_y-focus_y))",
+  "source_patch_center_xyz_m": [
+    -1491.8,
+    0.0,
+    74.63376253703609
+  ],
+  "glb_contains": "approved base height plus low detail; no rocks or textures",
+  "normal_convention": "RGB tangent-space OpenGL +Y; DirectX copy flips green",
+  "normal_combination": "normal-only uses low+fine; displaced surface uses fine only to avoid repeating low-frequency slopes",
+  "layouts": {
+    "uniform": {
+      "requested": 811,
+      "placed": 811,
+      "skipped_template_ids": [],
+      "counts": {
+        "fine": 740,
+        "medium": 66,
+        "large": 5
+      },
+      "minimum_bounding_circle_gap_m": 0.004707327170783168,
+      "vertex_clearance_base_range_m": [
+        -0.08897522835295614,
+        -0.0005466630835519138
+      ],
+      "vertex_clearance_displaced_range_m": [
+        -0.08897522835295614,
+        -0.0005466630835519138
+      ],
+      "partial_burial_count": 811,
+      "diameter_range_m": [
+        0.018021777541734806,
+        0.8512843258163565
+      ],
+      "spatial_model": "uniform candidates plus rejection",
+      "seating_method": "all stones partly embedded; checked against actual displayed triangles"
+    },
+    "clustered": {
+      "requested": 811,
+      "placed": 811,
+      "skipped_template_ids": [],
+      "counts": {
+        "fine": 740,
+        "medium": 66,
+        "large": 5
+      },
+      "minimum_bounding_circle_gap_m": 0.0043361995029559015,
+      "vertex_clearance_base_range_m": [
+        -0.09876002685762254,
+        -0.000562154548300913
+      ],
+      "vertex_clearance_displaced_range_m": [
+        -0.09876002685762254,
+        -0.000562154548300913
+      ],
+      "partial_burial_count": 811,
+      "diameter_range_m": [
+        0.018021777541734806,
+        0.8512843258163565
+      ],
+      "spatial_model": "68 percent cluster candidates plus 32 percent uniform candidates and rejection",
+      "seating_method": "all stones partly embedded; checked against actual displayed triangles"
+    }
+  },
+  "engine": "Three.js WebGL",
+  "image_model_called": false,
+  "mesh_model_called": false,
+  "mujoco_run": false,
+  "ue_run": false,
+  "physics_stability_tested": false,
+  "experimental_crop": false,
+  "seating_revision": {
+    "version": 2,
+    "corrected_groups": [
+      "existing",
+      "approved_gravel",
+      "uniform",
+      "clustered"
+    ],
+    "terrain_changed": false,
+    "rock_xy_or_orientation_changed": false,
+    "minimum_burial_fraction": 0.12,
+    "large_rock_underside_target_fraction": 0.22
+  }
+}

@@ -1,0 +1,18 @@
+# Generated data and downloadable release contents
+demo/
+build/
+inputs/
+releases/
+*.zip
+*.part
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*credentials*
+*token*
+.DS_Store
+Thumbs.db

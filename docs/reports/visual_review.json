@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "reviewed_by": "assistant visual inspection of actual browser captures",
+  "scope": [
+    "seven regions A/D at identical camera and light",
+    "seven normal-only and displacement close-up pairs",
+    "five added regions detailed surface views",
+    "seven region overviews and local orbit views",
+    "mobile page and controls"
+  ],
+  "observations": [
+    "approved base material and main rock shapes retained",
+    "mounds and layered rock sizes visible",
+    "no conspicuous terrain border gap in inspected views",
+    "selected close-up locations remain lit under original lighting; rille has stronger natural shadows"
+  ],
+  "limitations": [
+    "visual realism remains subject to user review",
+    "contact audit samples transformed vertices; it is not dynamic physics validation",
+    "all seven categories each contain one enhanced observation point",
+    "no external image/mesh model inference",
+    "no MuJoCo/UE import or robot locomotion test"
+  ],
+  "rille_revision_2": {
+    "passed": true,
+    "reviewed": [
+      "fixed near-ground view and three additional directions",
+      "local rock-ground contact enlarged",
+      "close-up camera kept outside rock footprint"
+    ],
+    "changes": "all inherited and added stones reseated on actual display geometry; broader partly buried underside",
+    "prior_limitation_corrected": "previous numeric audit covered new layouts only"
+  }
+}
