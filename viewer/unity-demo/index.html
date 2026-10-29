@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f4ef"><link rel="icon" href="data:,"><title>七类月面地形 · Unity 演示</title><link rel="stylesheet" href="demo.css"></head>
+<body>
+<main>
+<header class="page-head"><div><div class="eyebrow"><i class="moon"></i> LUNAR SURFACE STUDY <span>/ UNITY</span></div><h1>七类月面地形</h1><p class="lead">从真实高程到近景细节，直观看地形、材质与尺度。</p></div><div class="head-actions"><button id="tour-toggle">顺序导览 <span>↗</span></button><button id="focus-toggle">演示模式</button><button id="about-open" class="quiet">制作与来源 ⓘ</button></div></header>
+<div id="demo-board">
+<nav id="scene-nav" class="scene-nav" aria-label="七类地形"></nav>
+<div id="tour" class="tour" hidden><span id="tour-count"></span><p id="tour-note"></p><button id="tour-prev" aria-label="上一个导览">←</button><button id="tour-next" aria-label="下一个导览">下一个 →</button><button id="tour-close" aria-label="关闭导览">×</button></div>
+<section class="workspace">
+<div class="visual">
+<div class="viewer-heading"><div class="mode-tabs" role="group" aria-label="展示方式"><button data-mode="render" aria-pressed="true">Unity 渲染</button><button data-mode="compare">同机位对比</button><button data-mode="interactive">三维观察</button></div><span id="source-badge" class="badge"><i></i> Unity 实际渲染</span></div>
+<div id="stage" class="stage" data-layout="wipe">
+<div id="image-stage"><img id="main-image" alt=""><img id="base-image" alt="原材质对照"><div id="split-line"><span>↔</span></div><div class="compare-tags"><span>原材质</span><span id="compare-name">混合材质</span></div><input id="wipe-range" aria-label="拖动比较原材质与新材质" type="range" min="0" max="100" value="50"></div>
+<div id="interactive-wrap" hidden><iframe id="interactive-frame" title="同源地形的浏览器三维观察" allow="fullscreen"></iframe></div>
+<div class="stage-label"><span id="scene-number">01 / 07</span><strong id="scene-label">月海平原</strong><span id="image-caption">混合材质 · 低机位</span></div>
+<div id="loading" role="status" hidden>正在加载画面…</div><div id="image-error" role="alert" hidden>画面未能载入，请重新选择地形或保留完整演示文件夹。<button id="retry">重新加载</button></div>
+<span id="gesture">固定机位 · 点击下方切换视角</span>
+</div>
+<div class="viewbar"><div id="view-buttons"><button data-view="low" aria-pressed="true">低机位</button><button data-view="orbit">俯视近景</button><button data-view="overview" title="进入三维观察，查看大范围地形">地形全貌 ↗</button><button data-view="detail" class="interactive-only" hidden>细节近看</button></div><div><button id="reset-view" class="interactive-only quiet" hidden>重置视角</button><button id="fullscreen" class="quiet">全屏 ⛶</button></div></div>
+<div class="caption-bar"><span id="mode-explanation">1920 × 1080 · 原始 Unity 渲染图</span><a id="original-link" href="renders/plain_low_mixed.png" target="_blank">查看原图 ↗</a><button id="compare-layout" hidden>改为并排对比</button></div>
+</div>
+<aside>
+<div class="side-title"><span>表面材质</span><small>同地形 · 同机位</small></div>
+<div id="material-primary" class="material-primary"></div>
+<label class="select-label" for="material-select">更多单材质</label><select id="material-select" aria-label="选择表面材质"></select>
+<p id="material-description" class="material-description"></p>
+<div class="side-block"><div class="side-title">观察提示</div><p id="scene-note"></p><dl class="facts"><div><dt>地形来源</dt><dd id="source-name"></dd></div><div><dt>原始网格间距</dt><dd id="source-spacing"></dd></div><div><dt>原始区域宽度</dt><dd id="source-width"></dd></div></dl><p class="small-note">近景只显示区域的一部分；查看大范围结构请点「地形全貌」。</p></div>
+<div class="side-block compact"><span class="small-note">Unity 对比条件</span><div class="condition"><span>太阳高度 <b>25°</b></span><span>曝光 <b>0.8</b></span></div><p class="small-note">仅材质变化，地形与岩石布局保持一致。</p></div>
+</aside>
+</section>
+<p id="interactive-disclosure" class="disclosure" hidden>三维观察使用同源地形与岩石，由 Three.js 在浏览器重渲染；可旋转、缩放，外观与 Unity 图存在引擎差异。</p>
+</div>
+<section class="region-strip" aria-label="七类地形缩略图"><div class="section-heading"><h2>七类，一眼看全</h2><span>点击缩略图切换 · 键盘 1–7</span></div><div id="thumbnail-grid"></div></section>
+<section class="story"><div class="section-heading"><h2>这套地形怎么做</h2><span>真实数据与合成增强分层记录</span></div><div class="process"><article><span>01 / DATA</span><h3>真实高程定骨架</h3><p>LROC 月球 DEM 提供大范围高差、坡面、坑缘和沟槽。保留原始尺度与来源。</p></article><article><span>02 / GEOMETRY</span><h3>局部细节补近景</h3><p>插值衔接远、中、近网格，叠加可复现的微起伏。2 cm 是建模密度，原始观测间距仍为 2–3.5 m。</p></article><article><span>03 / ROCKS</span><h3>岩石分层布置</h3><p>复用有来源的岩石形状，按尺寸与布局生成实例，检查接地与部分埋入；位置与数量属于合成布置。</p></article><article><span>04 / MATERIAL</span><h3>固定条件看材质</h3><p>将扫描材质应用到 Unity，在相同地形、岩石、机位和光照下，比较原材质与混合方案。</p></article></div><p class="scope-note">当前展示的是地形资产与外观。七类地形为后续实验提供候选场地；行走、碰撞与具体遮挡机制的验证分别记录。</p></section>
+<footer><span>月面地形研究 · 演示版 / 2026.10.29</span><div><a href="演示说明.txt" target="_blank">演示说明</a><a href="evidence/unity_render_report.json" target="_blank">Unity 渲染记录</a><a href="evidence/copied_render_hashes.json" target="_blank">原图核对记录</a></div></footer>
+</main>
+<dialog id="about"><button id="about-close" class="close" aria-label="关闭制作说明">×</button><p class="eyebrow">SOURCE & METHOD</p><h2>制作、来源与演示范围</h2><p>七类大地形取自 LROC 的 LINNECRATER、SHACKRDGE02、MERSENIUS1 三个 DEM 产品，原始网格间距约 2 m 或 3.5 m。近景细网格、微起伏及岩石布局属于后加的合成增强。</p><p>当前混合材质以 Moon 01 为底层，加入 Flat Macro 细节与 Dusted 覆尘。贴图来自地面月壤模拟物的扫描材质，不是月面原位实测。原始位移贴图没有在本轮 Unity 材质比较中新增几何位移。</p><p>Unity 视图区使用既有的 98 张 1920 × 1080 渲染图：七类地形 × 两个机位 × 七种材质。原材质是 Unity 内重建的对照基线。每组比较保持相同机位、地形、岩石、光照和曝光。</p><p>「三维观察」复用同源地形与岩石，通过 Three.js 重渲染；这是可操作的浏览器观察区，未导出为 Unity WebGL。两种展示的外观可能不同。</p><p>实现采用 Python、NumPy、SciPy、Three.js 与 Unity；本制作流程没有调用图像或三维生成模型。此网页不替代机器人行走、接触动力学或遮挡实验的验证。</p><div class="dialog-links"><a href="evidence/source_conversion.json" target="_blank">几何转换记录 ↗</a><a href="evidence/texture_package_integrity.json" target="_blank">贴图来源记录 ↗</a><a href="sources/Unity_source_README.md" target="_blank">原 Unity 制作说明 ↗</a></div></dialog>
+<div id="toast" role="status" hidden></div>
+<script src="demo-data.js"></script><script src="demo.js"></script>
+</body></html>

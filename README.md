@@ -1,4 +1,39 @@
-# Moon Terrain · 月面地形与表面细节样板
+# Moon Terrain · 七类月面地形与 Unity 演示
+
+以真实月球 DEM 为基础，分层补充近景细节、岩石和表面材质，用于地形资产展示与后续实验场地筛选。
+
+## 当前演示：Unity 材质与七类地形 v0.2.0
+
+**[下载完整演示包（约 396 MB）](https://github.com/moonspace123/moon-terrain/releases/download/v0.2.0/Lunar_Unity_Demo.zip)** · **[版本说明与校验文件](https://github.com/moonspace123/moon-terrain/releases/tag/v0.2.0)**
+
+解压后双击 `Lunar_Unity_Demo/index.html` 或 `START_HERE.cmd`，使用 Edge / Chrome 打开；保留完整文件夹，可离线演示。
+
+![七类月面地形 Unity 演示页面](docs/images/unity_demo_preview.jpg)
+
+- 七类地形一键切换；98 张 1920×1080 Unity 实际渲染图覆盖七类 × 两机位 × 七种材质。
+- 默认使用当前认可的混合材质：Moon 01 底层、Flat Macro 近处细节、Dusted 局部覆尘。
+- 同机位滑动与并排对比，低机位与俯视近景切换，顺序导览、演示模式和全屏。
+- 三维观察可拖动旋转、滚轮缩放、查看地形全貌；首次离线加载在制作机器上约 5 秒。
+
+**Unity 区是实际渲染图；可旋转三维区是同源地形的 Three.js 浏览器重渲染，外观可能不同，并非 Unity WebGL。** 原材质是 Unity 内重建的比较基线。新材质没有新增几何位移，原有微起伏与岩石保持。
+
+也可以通过 Python 标准库工具下载并校验：
+
+```console
+python tools/download_unity_demo.py
+```
+
+下载后打开 `demo/Lunar_Unity_Demo/index.html`。无需安装 Python 也可直接下载 ZIP 使用。
+
+[制作方法与数据边界](docs/UNITY_DEMO.md) · [网页界面源文件](viewer/unity-demo/) · [检查记录](viewer/unity-demo/evidence/browser_checks.json)
+
+大体量渲染图、贴图与地形数据随 Release 提供；`viewer/unity-demo/` 是界面与交互源文件，需要完整包中的资产才能运行。当前发布不含完整 Unity 编辑工程；已有 Unity 渲染成果及可离线操作的浏览器地形均在完整包中。
+
+---
+
+## 历史演示 v0.1.0
+
+以下保留原三维细节对照页面的说明、旧版下载和制作流程。
 
 以真实月面 DEM 为大尺度地形基础，叠加可复现的表面细节和岩石布局，展示七类地形。当前版本是 **Three.js / WebGL 浏览器样板**。
 

@@ -1,0 +1,291 @@
+{
+  "source_zip_sha256": "fd13f02c95057f736667d83b3ebaed76dc719294c03410873aa5954349a26c30",
+  "official_files_checked": [
+    {
+      "asset": "moon_01",
+      "channel": "Diffuse",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_01\\moon_01_diff_2k.jpg",
+      "md5": "8ad3ae6121b32c8f52e3a9346141ab87",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/moon_01/moon_01_diff_2k.jpg",
+      "md5_verified": true,
+      "sha256": "9527d2c2abba5751c84df872514227e49f64e5041b7ee48178e5cb5da0a6b374"
+    },
+    {
+      "asset": "moon_01",
+      "channel": "nor_gl",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_01\\moon_01_nor_gl_2k.png",
+      "md5": "b22e2e2dbcd44c2e4a32c5aeea826839",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_01/moon_01_nor_gl_2k.png",
+      "md5_verified": true,
+      "sha256": "5082cb90aec955528e5f7cbf3af2c750d43b7bcb1d320816a684290fefcd19a8"
+    },
+    {
+      "asset": "moon_01",
+      "channel": "Rough",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_01\\moon_01_rough_2k.png",
+      "md5": "5a15c60158f20a5faf75d0263eec0a3b",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_01/moon_01_rough_2k.png",
+      "md5_verified": true,
+      "sha256": "768dcb18ef82f89c5a0d230276437429ce98fd92e2f5757a36ed6fbcb00d0cd5"
+    },
+    {
+      "asset": "moon_01",
+      "channel": "Displacement",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_01\\moon_01_disp_2k.png",
+      "md5": "3d6de1f4bd4d0eef9a8fc81d14e3640e",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_01/moon_01_disp_2k.png",
+      "md5_verified": true,
+      "sha256": "9a4f8690e20e87ec124576ea6c388a952aa53490cda4ef86d898e81d978d4b7a"
+    },
+    {
+      "asset": "moon_01",
+      "channel": "AO",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_01\\moon_01_ao_2k.png",
+      "md5": "b666ced11b3c4ae7ad2b7aa008366026",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_01/moon_01_ao_2k.png",
+      "md5_verified": true,
+      "sha256": "437e0617a8d2ea368b74c9fd25df034081f587026a64cbd94547e7c498711ed7"
+    },
+    {
+      "asset": "moon_flat_macro_01",
+      "channel": "Diffuse",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_flat_macro_01\\moon_flat_macro_01_diff_2k.jpg",
+      "md5": "3869c9fa35034dfc785eed6ea11c228b",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/moon_flat_macro_01/moon_flat_macro_01_diff_2k.jpg",
+      "md5_verified": true,
+      "sha256": "611174d3f4dcd17e0ee462526328e075d536cfdfbf834b5bf1262ce5fa2cc8d2"
+    },
+    {
+      "asset": "moon_flat_macro_01",
+      "channel": "nor_gl",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_flat_macro_01\\moon_flat_macro_01_nor_gl_2k.png",
+      "md5": "308a77d83eea39457152143bed1e03e9",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_flat_macro_01/moon_flat_macro_01_nor_gl_2k.png",
+      "md5_verified": true,
+      "sha256": "38ec7617888c4b30a2fce98021bd9332a819be74466f403e0fbaddcd4c0e2c28"
+    },
+    {
+      "asset": "moon_flat_macro_01",
+      "channel": "Rough",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_flat_macro_01\\moon_flat_macro_01_rough_2k.png",
+      "md5": "4aba841398d7cdf69eddc6b635e3556a",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_flat_macro_01/moon_flat_macro_01_rough_2k.png",
+      "md5_verified": true,
+      "sha256": "ddd70f89001cf712a9d218981f6110af72eb80c9e89236eb914457a4e00b8dba"
+    },
+    {
+      "asset": "moon_flat_macro_01",
+      "channel": "Displacement",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_flat_macro_01\\moon_flat_macro_01_disp_2k.png",
+      "md5": "b68df468a1ea3281d1b0f73921730cd2",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_flat_macro_01/moon_flat_macro_01_disp_2k.png",
+      "md5_verified": true,
+      "sha256": "a7d8efe19a6cbdd7e80e2848f0662eb4aad4883ef76b7f3674442a306680a768"
+    },
+    {
+      "asset": "moon_flat_macro_01",
+      "channel": "AO",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_flat_macro_01\\moon_flat_macro_01_ao_2k.png",
+      "md5": "82608e736b5f6add4b347d6301e0eb8f",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_flat_macro_01/moon_flat_macro_01_ao_2k.png",
+      "md5_verified": true,
+      "sha256": "295274671e48c08b19f122f888687153fc42a81de25cba5063a9da5592a0e3aa"
+    },
+    {
+      "asset": "moon_dusted_01",
+      "channel": "Diffuse",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_dusted_01\\moon_dusted_01_diff_2k.jpg",
+      "md5": "1a6da54c038151f4f336ca345b050cb9",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/moon_dusted_01/moon_dusted_01_diff_2k.jpg",
+      "md5_verified": true,
+      "sha256": "85daac24dbd0bef9621695d23b3dec56a43b950b12d99599372e5d2b4d2752b5"
+    },
+    {
+      "asset": "moon_dusted_01",
+      "channel": "nor_gl",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_dusted_01\\moon_dusted_01_nor_gl_2k.png",
+      "md5": "a04e4273b885b25ee835ef52e30673b2",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_dusted_01/moon_dusted_01_nor_gl_2k.png",
+      "md5_verified": true,
+      "sha256": "64be2a7ae228053f57460e8f70e1deaf028766324c5c32f5c7d9901713b4d23b"
+    },
+    {
+      "asset": "moon_dusted_01",
+      "channel": "Rough",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_dusted_01\\moon_dusted_01_rough_2k.png",
+      "md5": "1176b5c63c3c79e02af4e7be952f1f63",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_dusted_01/moon_dusted_01_rough_2k.png",
+      "md5_verified": true,
+      "sha256": "dd78f3c1fab1be77950246d8bea94db54aeb8c1c4f1cd411a0ca322192e238f8"
+    },
+    {
+      "asset": "moon_dusted_01",
+      "channel": "Displacement",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_dusted_01\\moon_dusted_01_disp_2k.png",
+      "md5": "cbdaa4964ee4c01249f117c6a4ebac7b",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_dusted_01/moon_dusted_01_disp_2k.png",
+      "md5_verified": true,
+      "sha256": "941253095a229a02ee91f14b8adb2c13d96e77a5197b81c4d2eaeae193f4e651"
+    },
+    {
+      "asset": "moon_dusted_01",
+      "channel": "AO",
+      "file": "01_Dario-Barresi_Greg-Zaal_Jenelle-van-Heerden_Rico-Cilliers\\moon_dusted_01\\moon_dusted_01_ao_2k.png",
+      "md5": "acebf58830f20355f2683f0cf53124e3",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_dusted_01/moon_dusted_01_ao_2k.png",
+      "md5_verified": true,
+      "sha256": "580879d5e42482a3c8417f8bd1ec8533a281da6332eda6615f2f334b6203a728"
+    },
+    {
+      "asset": "moon_03",
+      "channel": "Diffuse",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_03\\moon_03_diff_2k.jpg",
+      "md5": "d81c6cbe44664351002cbe2cb6de1831",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/moon_03/moon_03_diff_2k.jpg",
+      "md5_verified": true,
+      "sha256": "de5b131109f3092d0449da9f883dd12b24b1e650bc03c117bee1e1846eb57079"
+    },
+    {
+      "asset": "moon_03",
+      "channel": "nor_gl",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_03\\moon_03_nor_gl_2k.png",
+      "md5": "5ee2db555ddabe5e52459829cb338b03",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_03/moon_03_nor_gl_2k.png",
+      "md5_verified": true,
+      "sha256": "f146fcaa66aaef0cfb671c62e9203f02238f2fb1d0aa82f3c68f2a1434f70317"
+    },
+    {
+      "asset": "moon_03",
+      "channel": "Rough",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_03\\moon_03_rough_2k.png",
+      "md5": "f2755ebec928e0eabc8061313b1add27",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_03/moon_03_rough_2k.png",
+      "md5_verified": true,
+      "sha256": "5dc66571915cc154ba081c5bc1fe81339d963d7bf86a9664a3ef4d767becc895"
+    },
+    {
+      "asset": "moon_03",
+      "channel": "Displacement",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_03\\moon_03_disp_2k.png",
+      "md5": "8e0eac2690a77c13e9b38615a9574e47",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_03/moon_03_disp_2k.png",
+      "md5_verified": true,
+      "sha256": "3af826b061638d2f0d0e00f84abacfa4b93dec16067d837ee727b2cd775b3c74"
+    },
+    {
+      "asset": "moon_03",
+      "channel": "AO",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_03\\moon_03_ao_2k.png",
+      "md5": "7ac58a10017a605320fe0cd64914cb43",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_03/moon_03_ao_2k.png",
+      "md5_verified": true,
+      "sha256": "c14c054979f4c949e16ffedd633f257917ded3f98f3edbf35991073176a2a101"
+    },
+    {
+      "asset": "moon_04",
+      "channel": "Diffuse",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_04\\moon_04_diff_2k.jpg",
+      "md5": "9c4f48749b111c22cc0ebe8111ddd94e",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/moon_04/moon_04_diff_2k.jpg",
+      "md5_verified": true,
+      "sha256": "8d0021790b5ccbb7fce0ea09a59bd1b8579439ae1d05c4469a38eb783f3d262d"
+    },
+    {
+      "asset": "moon_04",
+      "channel": "nor_gl",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_04\\moon_04_nor_gl_2k.png",
+      "md5": "cd94b99f9dbe677b3655347d8fcc21c6",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_04/moon_04_nor_gl_2k.png",
+      "md5_verified": true,
+      "sha256": "a2d331373073d73089c070052dc20b7fea507923eee3f0bffcd1c457ebc18eac"
+    },
+    {
+      "asset": "moon_04",
+      "channel": "Rough",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_04\\moon_04_rough_2k.png",
+      "md5": "01572e30087549aaede63d679f171cfc",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_04/moon_04_rough_2k.png",
+      "md5_verified": true,
+      "sha256": "fbbbb1687e06a75a26ae0cb89c66a358568f56ffe859532f1a9e5c00a0086a46"
+    },
+    {
+      "asset": "moon_04",
+      "channel": "Displacement",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_04\\moon_04_disp_2k.png",
+      "md5": "204bc50c090aae5a314085cbdde198e2",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_04/moon_04_disp_2k.png",
+      "md5_verified": true,
+      "sha256": "cbe429d7eca995eed131da2d4b1543344414ab433979cd9570df4a3ff2c6db22"
+    },
+    {
+      "asset": "moon_04",
+      "channel": "AO",
+      "file": "02_Jenelle-van-Heerden_Greg-Zaal_Rico-Cilliers\\moon_04\\moon_04_ao_2k.png",
+      "md5": "36b3559c5507d55030712c9af2b7637d",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/moon_04/moon_04_ao_2k.png",
+      "md5_verified": true,
+      "sha256": "0acfb582d84c0c47453869af20fa22762747aacee10d450bb02b9be1518c4ba0"
+    }
+  ],
+  "unchanged_scene_files": [
+    {
+      "file": "data/depression.js",
+      "sha256": "10594d9b017859702bf169966404908dd7581655a24c9efac8d6c0ab5718ddb1",
+      "copy_matches": true
+    },
+    {
+      "file": "data/ejecta.js",
+      "sha256": "4d809f13425492257989c70a152550afbee4683d87f7c3a07eed9a782bb9e14c",
+      "copy_matches": true
+    },
+    {
+      "file": "data/plain.js",
+      "sha256": "369a564a6afe46d67dc8ae12b19a5e657ed4dfb0b1f90f2f3277ce1a5b4fba1e",
+      "copy_matches": true
+    },
+    {
+      "file": "data/ridge.js",
+      "sha256": "dda2dca25bc7b07fdabbb6ddd0aa3a03797378b474ac1881977add9b92da1312",
+      "copy_matches": true
+    },
+    {
+      "file": "data/rille.js",
+      "sha256": "a8aa211b297f29e7aae02f3720dd0adff8c449e3a2ca05b52c45fec9fedc0ca6",
+      "copy_matches": true
+    },
+    {
+      "file": "data/rim.js",
+      "sha256": "bc69f9e19e5bd2a25d48ff6576aefacc2af47a15adc68f8d43a18a2afda4a44b",
+      "copy_matches": true
+    },
+    {
+      "file": "data/slope.js",
+      "sha256": "3e41a8afea39bdb8054f27ed33b7f713da43a8e6d02eb478e8026224c23b3149",
+      "copy_matches": true
+    },
+    {
+      "file": "shared/assets.js",
+      "sha256": "43bda5d0a02c45ad657e57c9d23b87cb0f6c07dd73f93c8c0a28434e5c5a47d7",
+      "copy_matches": true
+    },
+    {
+      "file": "shared/style.css",
+      "sha256": "abb57f344a6ae72c0b6fcc65dadb09b39966eeefa22ffd5e8475178a88aa9530",
+      "copy_matches": true
+    },
+    {
+      "file": "shared/three.min.js",
+      "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+      "copy_matches": true
+    }
+  ],
+  "geometry_displacement_enabled": false,
+  "existing_microgeometry": "Existing detail geometry from the original viewer is retained identically for all materials.",
+  "physical_widths_m": {
+    "moon_01": 3.1,
+    "moon_flat_macro_01": 0.4,
+    "moon_dusted_01": 0.4,
+    "moon_03": 3.2,
+    "moon_04": 3.2
+  }
+}

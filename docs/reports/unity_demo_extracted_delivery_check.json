@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "root": "G:\\Codex_Artifacts\\2026-10-29\\Lunar_Unity_Demo_delivery_check\\Lunar_Unity_Demo",
+  "errors": [],
+  "consoleErrors": [],
+  "remote": [],
+  "failed": [],
+  "checks": [
+    {
+      "offline_images_and_comparison": true,
+      "lazy_3d": true
+    },
+    {
+      "relative_sources_and_local_links": true,
+      "checked": 11
+    },
+    {
+      "offline_three_dimensional_scene": true,
+      "textures": {
+        "loaded": 63,
+        "expected": 63,
+        "failed": []
+      },
+      "parent_scene_material_view_sync": true
+    }
+  ],
+  "finished": "2026-10-29T06:44:57.701Z"
+}

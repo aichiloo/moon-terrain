@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files": 145,
+  "archive_bytes": 395849394,
+  "archive_sha256": "d9eec289ecfab631705d7aa97bb3e71b922658055631cd2bf2cd1eef998fa107",
+  "zip_crc_all_passed": true,
+  "extracted_root": "G:\\Codex_Artifacts\\2026-10-29\\Lunar_Unity_Demo_delivery_check\\Lunar_Unity_Demo",
+  "seconds": 19.02
+}

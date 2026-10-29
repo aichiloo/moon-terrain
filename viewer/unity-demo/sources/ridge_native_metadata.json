@@ -1,0 +1,130 @@
+{
+  "id": "polar_ridge",
+  "name": "极区天然坡折",
+  "summary": "选择连接脊上真实凸形坡折；保留光滑坡面本貌，不添加规则台阶。",
+  "source_site": "SHACKRDGE02",
+  "source_page": "https://data.lroc.im-ldi.com/lroc/view_rdr/NAC_DTM_SHACKRDGE02",
+  "center_source_pixel_zero_based": [
+    708,
+    1276
+  ],
+  "source_window_rows_cols_half_open": [
+    628,
+    789,
+    1196,
+    1357
+  ],
+  "native_shape": [
+    161,
+    161
+  ],
+  "native_spacing_m": 3.5,
+  "region_width_m": 560.0,
+  "center_projected_m": [
+    -9250.5,
+    -10689.0
+  ],
+  "source_geotiff_metadata": {
+    "KeyDirectoryVersion": 1,
+    "KeyRevision": 1,
+    "KeyRevisionMinor": 0,
+    "GTModelTypeGeoKey": 1,
+    "GTRasterTypeGeoKey": 1,
+    "GTCitationGeoKey": "PolarStereographic Moon",
+    "GeographicTypeGeoKey": 32767,
+    "GeogCitationGeoKey": "GCS Name = GCS_Moon|Datum = D_Moon|Ellipsoid = Moon_polarRadius|Primem = Reference_Meridian|",
+    "GeogGeodeticDatumGeoKey": 32767,
+    "GeogAngularUnitsGeoKey": 9102,
+    "GeogEllipsoidGeoKey": 32767,
+    "GeogSemiMajorAxisGeoKey": 1737400.0,
+    "GeogSemiMinorAxisGeoKey": 1737400.0,
+    "GeogPrimeMeridianLongGeoKey": 0.0,
+    "ProjectedCSTypeGeoKey": 32767,
+    "ProjectionGeoKey": 32767,
+    "ProjCoordTransGeoKey": 15,
+    "ProjLinearUnitsGeoKey": 9001,
+    "ProjNatOriginLatGeoKey": -90.0,
+    "ProjFalseEastingGeoKey": 0.0,
+    "ProjFalseNorthingGeoKey": 0.0,
+    "ProjScaleAtNatOriginGeoKey": 1.0,
+    "ProjStraightVertPoleLongGeoKey": 0.0,
+    "ModelPixelScale": [
+      3.5,
+      3.5,
+      0.0
+    ],
+    "ModelTiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      -13718.25,
+      -8209.25,
+      0.0
+    ]
+  },
+  "vertical_offset_m": 1764.95068359375,
+  "vertical_exaggeration": 1,
+  "local_x_direction": "positive source polar-map X",
+  "local_y_direction": "positive source polar-map Y",
+  "source_values_preserved_exactly": true,
+  "terrain_synthetic_macro_reshaping": false,
+  "native_valid_fraction": 1.0,
+  "good_confidence_fraction": 0.973920759229968,
+  "source_interpolated_or_other_confidence_fraction": 0.02607924077003202,
+  "relief_m": 185.349609375,
+  "slope_p50_deg": 15.892687954459383,
+  "slope_p95_deg": 21.57852249949476,
+  "viewer_context_grid_step_m": 3.5,
+  "near_detail_step_m": 0.05,
+  "near_detail_extent_m": 49.0,
+  "source_resolution_not_improved_by_rendering": true,
+  "details": "Accepted V3 Earth-lab scanned micro-displacement and materials; synthetic size/position/burial. Near detail bounded and faded to zero at its edges.",
+  "rock_shapes_total": 9,
+  "rocks": 1532,
+  "apollo_rock_instances": 31,
+  "design_candidates": [
+    "stairs_up",
+    "stairs_down",
+    "slope_up"
+  ],
+  "mapping_status": "天然坡折类比候选；尚未确认符合原 stairs 的多级遮挡结构。",
+  "observation_spots": [
+    {
+      "x": -70.0,
+      "y": -49.0,
+      "label": "坡折高侧",
+      "yaw": -1.7277427829068384,
+      "pitch": 0.1517139327765894,
+      "height_m": 0.55
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "label": "凸形坡折",
+      "yaw": -1.955472187681097,
+      "pitch": 0.171566136811251,
+      "height_m": 0.55
+    },
+    {
+      "x": 70.0,
+      "y": 91.0,
+      "label": "坡折低侧",
+      "yaw": -1.911077241398354,
+      "pitch": 0.1411264578479518,
+      "height_m": 0.55
+    }
+  ],
+  "crop_design_status": "Deferred by user; no experimental crop selected.",
+  "robot_walking_tested": false,
+  "reobservation_tested": false,
+  "vlm_tested": false,
+  "classification": "Selected morphological region, not an official geological classification or verified experimental difficulty.",
+  "center_latitude_deg": -89.53382720099017,
+  "center_longitude_positive_east_deg": 220.87364604129107,
+  "coordinate_note": "Derived from original lunar spherical projection. Viewer x/y are source map-grid axes; polar-grid Y is not true north.",
+  "observation_spot_elevations_m": [
+    1783.1746826171875,
+    1764.95068359375,
+    1732.5787353515625
+  ]
+}

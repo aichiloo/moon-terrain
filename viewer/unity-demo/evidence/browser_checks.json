@@ -1,0 +1,755 @@
+{
+  "status": "PASS",
+  "started": "2026-10-29T06:31:50.691Z",
+  "errors": [],
+  "consoleErrors": [],
+  "external": [],
+  "requestsFailed": [],
+  "checks": [
+    {
+      "initial_file_open": true
+    },
+    {
+      "scene": "plain",
+      "view": "low",
+      "material": "original",
+      "selected": "renders/plain_low_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "low",
+      "material": "mixed",
+      "selected": "renders/plain_low_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "low",
+      "material": "moon_01",
+      "selected": "renders/plain_low_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "low",
+      "material": "moon_03",
+      "selected": "renders/plain_low_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "low",
+      "material": "moon_04",
+      "selected": "renders/plain_low_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "low",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/plain_low_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "low",
+      "material": "moon_dusted_01",
+      "selected": "renders/plain_low_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "orbit",
+      "material": "original",
+      "selected": "renders/plain_orbit_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "orbit",
+      "material": "mixed",
+      "selected": "renders/plain_orbit_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "orbit",
+      "material": "moon_01",
+      "selected": "renders/plain_orbit_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "orbit",
+      "material": "moon_03",
+      "selected": "renders/plain_orbit_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "orbit",
+      "material": "moon_04",
+      "selected": "renders/plain_orbit_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "orbit",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/plain_orbit_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "plain",
+      "view": "orbit",
+      "material": "moon_dusted_01",
+      "selected": "renders/plain_orbit_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "low",
+      "material": "original",
+      "selected": "renders/slope_low_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "low",
+      "material": "mixed",
+      "selected": "renders/slope_low_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "low",
+      "material": "moon_01",
+      "selected": "renders/slope_low_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "low",
+      "material": "moon_03",
+      "selected": "renders/slope_low_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "low",
+      "material": "moon_04",
+      "selected": "renders/slope_low_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "low",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/slope_low_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "low",
+      "material": "moon_dusted_01",
+      "selected": "renders/slope_low_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "orbit",
+      "material": "original",
+      "selected": "renders/slope_orbit_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "orbit",
+      "material": "mixed",
+      "selected": "renders/slope_orbit_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "orbit",
+      "material": "moon_01",
+      "selected": "renders/slope_orbit_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "orbit",
+      "material": "moon_03",
+      "selected": "renders/slope_orbit_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "orbit",
+      "material": "moon_04",
+      "selected": "renders/slope_orbit_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "orbit",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/slope_orbit_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "slope",
+      "view": "orbit",
+      "material": "moon_dusted_01",
+      "selected": "renders/slope_orbit_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "low",
+      "material": "original",
+      "selected": "renders/rim_low_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "low",
+      "material": "mixed",
+      "selected": "renders/rim_low_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "low",
+      "material": "moon_01",
+      "selected": "renders/rim_low_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "low",
+      "material": "moon_03",
+      "selected": "renders/rim_low_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "low",
+      "material": "moon_04",
+      "selected": "renders/rim_low_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "low",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/rim_low_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "low",
+      "material": "moon_dusted_01",
+      "selected": "renders/rim_low_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "orbit",
+      "material": "original",
+      "selected": "renders/rim_orbit_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "orbit",
+      "material": "mixed",
+      "selected": "renders/rim_orbit_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "orbit",
+      "material": "moon_01",
+      "selected": "renders/rim_orbit_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "orbit",
+      "material": "moon_03",
+      "selected": "renders/rim_orbit_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "orbit",
+      "material": "moon_04",
+      "selected": "renders/rim_orbit_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "orbit",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/rim_orbit_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rim",
+      "view": "orbit",
+      "material": "moon_dusted_01",
+      "selected": "renders/rim_orbit_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "low",
+      "material": "original",
+      "selected": "renders/depression_low_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "low",
+      "material": "mixed",
+      "selected": "renders/depression_low_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "low",
+      "material": "moon_01",
+      "selected": "renders/depression_low_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "low",
+      "material": "moon_03",
+      "selected": "renders/depression_low_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "low",
+      "material": "moon_04",
+      "selected": "renders/depression_low_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "low",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/depression_low_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "low",
+      "material": "moon_dusted_01",
+      "selected": "renders/depression_low_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "orbit",
+      "material": "original",
+      "selected": "renders/depression_orbit_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "orbit",
+      "material": "mixed",
+      "selected": "renders/depression_orbit_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "orbit",
+      "material": "moon_01",
+      "selected": "renders/depression_orbit_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "orbit",
+      "material": "moon_03",
+      "selected": "renders/depression_orbit_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "orbit",
+      "material": "moon_04",
+      "selected": "renders/depression_orbit_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "orbit",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/depression_orbit_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "depression",
+      "view": "orbit",
+      "material": "moon_dusted_01",
+      "selected": "renders/depression_orbit_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "low",
+      "material": "original",
+      "selected": "renders/ridge_low_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "low",
+      "material": "mixed",
+      "selected": "renders/ridge_low_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "low",
+      "material": "moon_01",
+      "selected": "renders/ridge_low_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "low",
+      "material": "moon_03",
+      "selected": "renders/ridge_low_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "low",
+      "material": "moon_04",
+      "selected": "renders/ridge_low_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "low",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/ridge_low_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "low",
+      "material": "moon_dusted_01",
+      "selected": "renders/ridge_low_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "orbit",
+      "material": "original",
+      "selected": "renders/ridge_orbit_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "orbit",
+      "material": "mixed",
+      "selected": "renders/ridge_orbit_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "orbit",
+      "material": "moon_01",
+      "selected": "renders/ridge_orbit_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "orbit",
+      "material": "moon_03",
+      "selected": "renders/ridge_orbit_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "orbit",
+      "material": "moon_04",
+      "selected": "renders/ridge_orbit_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "orbit",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/ridge_orbit_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ridge",
+      "view": "orbit",
+      "material": "moon_dusted_01",
+      "selected": "renders/ridge_orbit_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "low",
+      "material": "original",
+      "selected": "renders/ejecta_low_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "low",
+      "material": "mixed",
+      "selected": "renders/ejecta_low_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "low",
+      "material": "moon_01",
+      "selected": "renders/ejecta_low_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "low",
+      "material": "moon_03",
+      "selected": "renders/ejecta_low_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "low",
+      "material": "moon_04",
+      "selected": "renders/ejecta_low_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "low",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/ejecta_low_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "low",
+      "material": "moon_dusted_01",
+      "selected": "renders/ejecta_low_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "orbit",
+      "material": "original",
+      "selected": "renders/ejecta_orbit_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "orbit",
+      "material": "mixed",
+      "selected": "renders/ejecta_orbit_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "orbit",
+      "material": "moon_01",
+      "selected": "renders/ejecta_orbit_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "orbit",
+      "material": "moon_03",
+      "selected": "renders/ejecta_orbit_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "orbit",
+      "material": "moon_04",
+      "selected": "renders/ejecta_orbit_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "orbit",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/ejecta_orbit_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "ejecta",
+      "view": "orbit",
+      "material": "moon_dusted_01",
+      "selected": "renders/ejecta_orbit_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "low",
+      "material": "original",
+      "selected": "renders/rille_low_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "low",
+      "material": "mixed",
+      "selected": "renders/rille_low_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "low",
+      "material": "moon_01",
+      "selected": "renders/rille_low_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "low",
+      "material": "moon_03",
+      "selected": "renders/rille_low_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "low",
+      "material": "moon_04",
+      "selected": "renders/rille_low_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "low",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/rille_low_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "low",
+      "material": "moon_dusted_01",
+      "selected": "renders/rille_low_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "orbit",
+      "material": "original",
+      "selected": "renders/rille_orbit_original.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "orbit",
+      "material": "mixed",
+      "selected": "renders/rille_orbit_mixed.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "orbit",
+      "material": "moon_01",
+      "selected": "renders/rille_orbit_moon_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "orbit",
+      "material": "moon_03",
+      "selected": "renders/rille_orbit_moon_03.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "orbit",
+      "material": "moon_04",
+      "selected": "renders/rille_orbit_moon_04.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "orbit",
+      "material": "moon_flat_macro_01",
+      "selected": "renders/rille_orbit_moon_flat_macro_01.png",
+      "loaded": true
+    },
+    {
+      "scene": "rille",
+      "view": "orbit",
+      "material": "moon_dusted_01",
+      "selected": "renders/rille_orbit_moon_dusted_01.png",
+      "loaded": true
+    },
+    {
+      "compare_wipe_and_side": true,
+      "side_boxes": {
+        "a": {
+          "x": 45,
+          "y": 303.78125,
+          "w": 545,
+          "h": 613.125
+        },
+        "b": {
+          "x": 590,
+          "y": 303.78125,
+          "w": 545,
+          "h": 613.125
+        }
+      }
+    },
+    {
+      "thumbnail_navigation": true,
+      "keyboard_scene_nav": true,
+      "dropdown_no_interference": true
+    },
+    {
+      "seven_scene_tour": true
+    },
+    {
+      "focus_mode": true,
+      "source_dialog_and_links": true
+    },
+    {
+      "viewport": 390,
+      "no_overflow": true
+    },
+    {
+      "viewport": 1500,
+      "no_overflow": true
+    },
+    {
+      "source_report_byte_identical": true,
+      "sha256": "c150129cd153ee99f7894799403372d188aa41fabeb6ae85fd2c18aac8f8de6a"
+    },
+    {
+      "http_open": true,
+      "url": "http://127.0.0.1:8798/2026-10-29/du/outputs/Lunar_Unity_Demo/index.html"
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\lyz\\Documents\\Codex\\2026-10-29\\du\\work\\output\\playwright\\demo_desktop.png",
+    "C:\\Users\\lyz\\Documents\\Codex\\2026-10-29\\du\\work\\output\\playwright\\demo_compare_wipe.png",
+    "C:\\Users\\lyz\\Documents\\Codex\\2026-10-29\\du\\work\\output\\playwright\\demo_compare_side.png",
+    "C:\\Users\\lyz\\Documents\\Codex\\2026-10-29\\du\\work\\output\\playwright\\demo_focus.png",
+    "C:\\Users\\lyz\\Documents\\Codex\\2026-10-29\\du\\work\\output\\playwright\\demo_sources.png",
+    "C:\\Users\\lyz\\Documents\\Codex\\2026-10-29\\du\\work\\output\\playwright\\demo_mobile.png",
+    "C:\\Users\\lyz\\Documents\\Codex\\2026-10-29\\du\\work\\output\\playwright\\demo_desktop_final.png",
+    "C:\\Users\\lyz\\Documents\\Codex\\2026-10-29\\du\\work\\output\\playwright\\demo_http.png"
+  ],
+  "finished": "2026-10-29T06:32:03.710Z"
+}

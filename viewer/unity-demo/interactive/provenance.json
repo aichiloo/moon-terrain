@@ -1,0 +1,22 @@
+{
+  "geometry_source": "C:\\Users\\lyz\\Documents\\Codex\\2026-10-21\\ji-x\\outputs\\Lunar_Detail_Regions",
+  "texture_source": "C:\\Users\\lyz\\Documents\\Codex\\2026-10-28\\du\\outputs\\Lunar_Texture_Trial\\textures",
+  "texture_delivery": "Data URLs embedded in local JS; avoids file-origin CORS, no remote requests",
+  "render_engine": "Three.js; browser companion, not Unity WebGL",
+  "geometry_rule": "Same native/context/detail fields and D clustered rock instances as Unity export; no regenerated terrain",
+  "geometry_source_sha256": {
+    "data/depression.js": "10594d9b017859702bf169966404908dd7581655a24c9efac8d6c0ab5718ddb1",
+    "data/ejecta.js": "4d809f13425492257989c70a152550afbee4683d87f7c3a07eed9a782bb9e14c",
+    "data/plain.js": "369a564a6afe46d67dc8ae12b19a5e657ed4dfb0b1f90f2f3277ce1a5b4fba1e",
+    "data/ridge.js": "dda2dca25bc7b07fdabbb6ddd0aa3a03797378b474ac1881977add9b92da1312",
+    "data/rille.js": "a8aa211b297f29e7aae02f3720dd0adff8c449e3a2ca05b52c45fec9fedc0ca6",
+    "data/rim.js": "bc69f9e19e5bd2a25d48ff6576aefacc2af47a15adc68f8d43a18a2afda4a44b",
+    "data/slope.js": "3e41a8afea39bdb8054f27ed33b7f713da43a8e6d02eb478e8026224c23b3149"
+  },
+  "bridge_message": {
+    "type": "lunar-set",
+    "scene": "plain",
+    "view": "low",
+    "material": "mixed"
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "render_count": 98,
+  "byte_identical": true,
+  "files": [
+    {
+      "file": "renders/plain_low_original.png",
+      "sha256": "177b150d08ec6b116d4f9355d588a5f5486970180a4694d9fcdc82f07d7d6e85",
+      "source_sha256": "177b150d08ec6b116d4f9355d588a5f5486970180a4694d9fcdc82f07d7d6e85"
+    },
+    {
+      "file": "renders/plain_low_mixed.png",
+      "sha256": "9b64970952c3bff2a2d63e58564893de03ff3bce53c694b614d5d94fd5c464bd",
+      "source_sha256": "9b64970952c3bff2a2d63e58564893de03ff3bce53c694b614d5d94fd5c464bd"
+    },
+    {
+      "file": "renders/plain_low_moon_01.png",
+      "sha256": "c5abd8c216e49878969510155a9f496022c7000bdf6a6bdcfc8f8c1a4775e089",
+      "source_sha256": "c5abd8c216e49878969510155a9f496022c7000bdf6a6bdcfc8f8c1a4775e089"
+    },
+    {
+      "file": "renders/plain_low_moon_03.png",
+      "sha256": "fdf0939d3ceb66fb7a5a47e70d5cb5cf162ee6ca3f3f39bee927ce124bf9259e",
+      "source_sha256": "fdf0939d3ceb66fb7a5a47e70d5cb5cf162ee6ca3f3f39bee927ce124bf9259e"
+    },
+    {
+      "file": "renders/plain_low_moon_04.png",
+      "sha256": "5d9fa07d5eca050ec69dad331da7169076d2afd8ad2f1b07d3628d9c37d47632",
+      "source_sha256": "5d9fa07d5eca050ec69dad331da7169076d2afd8ad2f1b07d3628d9c37d47632"
+    },
+    {
+      "file": "renders/plain_low_moon_flat_macro_01.png",
+      "sha256": "eb2bc60404ff3ba46c6976613822a71b3b23ec06ff4dd5476befbc8a6d7834e7",
+      "source_sha256": "eb2bc60404ff3ba46c6976613822a71b3b23ec06ff4dd5476befbc8a6d7834e7"
+    },
+    {
+      "file": "renders/plain_low_moon_dusted_01.png",
+      "sha256": "fc1a4591bf958c6a57e8a34204bac34b3542eb89132bb7836cfeb852f3e70261",
+      "source_sha256": "fc1a4591bf958c6a57e8a34204bac34b3542eb89132bb7836cfeb852f3e70261"
+    },
+    {
+      "file": "renders/plain_orbit_original.png",
+      "sha256": "b1e4a31725aab323874279bea4380b411c1c1282e5ed7e191b7bbf8c5590b092",
+      "source_sha256": "b1e4a31725aab323874279bea4380b411c1c1282e5ed7e191b7bbf8c5590b092"
+    },
+    {
+      "file": "renders/plain_orbit_mixed.png",
+      "sha256": "f494f2e7a08a8ae619341105b550bcb21395b7ee79cb2ecd1fc949fe91cf7875",
+      "source_sha256": "f494f2e7a08a8ae619341105b550bcb21395b7ee79cb2ecd1fc949fe91cf7875"
+    },
+    {
+      "file": "renders/plain_orbit_moon_01.png",
+      "sha256": "79dad4a971b2e46fb4caedf5dc1c7dd10107741b497f74b181979d99128c9a2b",
+      "source_sha256": "79dad4a971b2e46fb4caedf5dc1c7dd10107741b497f74b181979d99128c9a2b"
+    },
+    {
+      "file": "renders/plain_orbit_moon_03.png",
+      "sha256": "499c6121fbd540a2527ebf1d99834ee12805552062215b3eab5e3bec627e639e",
+      "source_sha256": "499c6121fbd540a2527ebf1d99834ee12805552062215b3eab5e3bec627e639e"
+    },
+    {
+      "file": "renders/plain_orbit_moon_04.png",
+      "sha256": "78ce2c546f8757d165f1f31fc7d957e7c85f451c5fca31a68200ea45d3489e54",
+      "source_sha256": "78ce2c546f8757d165f1f31fc7d957e7c85f451c5fca31a68200ea45d3489e54"
+    },
+    {
+      "file": "renders/plain_orbit_moon_flat_macro_01.png",
+      "sha256": "81e77f1be9f09490db123f3675db807941f02154858b1d94d97c65c7f9a3fa53",
+      "source_sha256": "81e77f1be9f09490db123f3675db807941f02154858b1d94d97c65c7f9a3fa53"
+    },
+    {
+      "file": "renders/plain_orbit_moon_dusted_01.png",
+      "sha256": "8448b83e2891e18d5f5d9c320e0804f03e79ea4851795da12964184f02612d13",
+      "source_sha256": "8448b83e2891e18d5f5d9c320e0804f03e79ea4851795da12964184f02612d13"
+    },
+    {
+      "file": "renders/slope_low_original.png",
+      "sha256": "48daa17286f5781c76b90167c086437783abe01799413768bfb66e900feaefa1",
+      "source_sha256": "48daa17286f5781c76b90167c086437783abe01799413768bfb66e900feaefa1"
+    },
+    {
+      "file": "renders/slope_low_mixed.png",
+      "sha256": "96e6edd2041ca71cbf9b41fc0e1e329df61a17985b8285233c9ec42390a13d5e",
+      "source_sha256": "96e6edd2041ca71cbf9b41fc0e1e329df61a17985b8285233c9ec42390a13d5e"
+    },
+    {
+      "file": "renders/slope_low_moon_01.png",
+      "sha256": "a7c6ccc4034ef941d3cdb32652769c240cc8c72edf8cd433c09bbcc0318e3e9f",
+      "source_sha256": "a7c6ccc4034ef941d3cdb32652769c240cc8c72edf8cd433c09bbcc0318e3e9f"
+    },
+    {
+      "file": "renders/slope_low_moon_03.png",
+      "sha256": "d05fb1290a8473995a2fb9587de013bed071272add8a45fccae7f1dcab167a3d",
+      "source_sha256": "d05fb1290a8473995a2fb9587de013bed071272add8a45fccae7f1dcab167a3d"
+    },
+    {
+      "file": "renders/slope_low_moon_04.png",
+      "sha256": "3401130dd07957e8d1093153eaf965a144d7b0fa7a6d9c14013504817c1ce1ac",
+      "source_sha256": "3401130dd07957e8d1093153eaf965a144d7b0fa7a6d9c14013504817c1ce1ac"
+    },
+    {
+      "file": "renders/slope_low_moon_flat_macro_01.png",
+      "sha256": "bb746af2cc47660b0a11a26521a777f3c7d256e358a2f9111a19d204a55c3c66",
+      "source_sha256": "bb746af2cc47660b0a11a26521a777f3c7d256e358a2f9111a19d204a55c3c66"
+    },
+    {
+      "file": "renders/slope_low_moon_dusted_01.png",
+      "sha256": "89171a60da961ccd53871054ab2c07d705646584a7979d714b088b72c9d26bc6",
+      "source_sha256": "89171a60da961ccd53871054ab2c07d705646584a7979d714b088b72c9d26bc6"
+    },
+    {
+      "file": "renders/slope_orbit_original.png",
+      "sha256": "92aee56b48c91aed4325003829e023fb4e5a93a97d2fb2f84e1d0b0d75cce79b",
+      "source_sha256": "92aee56b48c91aed4325003829e023fb4e5a93a97d2fb2f84e1d0b0d75cce79b"
+    },
+    {
+      "file": "renders/slope_orbit_mixed.png",
+      "sha256": "717499c244327ebf7fc4dd8b44a640c292163f84de64a4d922c077f35900390b",
+      "source_sha256": "717499c244327ebf7fc4dd8b44a640c292163f84de64a4d922c077f35900390b"
+    },
+    {
+      "file": "renders/slope_orbit_moon_01.png",
+      "sha256": "1799b767b7e6ae8f5d820d946a86788f390a756b83dc46920c541420f8afe933",
+      "source_sha256": "1799b767b7e6ae8f5d820d946a86788f390a756b83dc46920c541420f8afe933"
+    },
+    {
+      "file": "renders/slope_orbit_moon_03.png",
+      "sha256": "816a15e4ef1217cfb1d3816c127dffe026bbe0f72ec47bf1048889e4b8fcc2dc",
+      "source_sha256": "816a15e4ef1217cfb1d3816c127dffe026bbe0f72ec47bf1048889e4b8fcc2dc"
+    },
+    {
+      "file": "renders/slope_orbit_moon_04.png",
+      "sha256": "78c039a8c9804901de08fe5af8bdd3898d16e2d8cbce081b356825d0502d0475",
+      "source_sha256": "78c039a8c9804901de08fe5af8bdd3898d16e2d8cbce081b356825d0502d0475"
+    },
+    {
+      "file": "renders/slope_orbit_moon_flat_macro_01.png",
+      "sha256": "dd64393a9cfaf78b38e966c0df1081dc235bffeae814b84863b70328fe489b1c",
+      "source_sha256": "dd64393a9cfaf78b38e966c0df1081dc235bffeae814b84863b70328fe489b1c"
+    },
+    {
+      "file": "renders/slope_orbit_moon_dusted_01.png",
+      "sha256": "9e4e9b849820979c969e0de31a709a86defc63f06c061625e688757dee9d723a",
+      "source_sha256": "9e4e9b849820979c969e0de31a709a86defc63f06c061625e688757dee9d723a"
+    },
+    {
+      "file": "renders/rim_low_original.png",
+      "sha256": "f665beda956df35ca6e1e281aa06f5029164b052b1fc36a0ed024a1a1978a680",
+      "source_sha256": "f665beda956df35ca6e1e281aa06f5029164b052b1fc36a0ed024a1a1978a680"
+    },
+    {
+      "file": "renders/rim_low_mixed.png",
+      "sha256": "4c649293603f8d05318bf150ac6dd6b83c0ac28ff8f61fb363efe3a20efe1252",
+      "source_sha256": "4c649293603f8d05318bf150ac6dd6b83c0ac28ff8f61fb363efe3a20efe1252"
+    },
+    {
+      "file": "renders/rim_low_moon_01.png",
+      "sha256": "6b8354b61fdfb736a79b3aa6c59cd7f7cb86eb7045cf7b3df9a282733ff81a13",
+      "source_sha256": "6b8354b61fdfb736a79b3aa6c59cd7f7cb86eb7045cf7b3df9a282733ff81a13"
+    },
+    {
+      "file": "renders/rim_low_moon_03.png",
+      "sha256": "b95e4a4a82dbd0c05bc59b3631a969a6052ec602e20c44a287d8a4369aa78e6e",
+      "source_sha256": "b95e4a4a82dbd0c05bc59b3631a969a6052ec602e20c44a287d8a4369aa78e6e"
+    },
+    {
+      "file": "renders/rim_low_moon_04.png",
+      "sha256": "98bd7da09f783eac3db003f1880012da90e33903a60cf65d4ff31f225032a647",
+      "source_sha256": "98bd7da09f783eac3db003f1880012da90e33903a60cf65d4ff31f225032a647"
+    },
+    {
+      "file": "renders/rim_low_moon_flat_macro_01.png",
+      "sha256": "d45247f291f0ffc87611868b65ee0b40dcdae0765d0d1c918f085a22b0798b43",
+      "source_sha256": "d45247f291f0ffc87611868b65ee0b40dcdae0765d0d1c918f085a22b0798b43"
+    },
+    {
+      "file": "renders/rim_low_moon_dusted_01.png",
+      "sha256": "4cbb546f2f1b0dcbb823ba72f64f0dce03d82f3976cd69684b030caaf61e9c36",
+      "source_sha256": "4cbb546f2f1b0dcbb823ba72f64f0dce03d82f3976cd69684b030caaf61e9c36"
+    },
+    {
+      "file": "renders/rim_orbit_original.png",
+      "sha256": "2d8f62b9daaaaa587d7f179d329412eae92772349f2271692fc599d1de76fdd2",
+      "source_sha256": "2d8f62b9daaaaa587d7f179d329412eae92772349f2271692fc599d1de76fdd2"
+    },
+    {
+      "file": "renders/rim_orbit_mixed.png",
+      "sha256": "64fc2c0ef9ade3d320e7b340ff07d3219271760d4cbd6ee0aebde6476c3adac8",
+      "source_sha256": "64fc2c0ef9ade3d320e7b340ff07d3219271760d4cbd6ee0aebde6476c3adac8"
+    },
+    {
+      "file": "renders/rim_orbit_moon_01.png",
+      "sha256": "e36ef10c9c5be38d2fe2caca8ccec267d08804538bd4d879853298a8ec747c23",
+      "source_sha256": "e36ef10c9c5be38d2fe2caca8ccec267d08804538bd4d879853298a8ec747c23"
+    },
+    {
+      "file": "renders/rim_orbit_moon_03.png",
+      "sha256": "cc18c1777c48e657ca7164660f3036848ea099f5f84bbf609c7f4de7275191d9",
+      "source_sha256": "cc18c1777c48e657ca7164660f3036848ea099f5f84bbf609c7f4de7275191d9"
+    },
+    {
+      "file": "renders/rim_orbit_moon_04.png",
+      "sha256": "ee1dc8e6f9dd2a44dce2232626ac070f23847a64f0b6fa45598b2b8eacc32e08",
+      "source_sha256": "ee1dc8e6f9dd2a44dce2232626ac070f23847a64f0b6fa45598b2b8eacc32e08"
+    },
+    {
+      "file": "renders/rim_orbit_moon_flat_macro_01.png",
+      "sha256": "e2660cfd39edebe861f64c419739fcda43374a0902abb74900f4917388c57ba0",
+      "source_sha256": "e2660cfd39edebe861f64c419739fcda43374a0902abb74900f4917388c57ba0"
+    },
+    {
+      "file": "renders/rim_orbit_moon_dusted_01.png",
+      "sha256": "ce2c22df3f8e65973f12ae135c3f43cbd7a06859f55052c9cb430f9f6b076cbe",
+      "source_sha256": "ce2c22df3f8e65973f12ae135c3f43cbd7a06859f55052c9cb430f9f6b076cbe"
+    },
+    {
+      "file": "renders/depression_low_original.png",
+      "sha256": "ce9ebe2a0454524fa860e7789e46b4f38ad70d4ae04866e77aa98d8f131ed14c",
+      "source_sha256": "ce9ebe2a0454524fa860e7789e46b4f38ad70d4ae04866e77aa98d8f131ed14c"
+    },
+    {
+      "file": "renders/depression_low_mixed.png",
+      "sha256": "6cc4904f5bc160d173d29e29355e37449bdffef110164020fff1a4a57e2e06b2",
+      "source_sha256": "6cc4904f5bc160d173d29e29355e37449bdffef110164020fff1a4a57e2e06b2"
+    },
+    {
+      "file": "renders/depression_low_moon_01.png",
+      "sha256": "f12f3cb34ced7f79373df05582aa99b1b75ceb3956f78e1d76b1b5c176b0b8ed",
+      "source_sha256": "f12f3cb34ced7f79373df05582aa99b1b75ceb3956f78e1d76b1b5c176b0b8ed"
+    },
+    {
+      "file": "renders/depression_low_moon_03.png",
+      "sha256": "6c8ee69f355b6efaeb3c236650a863c5e82eb91af12cbb4fea5d06888b031791",
+      "source_sha256": "6c8ee69f355b6efaeb3c236650a863c5e82eb91af12cbb4fea5d06888b031791"
+    },
+    {
+      "file": "renders/depression_low_moon_04.png",
+      "sha256": "f5c9226affd6bf138b1a889ce6ef324fa67e60a4d69a5120253f1164dd70f8ea",
+      "source_sha256": "f5c9226affd6bf138b1a889ce6ef324fa67e60a4d69a5120253f1164dd70f8ea"
+    },
+    {
+      "file": "renders/depression_low_moon_flat_macro_01.png",
+      "sha256": "a6943dcfa62f234427bd41f67679e030831228894fbb7eb6f7d0e11468f4cb47",
+      "source_sha256": "a6943dcfa62f234427bd41f67679e030831228894fbb7eb6f7d0e11468f4cb47"
+    },
+    {
+      "file": "renders/depression_low_moon_dusted_01.png",
+      "sha256": "60c4b6e463e0da485dd1856dc8d196e8894f67019ac922e1532955d476eb264d",
+      "source_sha256": "60c4b6e463e0da485dd1856dc8d196e8894f67019ac922e1532955d476eb264d"
+    },
+    {
+      "file": "renders/depression_orbit_original.png",
+      "sha256": "23efeec6379fc6f192a3d2d67e2960bc92ddefda0a035b943c24ba967d595c65",
+      "source_sha256": "23efeec6379fc6f192a3d2d67e2960bc92ddefda0a035b943c24ba967d595c65"
+    },
+    {
+      "file": "renders/depression_orbit_mixed.png",
+      "sha256": "4aa37efee8232a3cf5f3dbfb1fda17519f735c20fb1d70e668234564f88b208b",
+      "source_sha256": "4aa37efee8232a3cf5f3dbfb1fda17519f735c20fb1d70e668234564f88b208b"
+    },
+    {
+      "file": "renders/depression_orbit_moon_01.png",
+      "sha256": "7feb7b609557debd4cae4a7f2118709587a0ac249202bb83c984fa6c88c2db74",
+      "source_sha256": "7feb7b609557debd4cae4a7f2118709587a0ac249202bb83c984fa6c88c2db74"
+    },
+    {
+      "file": "renders/depression_orbit_moon_03.png",
+      "sha256": "87f3907d149ec92962ccba541a8918a03c3da8a9ea6bf608c7165706f974c61f",
+      "source_sha256": "87f3907d149ec92962ccba541a8918a03c3da8a9ea6bf608c7165706f974c61f"
+    },
+    {
+      "file": "renders/depression_orbit_moon_04.png",
+      "sha256": "97733d6ae76254aa30d11352c8442d845c621a265ea354e0cf016514fa98a405",
+      "source_sha256": "97733d6ae76254aa30d11352c8442d845c621a265ea354e0cf016514fa98a405"
+    },
+    {
+      "file": "renders/depression_orbit_moon_flat_macro_01.png",
+      "sha256": "6f0a79a541ec2bf385a9a4a1ba27a1c3e219c264d5b11f30a00fb0fe4393d57e",
+      "source_sha256": "6f0a79a541ec2bf385a9a4a1ba27a1c3e219c264d5b11f30a00fb0fe4393d57e"
+    },
+    {
+      "file": "renders/depression_orbit_moon_dusted_01.png",
+      "sha256": "788a1fac2f2f831257fcc36cb3d7bb2815fed077c214da213d0c80cb8b94fb12",
+      "source_sha256": "788a1fac2f2f831257fcc36cb3d7bb2815fed077c214da213d0c80cb8b94fb12"
+    },
+    {
+      "file": "renders/ridge_low_original.png",
+      "sha256": "16d71bb27b994aa30fbf5f365f87afc71d11ea6cf1722eaf03cff426baea1dc5",
+      "source_sha256": "16d71bb27b994aa30fbf5f365f87afc71d11ea6cf1722eaf03cff426baea1dc5"
+    },
+    {
+      "file": "renders/ridge_low_mixed.png",
+      "sha256": "3bb8492b74fe9738a2169aae9de954ae0cf0a6d3e49456c63bfe16fb0729fd2e",
+      "source_sha256": "3bb8492b74fe9738a2169aae9de954ae0cf0a6d3e49456c63bfe16fb0729fd2e"
+    },
+    {
+      "file": "renders/ridge_low_moon_01.png",
+      "sha256": "efebb2835aa53e991abe85c0fec143f7a6f45a64973bb0f08330ca6893c3eeca",
+      "source_sha256": "efebb2835aa53e991abe85c0fec143f7a6f45a64973bb0f08330ca6893c3eeca"
+    },
+    {
+      "file": "renders/ridge_low_moon_03.png",
+      "sha256": "b0ce14c701763e063a572a4b94eaced13e7c964d8aa2bc27c909b0358435ce56",
+      "source_sha256": "b0ce14c701763e063a572a4b94eaced13e7c964d8aa2bc27c909b0358435ce56"
+    },
+    {
+      "file": "renders/ridge_low_moon_04.png",
+      "sha256": "0c0035cfe13b097a9e25a792a25454d78426077185386790189e35e0c532e8e2",
+      "source_sha256": "0c0035cfe13b097a9e25a792a25454d78426077185386790189e35e0c532e8e2"
+    },
+    {
+      "file": "renders/ridge_low_moon_flat_macro_01.png",
+      "sha256": "9fa1ff19cb5acced5b8680c4fb75eb5731ddf93cc329a046c268c015b9e1dffb",
+      "source_sha256": "9fa1ff19cb5acced5b8680c4fb75eb5731ddf93cc329a046c268c015b9e1dffb"
+    },
+    {
+      "file": "renders/ridge_low_moon_dusted_01.png",
+      "sha256": "b4d66c34250338500b8c5deb11536b9c6ad1d7424fefb44cd0861f2a15988b02",
+      "source_sha256": "b4d66c34250338500b8c5deb11536b9c6ad1d7424fefb44cd0861f2a15988b02"
+    },
+    {
+      "file": "renders/ridge_orbit_original.png",
+      "sha256": "df820d647f1c1b28ca21821fec7b1b255c22d01168c269a4f4d9d92a5dba3413",
+      "source_sha256": "df820d647f1c1b28ca21821fec7b1b255c22d01168c269a4f4d9d92a5dba3413"
+    },
+    {
+      "file": "renders/ridge_orbit_mixed.png",
+      "sha256": "e8867d183e46b2281e7b230d39aff0ea2cced8cae453d5e6e31be21c15b813a8",
+      "source_sha256": "e8867d183e46b2281e7b230d39aff0ea2cced8cae453d5e6e31be21c15b813a8"
+    },
+    {
+      "file": "renders/ridge_orbit_moon_01.png",
+      "sha256": "d6244b78d8dfbb7b0363143fbe121b58b6cafd00967e738f4799b03f258b9fde",
+      "source_sha256": "d6244b78d8dfbb7b0363143fbe121b58b6cafd00967e738f4799b03f258b9fde"
+    },
+    {
+      "file": "renders/ridge_orbit_moon_03.png",
+      "sha256": "4e2b7b2c7df32f054a83a998005ee82db2cbc22dd537f072a35a5e37dbf4ce56",
+      "source_sha256": "4e2b7b2c7df32f054a83a998005ee82db2cbc22dd537f072a35a5e37dbf4ce56"
+    },
+    {
+      "file": "renders/ridge_orbit_moon_04.png",
+      "sha256": "be1b2d7b9c9b1512ceb19117e970093d53da790a4a1b91187fcdddb1f7c1bbd9",
+      "source_sha256": "be1b2d7b9c9b1512ceb19117e970093d53da790a4a1b91187fcdddb1f7c1bbd9"
+    },
+    {
+      "file": "renders/ridge_orbit_moon_flat_macro_01.png",
+      "sha256": "71a5508faf33a15467b36333b5b230fec9296665bc83cca7b2f7b4128148d0f2",
+      "source_sha256": "71a5508faf33a15467b36333b5b230fec9296665bc83cca7b2f7b4128148d0f2"
+    },
+    {
+      "file": "renders/ridge_orbit_moon_dusted_01.png",
+      "sha256": "2b4e262ee199be667dc5111463577c94875059dcd7d9ad423a2414789d1dc984",
+      "source_sha256": "2b4e262ee199be667dc5111463577c94875059dcd7d9ad423a2414789d1dc984"
+    },
+    {
+      "file": "renders/ejecta_low_original.png",
+      "sha256": "91bee1d27f5e2ca1e0c328647c777e3c645c1b01c1ff5394da1ab65b49b57eca",
+      "source_sha256": "91bee1d27f5e2ca1e0c328647c777e3c645c1b01c1ff5394da1ab65b49b57eca"
+    },
+    {
+      "file": "renders/ejecta_low_mixed.png",
+      "sha256": "9f91baea1d9279aaca37803a63433d8684ed4b92ef7439b33d3abdba4f9a75db",
+      "source_sha256": "9f91baea1d9279aaca37803a63433d8684ed4b92ef7439b33d3abdba4f9a75db"
+    },
+    {
+      "file": "renders/ejecta_low_moon_01.png",
+      "sha256": "1926d30f07474677e5d4dad6d9eb6b142ea6da749d2f1477b06267a4899990be",
+      "source_sha256": "1926d30f07474677e5d4dad6d9eb6b142ea6da749d2f1477b06267a4899990be"
+    },
+    {
+      "file": "renders/ejecta_low_moon_03.png",
+      "sha256": "63f09ec4a54b5c8a5f972dc86d91efce553143c72d80a70c25fa75d81cab7a23",
+      "source_sha256": "63f09ec4a54b5c8a5f972dc86d91efce553143c72d80a70c25fa75d81cab7a23"
+    },
+    {
+      "file": "renders/ejecta_low_moon_04.png",
+      "sha256": "7f007b490e688a74a4871fcaf554bdcc75167dfc84efba15a38381f5402317d8",
+      "source_sha256": "7f007b490e688a74a4871fcaf554bdcc75167dfc84efba15a38381f5402317d8"
+    },
+    {
+      "file": "renders/ejecta_low_moon_flat_macro_01.png",
+      "sha256": "ec3837affbc72239098ffb98b5f1bfa8f872e7142dfb9f0474bd37f292d6ea52",
+      "source_sha256": "ec3837affbc72239098ffb98b5f1bfa8f872e7142dfb9f0474bd37f292d6ea52"
+    },
+    {
+      "file": "renders/ejecta_low_moon_dusted_01.png",
+      "sha256": "6f3c3bbc5375d2faaf6f9be4f1977b787382ac32aff256540548c7eafd25f697",
+      "source_sha256": "6f3c3bbc5375d2faaf6f9be4f1977b787382ac32aff256540548c7eafd25f697"
+    },
+    {
+      "file": "renders/ejecta_orbit_original.png",
+      "sha256": "b06afa520c4f55df2cd9e413e7a5234ec57e5d781f887b8d578f67bf53b77b2c",
+      "source_sha256": "b06afa520c4f55df2cd9e413e7a5234ec57e5d781f887b8d578f67bf53b77b2c"
+    },
+    {
+      "file": "renders/ejecta_orbit_mixed.png",
+      "sha256": "5845320b0e2406e2ae9a240bff6da11bda0cb4c5abab280f63c06f2aa89c2f8a",
+      "source_sha256": "5845320b0e2406e2ae9a240bff6da11bda0cb4c5abab280f63c06f2aa89c2f8a"
+    },
+    {
+      "file": "renders/ejecta_orbit_moon_01.png",
+      "sha256": "1a2359b79fb26871b2b0d105ab092f108d59a97d4a3232e963a3a439ce622dd6",
+      "source_sha256": "1a2359b79fb26871b2b0d105ab092f108d59a97d4a3232e963a3a439ce622dd6"
+    },
+    {
+      "file": "renders/ejecta_orbit_moon_03.png",
+      "sha256": "ce69be816f0fe3765e8a1ab6307fb766c6c6e324db82bda4e165d8c8401bc5d4",
+      "source_sha256": "ce69be816f0fe3765e8a1ab6307fb766c6c6e324db82bda4e165d8c8401bc5d4"
+    },
+    {
+      "file": "renders/ejecta_orbit_moon_04.png",
+      "sha256": "ebe049e79711356ba4fb5c6aaecf04780679eab67a9e5573d9e7df7397358554",
+      "source_sha256": "ebe049e79711356ba4fb5c6aaecf04780679eab67a9e5573d9e7df7397358554"
+    },
+    {
+      "file": "renders/ejecta_orbit_moon_flat_macro_01.png",
+      "sha256": "1141e1a130268e0d9d86444bb9c1aa446c7449a3879f5e500157451a2eff4a9d",
+      "source_sha256": "1141e1a130268e0d9d86444bb9c1aa446c7449a3879f5e500157451a2eff4a9d"
+    },
+    {
+      "file": "renders/ejecta_orbit_moon_dusted_01.png",
+      "sha256": "2cac4e1f9ed6b7536a738a7a57b005c30f9463dbb6b8a28f42a714e12d99474f",
+      "source_sha256": "2cac4e1f9ed6b7536a738a7a57b005c30f9463dbb6b8a28f42a714e12d99474f"
+    },
+    {
+      "file": "renders/rille_low_original.png",
+      "sha256": "83ba08df8ec1185c64ad92911ba74fcdafe0f34651207e6288d05b0016769e85",
+      "source_sha256": "83ba08df8ec1185c64ad92911ba74fcdafe0f34651207e6288d05b0016769e85"
+    },
+    {
+      "file": "renders/rille_low_mixed.png",
+      "sha256": "1028c8a01f01139585dc2ea83ab0b7fff816e96555a89a6b49c06757050d15dc",
+      "source_sha256": "1028c8a01f01139585dc2ea83ab0b7fff816e96555a89a6b49c06757050d15dc"
+    },
+    {
+      "file": "renders/rille_low_moon_01.png",
+      "sha256": "baed193ae2f9e9fa96dc306dbbc4199e238ab459fb0612a167b40f164d5daace",
+      "source_sha256": "baed193ae2f9e9fa96dc306dbbc4199e238ab459fb0612a167b40f164d5daace"
+    },
+    {
+      "file": "renders/rille_low_moon_03.png",
+      "sha256": "42d8acc8882d80f3a10f89d5ae8778fd755a06963282cc0dc709742d3feeb086",
+      "source_sha256": "42d8acc8882d80f3a10f89d5ae8778fd755a06963282cc0dc709742d3feeb086"
+    },
+    {
+      "file": "renders/rille_low_moon_04.png",
+      "sha256": "aba8aadaea99a91d8ec7514bc4ce5cdcc87e9b770fbc334a5b107d8076f90f7e",
+      "source_sha256": "aba8aadaea99a91d8ec7514bc4ce5cdcc87e9b770fbc334a5b107d8076f90f7e"
+    },
+    {
+      "file": "renders/rille_low_moon_flat_macro_01.png",
+      "sha256": "449cdbee76f3f448fbbb5f185fc026abeb39a8ed858fe49aa963c8831feedab3",
+      "source_sha256": "449cdbee76f3f448fbbb5f185fc026abeb39a8ed858fe49aa963c8831feedab3"
+    },
+    {
+      "file": "renders/rille_low_moon_dusted_01.png",
+      "sha256": "d2ffb0fe454d70f4bf6eff15b4c4614d6259e98dc1a949191023745d2041abb5",
+      "source_sha256": "d2ffb0fe454d70f4bf6eff15b4c4614d6259e98dc1a949191023745d2041abb5"
+    },
+    {
+      "file": "renders/rille_orbit_original.png",
+      "sha256": "acd177426b4f50ae77a4791180e820de53565fd7958063a4c73029cf8127a8b4",
+      "source_sha256": "acd177426b4f50ae77a4791180e820de53565fd7958063a4c73029cf8127a8b4"
+    },
+    {
+      "file": "renders/rille_orbit_mixed.png",
+      "sha256": "4b93541cd11d9db106d7b29aa22669ff4f2b9ea46b3c8f816988c10a3dd2b413",
+      "source_sha256": "4b93541cd11d9db106d7b29aa22669ff4f2b9ea46b3c8f816988c10a3dd2b413"
+    },
+    {
+      "file": "renders/rille_orbit_moon_01.png",
+      "sha256": "9676c5b66ecfeb27b6fb21eef48ce61fcd95df566f4647e0f07d56154778f72e",
+      "source_sha256": "9676c5b66ecfeb27b6fb21eef48ce61fcd95df566f4647e0f07d56154778f72e"
+    },
+    {
+      "file": "renders/rille_orbit_moon_03.png",
+      "sha256": "4f950b4f6c2c148d59e86adb7ad7bc59f802fb1737019270e2390046e776af7d",
+      "source_sha256": "4f950b4f6c2c148d59e86adb7ad7bc59f802fb1737019270e2390046e776af7d"
+    },
+    {
+      "file": "renders/rille_orbit_moon_04.png",
+      "sha256": "58867dd9ba4dd9cba33d0433deece490ef86d03a03965c57f23f816f080863c0",
+      "source_sha256": "58867dd9ba4dd9cba33d0433deece490ef86d03a03965c57f23f816f080863c0"
+    },
+    {
+      "file": "renders/rille_orbit_moon_flat_macro_01.png",
+      "sha256": "d3a95cd1f0a171b452261d4c60fc86fe81747faf219d212a197ff88f17ed9e2e",
+      "source_sha256": "d3a95cd1f0a171b452261d4c60fc86fe81747faf219d212a197ff88f17ed9e2e"
+    },
+    {
+      "file": "renders/rille_orbit_moon_dusted_01.png",
+      "sha256": "a4b04c105138912972f8fb64a4e6ca9b5b2ba4b681562319761d6e1c8b9b345a",
+      "source_sha256": "a4b04c105138912972f8fb64a4e6ca9b5b2ba4b681562319761d6e1c8b9b345a"
+    }
+  ]
+}

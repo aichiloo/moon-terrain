@@ -1,0 +1,133 @@
+{
+  "id": "crater_rim",
+  "name": "完整坑区与坑缘",
+  "summary": "保留 Linné 主坑、完整环形坑缘与内壁，不把数千米地形压缩成机器人小场地。",
+  "source_site": "LINNECRATER",
+  "source_page": "https://data.lroc.im-ldi.com/lroc/view_rdr/NAC_DTM_LINNECRATER",
+  "center_source_pixel_zero_based": [
+    5860,
+    1510
+  ],
+  "source_window_rows_cols_half_open": [
+    5060,
+    6661,
+    710,
+    2311
+  ],
+  "native_shape": [
+    1601,
+    1601
+  ],
+  "native_spacing_m": 2.0000000000006,
+  "region_width_m": 3200.00000000096,
+  "center_projected_m": [
+    -4503563.000001399,
+    841345.0000002565
+  ],
+  "source_geotiff_metadata": {
+    "KeyDirectoryVersion": 1,
+    "KeyRevision": 1,
+    "KeyRevisionMinor": 0,
+    "GTModelTypeGeoKey": 1,
+    "GTRasterTypeGeoKey": 1,
+    "GTCitationGeoKey": "Equirectangular Moon",
+    "GeographicTypeGeoKey": 32767,
+    "GeogCitationGeoKey": "GCS Name = GCS_Moon|Datum = D_Moon|Ellipsoid = Moon_localRadius|Primem = Reference_Meridian|",
+    "GeogGeodeticDatumGeoKey": 32767,
+    "GeogAngularUnitsGeoKey": 9102,
+    "GeogEllipsoidGeoKey": 32767,
+    "GeogSemiMajorAxisGeoKey": 1737400.0,
+    "GeogSemiMinorAxisGeoKey": 1737400.0,
+    "GeogPrimeMeridianLongGeoKey": 0.0,
+    "ProjectedCSTypeGeoKey": 32767,
+    "ProjectionGeoKey": 32767,
+    "ProjCoordTransGeoKey": 17,
+    "ProjLinearUnitsGeoKey": 9001,
+    "ProjStdParallel1GeoKey": 28.0,
+    "ProjFalseEastingGeoKey": 0.0,
+    "ProjFalseNorthingGeoKey": 0.0,
+    "ProjCenterLongGeoKey": 180.0,
+    "ProjCenterLatGeoKey": 0.0,
+    "ModelPixelScale": [
+      2.0000000000006,
+      2.0000000000006,
+      0.0
+    ],
+    "ModelTiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      -4506584.0000014,
+      853066.00000026,
+      0.0
+    ]
+  },
+  "vertical_offset_m": -3036.041748046875,
+  "vertical_exaggeration": 1,
+  "local_x_direction": "east in source projection",
+  "local_y_direction": "north in source projection",
+  "source_values_preserved_exactly": true,
+  "terrain_synthetic_macro_reshaping": false,
+  "native_valid_fraction": 1.0,
+  "good_confidence_fraction": 0.9448217287680521,
+  "source_interpolated_or_other_confidence_fraction": 0.055178271231947865,
+  "relief_m": 543.862060546875,
+  "slope_p50_deg": 12.234477188117733,
+  "slope_p95_deg": 41.58457228697293,
+  "viewer_context_grid_step_m": 4.0000000000012,
+  "near_detail_step_m": 0.05,
+  "near_detail_extent_m": 48.000000000014396,
+  "source_resolution_not_improved_by_rendering": true,
+  "details": "Accepted V3 Earth-lab scanned micro-displacement and materials; synthetic size/position/burial. Near detail bounded and faded to zero at its edges.",
+  "rock_shapes_total": 9,
+  "rocks": 1537,
+  "apollo_rock_instances": 26,
+  "design_candidates": [
+    "basin",
+    "pit",
+    "slope_up",
+    "slope_down"
+  ],
+  "mapping_status": "大尺度凹地及坑缘素材；basin 指实验凹形机制，非地质学撞击盆地定名。",
+  "observation_spots": [
+    {
+      "x": -676.0000000002028,
+      "y": -772.0000000002316,
+      "label": "南侧坑缘",
+      "yaw": 0.8515996238527087,
+      "pitch": -0.1,
+      "height_m": 0.55
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "label": "坑内凹地",
+      "yaw": -3.141592653589793,
+      "pitch": -0.1,
+      "height_m": 0.55
+    },
+    {
+      "x": 8.0000000000024,
+      "y": 1048.0000000003145,
+      "label": "北侧坑缘",
+      "yaw": -1.5784297663123896,
+      "pitch": -0.1,
+      "height_m": 0.55
+    }
+  ],
+  "crop_design_status": "Deferred by user; no experimental crop selected.",
+  "robot_walking_tested": false,
+  "reobservation_tested": false,
+  "vlm_tested": false,
+  "classification": "Selected morphological region, not an official geological classification or verified experimental difficulty.",
+  "center_latitude_deg": 27.745779679088837,
+  "center_longitude_positive_east_deg": 11.79297459390395,
+  "coordinate_note": "Derived from original lunar spherical projection. Viewer x/y are source map-grid axes; polar-grid Y is not true north.",
+  "observation_spot_elevations_m": [
+    -2530.75732421875,
+    -3036.041748046875,
+    -2531.396484375
+  ],
+  "default_sun_altitude_deg": 45,
+  "lighting_note": "Initial 45-degree solar altitude makes the crater floor visible for terrain review; freely adjustable and not a reconstructed observing date."
+}

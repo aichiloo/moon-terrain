@@ -9,3 +9,7 @@
 - **Three.js**：MIT，Copyright 2010–2023 Three.js Authors。随源码保留原始许可头和完整许可文本 `viewer/shared/THREE-LICENSE.txt`。
 
 本仓库的原创代码尚未指定单独的开源许可。素材的具体来源记录优先于概括性描述。
+
+## v0.2.0 新增材质记录
+
+本轮还使用 Moon 01、Moon 03、Moon 04、Flat Macro 01、Dusted 01 的扫描贴图，按 Poly Haven 原始素材记录保留来源；制作时已核对素材包中文件与官方载荷哈希。详见 [逐文件来源记录](viewer/unity-demo/evidence/texture_package_integrity.json)。这些是地面模拟物素材，不是目标地点的月面原位扫描。Three.js 仍适用 MIT，完整离线包保留许可证。

@@ -1,0 +1,60 @@
+{
+  "url": "file:///C:/Users/lyz/Documents/Codex/2026-10-29/du/outputs/Lunar_Unity_Demo/index.html",
+  "checks": [
+    {
+      "lazy_iframe_ready_ms": 5523,
+      "textures": {
+        "loaded": 63,
+        "expected": 63,
+        "failed": []
+      },
+      "parent_frameReady": true
+    },
+    {
+      "parent_scene": "rim",
+      "parent_material": "moon_03",
+      "parent_view": "overview",
+      "actual_state": {
+        "region": "rim",
+        "preset": "D",
+        "view": "overview",
+        "normalOn": true,
+        "geometryOn": true,
+        "layout": "clustered",
+        "rocksOn": true,
+        "camera": [
+          -2115.0068342440536,
+          2141.373276336612,
+          3604.255778507181
+        ],
+        "quaternion": [
+          -0.1427850652614359,
+          0.34775620726095763,
+          0.8572060993173674,
+          -0.35195986808564594
+        ],
+        "fov": 52,
+        "sun": [
+          25,
+          135
+        ],
+        "detailVertices": 361201,
+        "material": "moon_03"
+      }
+    },
+    {
+      "parent_drag": true,
+      "material_change_preserved_camera": true,
+      "reset_button_restored_camera": true
+    },
+    {
+      "return_to_unity": true,
+      "render_image": "renders/rim_orbit_mixed.png"
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "remote": [],
+  "failed": [],
+  "passed": true
+}

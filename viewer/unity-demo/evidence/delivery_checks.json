@@ -1,0 +1,911 @@
+{
+  "status": "PASS",
+  "render_count": 98,
+  "scene_count": 7,
+  "saved_scene_count": 7,
+  "all_scene_view_material_combinations_present": true,
+  "accepted_pilot_parameters_preserved": true,
+  "same_camera_per_scene_view": true,
+  "mesh_checks": [
+    {
+      "file": "depression_context.bytes",
+      "vertices": 231361,
+      "triangles": 432000,
+      "finite": true,
+      "sha256": "36de10952688d194ea1e519c0218989e263c1a13f7f4e1328ef244b9ae50720d"
+    },
+    {
+      "file": "depression_detail.bytes",
+      "vertices": 361201,
+      "triangles": 720000,
+      "finite": true,
+      "sha256": "1feafbd100b018a9c21632794cd4c93472fb748e1f2ab837efea6afe3b6967d5"
+    },
+    {
+      "file": "depression_native.bytes",
+      "vertices": 58081,
+      "triangles": 114048,
+      "finite": true,
+      "sha256": "4427cf35a112b7d03a02e2cc76f267624a064c5fa13493ed6e22442776bfc856"
+    },
+    {
+      "file": "ejecta_context.bytes",
+      "vertices": 231361,
+      "triangles": 432000,
+      "finite": true,
+      "sha256": "a2e5aff1594e7a0825736829ba9fe19a569eae70f830fec85ab7f6ccd2f7176a"
+    },
+    {
+      "file": "ejecta_detail.bytes",
+      "vertices": 361201,
+      "triangles": 720000,
+      "finite": true,
+      "sha256": "9683823df7655263d1370e0e745f900622885972eb8c44783ba95d8528f17ca1"
+    },
+    {
+      "file": "ejecta_native.bytes",
+      "vertices": 251001,
+      "triangles": 498848,
+      "finite": true,
+      "sha256": "5db2c055ff5fe6af6e9ed74e40e00a7cdcff5b8655cbd1e8440517f2e4517764"
+    },
+    {
+      "file": "plain_context.bytes",
+      "vertices": 231361,
+      "triangles": 432000,
+      "finite": true,
+      "sha256": "160b69d3978d8548adf1207a419bcc85896cb1d8c306197cf5cc021cc73c8140"
+    },
+    {
+      "file": "plain_detail.bytes",
+      "vertices": 361201,
+      "triangles": 720000,
+      "finite": true,
+      "sha256": "6f1d7414e23aed3f4c5fe78158b337f62adf3593b89c43a82e4f672eee5b6c2d"
+    },
+    {
+      "file": "plain_native.bytes",
+      "vertices": 103041,
+      "triangles": 203648,
+      "finite": true,
+      "sha256": "ebf5ac8f3bebd68a223499727e198d0085a22d2ba18e8328d074a5ff2f85f000"
+    },
+    {
+      "file": "ridge_context.bytes",
+      "vertices": 241081,
+      "triangles": 451400,
+      "finite": true,
+      "sha256": "fcd10895303469245c7d1fedc3ec90d24e5ae6f34d07cfd95903da961885993c"
+    },
+    {
+      "file": "ridge_detail.bytes",
+      "vertices": 361201,
+      "triangles": 720000,
+      "finite": true,
+      "sha256": "da791ac098c9dded3e16a4608cd6cb986dcc89a30b3d3d118e15af312ede1de1"
+    },
+    {
+      "file": "ridge_native.bytes",
+      "vertices": 25921,
+      "triangles": 50808,
+      "finite": true,
+      "sha256": "8a22c455bbdbf04a03cb399376ba961242d86fd594f2def636f18886991a8bcd"
+    },
+    {
+      "file": "rille_context.bytes",
+      "vertices": 231361,
+      "triangles": 432000,
+      "finite": true,
+      "sha256": "4fc456d91e6dbcea8977c014c785a82cf05f1b6fa98f0d35185687b638f13dd1"
+    },
+    {
+      "file": "rille_detail.bytes",
+      "vertices": 361201,
+      "triangles": 720000,
+      "finite": true,
+      "sha256": "709399457a13ae25f0b718eff728390e21cfd1723a34ccd0281f786a7a5ddcc0"
+    },
+    {
+      "file": "rille_native.bytes",
+      "vertices": 251001,
+      "triangles": 499928,
+      "finite": true,
+      "sha256": "936896b9174486cf59fb4da3c52300c04a5d509ea14461e157c2c90a79052327"
+    },
+    {
+      "file": "rim_context.bytes",
+      "vertices": 231361,
+      "triangles": 432000,
+      "finite": true,
+      "sha256": "46b4a8ef02a98935e3b40b8cef18354b7dd6cd83a5c3d89801d546ab8a9d37e1"
+    },
+    {
+      "file": "rim_detail.bytes",
+      "vertices": 361201,
+      "triangles": 720000,
+      "finite": true,
+      "sha256": "cd10a743019d367fb7b03c7b3c2336b0c4f96ccddb94aae22b58a4c100efe11d"
+    },
+    {
+      "file": "rim_native.bytes",
+      "vertices": 641601,
+      "triangles": 1279712,
+      "finite": true,
+      "sha256": "b508b4e6361359873f999373a274c39ed3a6332bcdaffef5537e9fb56950fe6b"
+    },
+    {
+      "file": "rock_0.bytes",
+      "vertices": 804,
+      "triangles": 1244,
+      "finite": true,
+      "sha256": "1e1d85e6ec29f1496234f2f45b233a3602b29be5237b308e290f3876f825d298"
+    },
+    {
+      "file": "rock_1.bytes",
+      "vertices": 1847,
+      "triangles": 3304,
+      "finite": true,
+      "sha256": "e0f5c2ce5120fd5660b60f75741b1c22501a2451c79372121a64b4a12ee4a683"
+    },
+    {
+      "file": "rock_2.bytes",
+      "vertices": 3046,
+      "triangles": 5598,
+      "finite": true,
+      "sha256": "924ffd3b7fc69cf80429bc14a9948695d869e68a895ef31dc04c58bb61a6858d"
+    },
+    {
+      "file": "rock_3.bytes",
+      "vertices": 4067,
+      "triangles": 7636,
+      "finite": true,
+      "sha256": "4885426e49e8a766ee98838c9efb3ac39db9d23e0499d75e8f4cab8ba506d5bd"
+    },
+    {
+      "file": "rock_4.bytes",
+      "vertices": 5246,
+      "triangles": 9850,
+      "finite": true,
+      "sha256": "173daeba0852053893f6ae473c2e2f2b5c00dd834caead26d61090ee7d522550"
+    },
+    {
+      "file": "rock_5.bytes",
+      "vertices": 3861,
+      "triangles": 6920,
+      "finite": true,
+      "sha256": "14f4566d8fd91173cf9a12c1bb526ca72b4be4862696276d0a9772f994344f67"
+    },
+    {
+      "file": "rock_6.bytes",
+      "vertices": 3789,
+      "triangles": 6820,
+      "finite": true,
+      "sha256": "a74388157baa2014bb78da5652faef20faefdb3e6080d8d005509e1ea71cd961"
+    },
+    {
+      "file": "rock_7.bytes",
+      "vertices": 3000,
+      "triangles": 1000,
+      "finite": true,
+      "sha256": "e1c2bfd396646ff37d931f2397deb70b0389c80b3e961cec41966700908242a6"
+    },
+    {
+      "file": "rock_8.bytes",
+      "vertices": 1470,
+      "triangles": 490,
+      "finite": true,
+      "sha256": "a53401cedeb1aa0dcbf7959bdf1f0fb6e349ab68f7d55e8eb5ef1fb387ea75a0"
+    },
+    {
+      "file": "slope_context.bytes",
+      "vertices": 241081,
+      "triangles": 451400,
+      "finite": true,
+      "sha256": "c5c1309fa8fc49f47be7d9f2e04296e0afdc282320dbba800cbaa5162819ee85"
+    },
+    {
+      "file": "slope_detail.bytes",
+      "vertices": 361201,
+      "triangles": 720000,
+      "finite": true,
+      "sha256": "aaecacc124e1061684553ac7417c2858888aa27b1fcc86b767ce5161c9e273e7"
+    },
+    {
+      "file": "slope_native.bytes",
+      "vertices": 58081,
+      "triangles": 114808,
+      "finite": true,
+      "sha256": "4e03bf75b42759ab8726d2ab33a85bb0fe16c8d5efc36d122a33200bed449798"
+    }
+  ],
+  "image_checks": [
+    {
+      "image": "renders/plain_low_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 79.55779658422902
+    },
+    {
+      "image": "renders/plain_low_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 70.05568421941209
+    },
+    {
+      "image": "renders/plain_low_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 68.9916027679226
+    },
+    {
+      "image": "renders/plain_low_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 73.92367110232769
+    },
+    {
+      "image": "renders/plain_low_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 73.58912195392175
+    },
+    {
+      "image": "renders/plain_low_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 73.00722855118663
+    },
+    {
+      "image": "renders/plain_low_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 68.41442857039459
+    },
+    {
+      "image": "renders/plain_orbit_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 19.231662666327633
+    },
+    {
+      "image": "renders/plain_orbit_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 20.027849803165395
+    },
+    {
+      "image": "renders/plain_orbit_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 20.312507059059154
+    },
+    {
+      "image": "renders/plain_orbit_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 21.335460350644613
+    },
+    {
+      "image": "renders/plain_orbit_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 21.02002984669402
+    },
+    {
+      "image": "renders/plain_orbit_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 19.95702084417096
+    },
+    {
+      "image": "renders/plain_orbit_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 19.17995604290108
+    },
+    {
+      "image": "renders/slope_low_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 96.23404814353314
+    },
+    {
+      "image": "renders/slope_low_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 86.47034960740973
+    },
+    {
+      "image": "renders/slope_low_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 85.05797049244451
+    },
+    {
+      "image": "renders/slope_low_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 90.40782865660115
+    },
+    {
+      "image": "renders/slope_low_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 91.46194848641686
+    },
+    {
+      "image": "renders/slope_low_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 90.10125643780844
+    },
+    {
+      "image": "renders/slope_low_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 85.59059306458406
+    },
+    {
+      "image": "renders/slope_orbit_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 9.886084519167415
+    },
+    {
+      "image": "renders/slope_orbit_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 14.1468972673339
+    },
+    {
+      "image": "renders/slope_orbit_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 14.406065251528256
+    },
+    {
+      "image": "renders/slope_orbit_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 14.167557984630374
+    },
+    {
+      "image": "renders/slope_orbit_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 13.812165243791549
+    },
+    {
+      "image": "renders/slope_orbit_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 13.360725546622517
+    },
+    {
+      "image": "renders/slope_orbit_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 13.377438989777273
+    },
+    {
+      "image": "renders/rim_low_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 76.89732364804011
+    },
+    {
+      "image": "renders/rim_low_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 67.92527847479528
+    },
+    {
+      "image": "renders/rim_low_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 66.83804338655777
+    },
+    {
+      "image": "renders/rim_low_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 71.18823102310675
+    },
+    {
+      "image": "renders/rim_low_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 71.96451498891177
+    },
+    {
+      "image": "renders/rim_low_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 70.54498454661791
+    },
+    {
+      "image": "renders/rim_low_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 65.92270548405675
+    },
+    {
+      "image": "renders/rim_orbit_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 15.438409798711929
+    },
+    {
+      "image": "renders/rim_orbit_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 17.977987934060273
+    },
+    {
+      "image": "renders/rim_orbit_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 18.429844601247712
+    },
+    {
+      "image": "renders/rim_orbit_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 19.49447787292249
+    },
+    {
+      "image": "renders/rim_orbit_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 18.7497812587783
+    },
+    {
+      "image": "renders/rim_orbit_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 17.12827017926441
+    },
+    {
+      "image": "renders/rim_orbit_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 16.809214686322207
+    },
+    {
+      "image": "renders/depression_low_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 65.71682396146471
+    },
+    {
+      "image": "renders/depression_low_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 58.67429401015538
+    },
+    {
+      "image": "renders/depression_low_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 58.49729405015989
+    },
+    {
+      "image": "renders/depression_low_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 63.56389227087408
+    },
+    {
+      "image": "renders/depression_low_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 63.61028765388717
+    },
+    {
+      "image": "renders/depression_low_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 60.3500512028017
+    },
+    {
+      "image": "renders/depression_low_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 56.7188681483949
+    },
+    {
+      "image": "renders/depression_orbit_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 14.108642062164382
+    },
+    {
+      "image": "renders/depression_orbit_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 16.907389492989715
+    },
+    {
+      "image": "renders/depression_orbit_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 17.40631883264448
+    },
+    {
+      "image": "renders/depression_orbit_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 18.239111534817503
+    },
+    {
+      "image": "renders/depression_orbit_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 17.49923047960105
+    },
+    {
+      "image": "renders/depression_orbit_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 15.865532423316454
+    },
+    {
+      "image": "renders/depression_orbit_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 15.514473126092293
+    },
+    {
+      "image": "renders/ridge_low_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 89.38565187327592
+    },
+    {
+      "image": "renders/ridge_low_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 79.15130124545114
+    },
+    {
+      "image": "renders/ridge_low_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 77.50667353581787
+    },
+    {
+      "image": "renders/ridge_low_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 82.78392889720992
+    },
+    {
+      "image": "renders/ridge_low_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 84.20975166318354
+    },
+    {
+      "image": "renders/ridge_low_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 83.19610154258541
+    },
+    {
+      "image": "renders/ridge_low_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 78.31489163836952
+    },
+    {
+      "image": "renders/ridge_orbit_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 10.647657827616937
+    },
+    {
+      "image": "renders/ridge_orbit_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 14.699664399907101
+    },
+    {
+      "image": "renders/ridge_orbit_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 14.98314156884558
+    },
+    {
+      "image": "renders/ridge_orbit_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 14.984580410959332
+    },
+    {
+      "image": "renders/ridge_orbit_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 14.61860527798558
+    },
+    {
+      "image": "renders/ridge_orbit_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 13.847662715930332
+    },
+    {
+      "image": "renders/ridge_orbit_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 13.741690022137838
+    },
+    {
+      "image": "renders/ejecta_low_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 60.25061960774035
+    },
+    {
+      "image": "renders/ejecta_low_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 55.921397561317995
+    },
+    {
+      "image": "renders/ejecta_low_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 55.82417085130557
+    },
+    {
+      "image": "renders/ejecta_low_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 60.978603035444046
+    },
+    {
+      "image": "renders/ejecta_low_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 60.42647395591246
+    },
+    {
+      "image": "renders/ejecta_low_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 55.214100037186974
+    },
+    {
+      "image": "renders/ejecta_low_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 51.633821324253596
+    },
+    {
+      "image": "renders/ejecta_orbit_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 21.33621830536926
+    },
+    {
+      "image": "renders/ejecta_orbit_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 22.153734369283324
+    },
+    {
+      "image": "renders/ejecta_orbit_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 22.64308955425159
+    },
+    {
+      "image": "renders/ejecta_orbit_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 24.124986170395218
+    },
+    {
+      "image": "renders/ejecta_orbit_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 23.458430298235847
+    },
+    {
+      "image": "renders/ejecta_orbit_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 21.44239549956364
+    },
+    {
+      "image": "renders/ejecta_orbit_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 20.775710877062227
+    },
+    {
+      "image": "renders/rille_low_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 81.67799383874322
+    },
+    {
+      "image": "renders/rille_low_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 70.91186691049613
+    },
+    {
+      "image": "renders/rille_low_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 70.73055752083968
+    },
+    {
+      "image": "renders/rille_low_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 75.64612040172547
+    },
+    {
+      "image": "renders/rille_low_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 76.02180863338127
+    },
+    {
+      "image": "renders/rille_low_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 74.33893737916478
+    },
+    {
+      "image": "renders/rille_low_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 70.40020583058927
+    },
+    {
+      "image": "renders/rille_orbit_original.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 33.77310761294302
+    },
+    {
+      "image": "renders/rille_orbit_mixed.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 31.70788606934197
+    },
+    {
+      "image": "renders/rille_orbit_moon_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 32.605373294148535
+    },
+    {
+      "image": "renders/rille_orbit_moon_03.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 36.55504168820955
+    },
+    {
+      "image": "renders/rille_orbit_moon_04.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 34.91692332838683
+    },
+    {
+      "image": "renders/rille_orbit_moon_flat_macro_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 28.740325376085547
+    },
+    {
+      "image": "renders/rille_orbit_moon_dusted_01.png",
+      "width": 1920,
+      "height": 1080,
+      "magenta_pixel_fraction": 0.0,
+      "pixel_std": 27.438181992402143
+    }
+  ],
+  "terrain_displacement_enabled": false,
+  "physics_tested": false
+}

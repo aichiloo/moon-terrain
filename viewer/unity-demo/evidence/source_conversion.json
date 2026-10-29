@@ -1,0 +1,302 @@
+{
+  "regions": [
+    {
+      "id": "plain",
+      "label": "平坦岩块区",
+      "source_file_sha256": "369a564a6afe46d67dc8ae12b19a5e657ed4dfb0b1f90f2f3277ce1a5b4fba1e",
+      "offset": [
+        0.0,
+        0.0,
+        -0.006961004342883825
+      ],
+      "focus": [
+        2.9,
+        -0.020625820849090815,
+        3.1
+      ],
+      "yaw": 0.82,
+      "pitch": -0.14,
+      "meshes": [
+        {
+          "file": "Meshes/plain_native.bytes",
+          "vertices": 103041,
+          "triangles": 203648,
+          "sha256": "ebf5ac8f3bebd68a223499727e198d0085a22d2ba18e8328d074a5ff2f85f000",
+          "maximum_source_height_error_m": 8.181668817996979e-07
+        },
+        {
+          "file": "Meshes/plain_context.bytes",
+          "vertices": 231361,
+          "triangles": 432000,
+          "sha256": "160b69d3978d8548adf1207a419bcc85896cb1d8c306197cf5cc021cc73c8140",
+          "maximum_source_height_error_m": 1.6298145055770874e-08
+        },
+        {
+          "file": "Meshes/plain_detail.bytes",
+          "vertices": 361201,
+          "triangles": 720000,
+          "sha256": "6f1d7414e23aed3f4c5fe78158b337f62adf3593b89c43a82e4f672eee5b6c2d",
+          "maximum_source_height_error_m": 6.05359673500061e-09
+        }
+      ],
+      "rock_count": 3725,
+      "source_detail_geometry": "Exact existing base plus existing low-frequency synthetic enhancement; no new displacement."
+    },
+    {
+      "id": "slope",
+      "label": "连续坡面",
+      "source_file_sha256": "3e41a8afea39bdb8054f27ed33b7f713da43a8e6d02eb478e8026224c23b3149",
+      "offset": [
+        -70.0,
+        -150.5,
+        39.986935480032116
+      ],
+      "focus": [
+        1.4000000000000057,
+        1.2353240414522588,
+        -4.0
+      ],
+      "yaw": -1.238416628281216,
+      "pitch": 0.1873193333761508,
+      "meshes": [
+        {
+          "file": "Meshes/slope_native.bytes",
+          "vertices": 58081,
+          "triangles": 114808,
+          "sha256": "4e03bf75b42759ab8726d2ab33a85bb0fe16c8d5efc36d122a33200bed449798",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        },
+        {
+          "file": "Meshes/slope_context.bytes",
+          "vertices": 241081,
+          "triangles": 451400,
+          "sha256": "c5c1309fa8fc49f47be7d9f2e04296e0afdc282320dbba800cbaa5162819ee85",
+          "maximum_source_height_error_m": 8.181668817996979e-07
+        },
+        {
+          "file": "Meshes/slope_detail.bytes",
+          "vertices": 361201,
+          "triangles": 720000,
+          "sha256": "aaecacc124e1061684553ac7417c2858888aa27b1fcc86b767ce5161c9e273e7",
+          "maximum_source_height_error_m": 8.181668817996979e-07
+        }
+      ],
+      "rock_count": 2794,
+      "source_detail_geometry": "Exact existing base plus existing low-frequency synthetic enhancement; no new displacement."
+    },
+    {
+      "id": "rim",
+      "label": "完整坑区与坑缘",
+      "source_file_sha256": "bc69f9e19e5bd2a25d48ff6576aefacc2af47a15adc68f8d43a18a2afda4a44b",
+      "offset": [
+        -676.0000000002028,
+        -772.0000000002316,
+        505.2774628237821
+      ],
+      "focus": [
+        2.800000000202772,
+        0.18219293793663383,
+        3.2000000002316256
+      ],
+      "yaw": 0.8515996238527087,
+      "pitch": -0.1,
+      "meshes": [
+        {
+          "file": "Meshes/rim_native.bytes",
+          "vertices": 641601,
+          "triangles": 1279712,
+          "sha256": "b508b4e6361359873f999373a274c39ed3a6332bcdaffef5537e9fb56950fe6b",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        },
+        {
+          "file": "Meshes/rim_context.bytes",
+          "vertices": 231361,
+          "triangles": 432000,
+          "sha256": "46b4a8ef02a98935e3b40b8cef18354b7dd6cd83a5c3d89801d546ab8a9d37e1",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        },
+        {
+          "file": "Meshes/rim_detail.bytes",
+          "vertices": 361201,
+          "triangles": 720000,
+          "sha256": "cd10a743019d367fb7b03c7b3c2336b0c4f96ccddb94aae22b58a4c100efe11d",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        }
+      ],
+      "rock_count": 2573,
+      "source_detail_geometry": "Exact existing base plus existing low-frequency synthetic enhancement; no new displacement."
+    },
+    {
+      "id": "depression",
+      "label": "局部凹地",
+      "source_file_sha256": "10594d9b017859702bf169966404908dd7581655a24c9efac8d6c0ab5718ddb1",
+      "offset": [
+        -70.000000000021,
+        -50.000000000015,
+        1.4476288394071162
+      ],
+      "focus": [
+        2.9000000000210093,
+        -0.13328145304694772,
+        3.100000000015001
+      ],
+      "yaw": 0.82,
+      "pitch": -0.14,
+      "meshes": [
+        {
+          "file": "Meshes/depression_native.bytes",
+          "vertices": 58081,
+          "triangles": 114048,
+          "sha256": "4427cf35a112b7d03a02e2cc76f267624a064c5fa13493ed6e22442776bfc856",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        },
+        {
+          "file": "Meshes/depression_context.bytes",
+          "vertices": 231361,
+          "triangles": 432000,
+          "sha256": "36de10952688d194ea1e519c0218989e263c1a13f7f4e1328ef244b9ae50720d",
+          "maximum_source_height_error_m": 1.3550743460655212e-07
+        },
+        {
+          "file": "Meshes/depression_detail.bytes",
+          "vertices": 361201,
+          "triangles": 720000,
+          "sha256": "1feafbd100b018a9c21632794cd4c93472fb748e1f2ab837efea6afe3b6967d5",
+          "maximum_source_height_error_m": 1.6298145055770874e-08
+        }
+      ],
+      "rock_count": 2680,
+      "source_detail_geometry": "Exact existing base plus existing low-frequency synthetic enhancement; no new displacement."
+    },
+    {
+      "id": "ridge",
+      "label": "天然坡折",
+      "source_file_sha256": "dda2dca25bc7b07fdabbb6ddd0aa3a03797378b474ac1881977add9b92da1312",
+      "offset": [
+        0,
+        0,
+        -0.006961004342883825
+      ],
+      "focus": [
+        -1.6,
+        1.4776709242723882,
+        -3.9
+      ],
+      "yaw": -1.955472187681097,
+      "pitch": 0.171566136811251,
+      "meshes": [
+        {
+          "file": "Meshes/ridge_native.bytes",
+          "vertices": 25921,
+          "triangles": 50808,
+          "sha256": "8a22c455bbdbf04a03cb399376ba961242d86fd594f2def636f18886991a8bcd",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        },
+        {
+          "file": "Meshes/ridge_context.bytes",
+          "vertices": 241081,
+          "triangles": 451400,
+          "sha256": "fcd10895303469245c7d1fedc3ec90d24e5ae6f34d07cfd95903da961885993c",
+          "maximum_source_height_error_m": 3.413297235965729e-07
+        },
+        {
+          "file": "Meshes/ridge_detail.bytes",
+          "vertices": 361201,
+          "triangles": 720000,
+          "sha256": "da791ac098c9dded3e16a4608cd6cb986dcc89a30b3d3d118e15af312ede1de1",
+          "maximum_source_height_error_m": 1.0291114449501038e-07
+        }
+      ],
+      "rock_count": 2690,
+      "source_detail_geometry": "Exact existing base plus existing low-frequency synthetic enhancement; no new displacement."
+    },
+    {
+      "id": "ejecta",
+      "label": "坑外连续起伏",
+      "source_file_sha256": "4d809f13425492257989c70a152550afbee4683d87f7c3a07eed9a782bb9e14c",
+      "offset": [
+        150.000000000045,
+        -120.000000000036,
+        -5.204714910592884
+      ],
+      "focus": [
+        2.899999999955014,
+        0.9232012196443975,
+        3.1000000000359904
+      ],
+      "yaw": 0.82,
+      "pitch": -0.14,
+      "meshes": [
+        {
+          "file": "Meshes/ejecta_native.bytes",
+          "vertices": 251001,
+          "triangles": 498848,
+          "sha256": "5db2c055ff5fe6af6e9ed74e40e00a7cdcff5b8655cbd1e8440517f2e4517764",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        },
+        {
+          "file": "Meshes/ejecta_context.bytes",
+          "vertices": 231361,
+          "triangles": 432000,
+          "sha256": "a2e5aff1594e7a0825736829ba9fe19a569eae70f830fec85ab7f6ccd2f7176a",
+          "maximum_source_height_error_m": 6.123445928096771e-07
+        },
+        {
+          "file": "Meshes/ejecta_detail.bytes",
+          "vertices": 361201,
+          "triangles": 720000,
+          "sha256": "9683823df7655263d1370e0e745f900622885972eb8c44783ba95d8528f17ca1",
+          "maximum_source_height_error_m": 2.547167241573334e-07
+        }
+      ],
+      "rock_count": 2902,
+      "source_detail_geometry": "Exact existing base plus existing low-frequency synthetic enhancement; no new displacement."
+    },
+    {
+      "id": "rille",
+      "label": "沟谷与两岸",
+      "source_file_sha256": "a8aa211b297f29e7aae02f3720dd0adff8c449e3a2ca05b52c45fec9fedc0ca6",
+      "offset": [
+        -1496.0000000004488,
+        0,
+        75.87011419096962
+      ],
+      "focus": [
+        4.200000000448881,
+        -1.23634801665321,
+        0
+      ],
+      "yaw": 0,
+      "pitch": -0.1,
+      "meshes": [
+        {
+          "file": "Meshes/rille_native.bytes",
+          "vertices": 251001,
+          "triangles": 499928,
+          "sha256": "936896b9174486cf59fb4da3c52300c04a5d509ea14461e157c2c90a79052327",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        },
+        {
+          "file": "Meshes/rille_context.bytes",
+          "vertices": 231361,
+          "triangles": 432000,
+          "sha256": "4fc456d91e6dbcea8977c014c785a82cf05f1b6fa98f0d35185687b638f13dd1",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        },
+        {
+          "file": "Meshes/rille_detail.bytes",
+          "vertices": 361201,
+          "triangles": 720000,
+          "sha256": "709399457a13ae25f0b718eff728390e21cfd1723a34ccd0281f786a7a5ddcc0",
+          "maximum_source_height_error_m": 2.996530383825302e-06
+        }
+      ],
+      "rock_count": 2563,
+      "source_detail_geometry": "Exact existing base plus existing low-frequency synthetic enhancement; no new displacement."
+    }
+  ],
+  "source_viewer": "C:\\Users\\lyz\\Documents\\Codex\\2026-10-21\\ji-x\\outputs\\Lunar_Detail_Regions",
+  "source_material_package": "C:\\Users\\lyz\\Documents\\Codex\\2026-10-28\\du\\work\\material_pack",
+  "axis_mapping": "Source (x,y,z) -> Unity (x,z,y), reversed triangles; meter units retained.",
+  "terrain_displacement_from_new_textures": false
+}

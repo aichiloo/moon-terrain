@@ -1,0 +1,133 @@
+{
+  "url": "file:///C:/Users/lyz/Documents/Codex/2026-10-29/du/outputs/Lunar_Unity_Demo/interactive/index.html#plain",
+  "checks": [
+    {
+      "initial_ready_ms": 5055,
+      "textures": {
+        "loaded": 63,
+        "expected": 63,
+        "failed": []
+      }
+    },
+    {
+      "scene": "plain",
+      "scene_switch": true,
+      "free_drag": true,
+      "orbit_zoom": true,
+      "dragPixelChange": true,
+      "zoomPixelChange": true,
+      "overview": true
+    },
+    {
+      "scene": "slope",
+      "scene_switch": true,
+      "free_drag": true,
+      "orbit_zoom": true,
+      "dragPixelChange": true,
+      "zoomPixelChange": true,
+      "overview": true
+    },
+    {
+      "scene": "rim",
+      "scene_switch": true,
+      "free_drag": true,
+      "orbit_zoom": true,
+      "dragPixelChange": true,
+      "zoomPixelChange": true,
+      "overview": true
+    },
+    {
+      "scene": "depression",
+      "scene_switch": true,
+      "free_drag": true,
+      "orbit_zoom": true,
+      "dragPixelChange": true,
+      "zoomPixelChange": true,
+      "overview": true
+    },
+    {
+      "scene": "ridge",
+      "scene_switch": true,
+      "free_drag": true,
+      "orbit_zoom": true,
+      "dragPixelChange": true,
+      "zoomPixelChange": true,
+      "overview": true
+    },
+    {
+      "scene": "ejecta",
+      "scene_switch": true,
+      "free_drag": true,
+      "orbit_zoom": true,
+      "dragPixelChange": true,
+      "zoomPixelChange": true,
+      "overview": true
+    },
+    {
+      "scene": "rille",
+      "scene_switch": true,
+      "free_drag": true,
+      "orbit_zoom": true,
+      "dragPixelChange": true,
+      "zoomPixelChange": true,
+      "overview": true
+    },
+    {
+      "material": "original",
+      "loaded": true
+    },
+    {
+      "material": "mixed",
+      "loaded": true
+    },
+    {
+      "material": "moon_01",
+      "loaded": true
+    },
+    {
+      "material": "moon_03",
+      "loaded": true
+    },
+    {
+      "material": "moon_04",
+      "loaded": true
+    },
+    {
+      "material": "moon_flat_macro_01",
+      "loaded": true
+    },
+    {
+      "material": "moon_dusted_01",
+      "loaded": true
+    },
+    {
+      "postMessageReset": true,
+      "materialSyncPreservesDraggedCamera": true
+    },
+    {
+      "view": "low",
+      "loaded": true
+    },
+    {
+      "view": "high",
+      "loaded": true
+    },
+    {
+      "view": "orbit",
+      "loaded": true
+    },
+    {
+      "view": "overview",
+      "loaded": true
+    },
+    {
+      "view": "detail",
+      "loaded": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "remote": [],
+  "failed": [],
+  "passed": true
+}

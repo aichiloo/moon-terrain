@@ -1,0 +1,130 @@
+{
+  "id": "ejecta_undulations",
+  "name": "坑外连续起伏",
+  "summary": "Linné 坑外实测连续丘状起伏、局部浅槽与小坑，另加可独立关闭的岩屑布局层。",
+  "source_site": "LINNECRATER",
+  "source_page": "https://data.lroc.im-ldi.com/lroc/view_rdr/NAC_DTM_LINNECRATER",
+  "center_source_pixel_zero_based": [
+    6650,
+    1300
+  ],
+  "source_window_rows_cols_half_open": [
+    6400,
+    6901,
+    1050,
+    1551
+  ],
+  "native_shape": [
+    501,
+    501
+  ],
+  "native_spacing_m": 2.0000000000006,
+  "region_width_m": 1000.0000000003,
+  "center_projected_m": [
+    -4503983.000001399,
+    839765.000000256
+  ],
+  "source_geotiff_metadata": {
+    "KeyDirectoryVersion": 1,
+    "KeyRevision": 1,
+    "KeyRevisionMinor": 0,
+    "GTModelTypeGeoKey": 1,
+    "GTRasterTypeGeoKey": 1,
+    "GTCitationGeoKey": "Equirectangular Moon",
+    "GeographicTypeGeoKey": 32767,
+    "GeogCitationGeoKey": "GCS Name = GCS_Moon|Datum = D_Moon|Ellipsoid = Moon_localRadius|Primem = Reference_Meridian|",
+    "GeogGeodeticDatumGeoKey": 32767,
+    "GeogAngularUnitsGeoKey": 9102,
+    "GeogEllipsoidGeoKey": 32767,
+    "GeogSemiMajorAxisGeoKey": 1737400.0,
+    "GeogSemiMinorAxisGeoKey": 1737400.0,
+    "GeogPrimeMeridianLongGeoKey": 0.0,
+    "ProjectedCSTypeGeoKey": 32767,
+    "ProjectionGeoKey": 32767,
+    "ProjCoordTransGeoKey": 17,
+    "ProjLinearUnitsGeoKey": 9001,
+    "ProjStdParallel1GeoKey": 28.0,
+    "ProjFalseEastingGeoKey": 0.0,
+    "ProjFalseNorthingGeoKey": 0.0,
+    "ProjCenterLongGeoKey": 180.0,
+    "ProjCenterLatGeoKey": 0.0,
+    "ModelPixelScale": [
+      2.0000000000006,
+      2.0000000000006,
+      0.0
+    ],
+    "ModelTiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      -4506584.0000014,
+      853066.00000026,
+      0.0
+    ]
+  },
+  "vertical_offset_m": -2609.98779296875,
+  "vertical_exaggeration": 1,
+  "local_x_direction": "east in source projection",
+  "local_y_direction": "north in source projection",
+  "source_values_preserved_exactly": true,
+  "terrain_synthetic_macro_reshaping": false,
+  "native_valid_fraction": 1.0,
+  "good_confidence_fraction": 0.9589045461970271,
+  "source_interpolated_or_other_confidence_fraction": 0.041095453802972894,
+  "relief_m": 112.90869140625,
+  "slope_p50_deg": 7.078093266400969,
+  "slope_p95_deg": 17.428623812443124,
+  "viewer_context_grid_step_m": 2.0000000000006,
+  "near_detail_step_m": 0.05,
+  "near_detail_extent_m": 48.000000000014396,
+  "source_resolution_not_improved_by_rendering": true,
+  "details": "Accepted V3 Earth-lab scanned micro-displacement and materials; synthetic size/position/burial. Near detail bounded and faded to zero at its edges.",
+  "rock_shapes_total": 9,
+  "rocks": 2205,
+  "apollo_rock_instances": 46,
+  "design_candidates": [
+    "waves",
+    "perlin",
+    "perlin_rough"
+  ],
+  "mapping_status": "使用真实相关起伏替代噪声主体；名称仅沿用旧设计索引。",
+  "observation_spots": [
+    {
+      "x": -160.000000000048,
+      "y": -70.000000000021,
+      "label": "丘状起伏",
+      "yaw": 0.82,
+      "pitch": -0.14,
+      "height_m": 0.55
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "label": "浅槽与缓坡",
+      "yaw": 0.82,
+      "pitch": -0.14,
+      "height_m": 0.55
+    },
+    {
+      "x": 150.000000000045,
+      "y": -120.000000000036,
+      "label": "岩屑布局",
+      "yaw": 0.82,
+      "pitch": -0.14,
+      "height_m": 0.55
+    }
+  ],
+  "crop_design_status": "Deferred by user; no experimental crop selected.",
+  "robot_walking_tested": false,
+  "reobservation_tested": false,
+  "vlm_tested": false,
+  "classification": "Selected morphological region, not an official geological classification or verified experimental difficulty.",
+  "center_latitude_deg": 27.69367461886626,
+  "center_longitude_positive_east_deg": 11.777287692073003,
+  "coordinate_note": "Derived from original lunar spherical projection. Viewer x/y are source map-grid axes; polar-grid Y is not true north.",
+  "observation_spot_elevations_m": [
+    -2619.787109375,
+    -2609.98779296875,
+    -2615.185546875
+  ]
+}
