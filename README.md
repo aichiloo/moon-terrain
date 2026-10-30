@@ -2,7 +2,26 @@
 
 以真实月球 DEM 为基础，分层补充近景细节、岩石和表面材质，用于地形资产展示与后续实验场地筛选。
 
-## 当前演示：Unity 材质与七类地形 v0.2.0
+## 完整 Unity 地形工程 v0.3.0
+
+**[下载完整可编辑 Unity 工程](https://github.com/moonspace123/moon-terrain/releases/download/v0.3.0/Lunar_Unity_Project_v0.3.0.zip)** · **[版本说明、校验文件与验证报告](https://github.com/moonspace123/moon-terrain/releases/tag/v0.3.0)**
+
+解压后，在 Unity Hub 中添加 `Lunar_Unity_Project/UnityProject`，使用 **Unity 2022.3.62f3c1** 打开。首次导入完成后，选择菜单 **Lunar Terrain → Open interactive preview**，在 Game 窗口演示。
+
+- 包含七个已保存场景、全部地形网格、九类岩石源模型、贴图、材质、着色器、脚本和项目设置，保留全部 `.meta`。
+- 可切换七类地形和七种材质；支持右键转向、WASD 移动、滚轮调整视场、低机位复位与俯视近景。
+- 发布副本已登记七个可切换场景，并把生成与验证输出放到工程内的 `Outputs/`，方便换电脑打开。
+- 已在新路径重新导入并运行七个场景，完成 49 次材质切换、视角检查和实际画面渲染。验证记录随包提供。
+
+也可运行 `python tools/download_unity_project.py`，下载、校验并解压到 `projects/Lunar_Unity_Project/`。
+
+**[打开工程的详细说明](docs/unity-project.md)** · **[可浏览的小体积工程源码](unity/)**
+
+![Unity 工程实际 Play Mode 画面](docs/images/unity_project_play_mode.jpg)
+
+完整工程的大型网格和贴图随 Release ZIP 提供，克隆仓库后需另外下载。工程用于地形外观与交互演示；真实 DEM、合成近景细节与岩石布置的来源边界见文档。
+
+## 网页演示：Unity 材质与七类地形 v0.2.0
 
 **[下载完整演示包（约 396 MB）](https://github.com/moonspace123/moon-terrain/releases/download/v0.2.0/Lunar_Unity_Demo.zip)** · **[版本说明与校验文件](https://github.com/moonspace123/moon-terrain/releases/tag/v0.2.0)**
 
@@ -27,7 +46,7 @@ python tools/download_unity_demo.py
 
 [制作方法与数据边界](docs/UNITY_DEMO.md) · [网页界面源文件](viewer/unity-demo/) · [检查记录](viewer/unity-demo/evidence/browser_checks.json)
 
-大体量渲染图、贴图与地形数据随 Release 提供；`viewer/unity-demo/` 是界面与交互源文件，需要完整包中的资产才能运行。当前发布不含完整 Unity 编辑工程；已有 Unity 渲染成果及可离线操作的浏览器地形均在完整包中。
+大体量渲染图、贴图与地形数据随 Release 提供；`viewer/unity-demo/` 是界面与交互源文件，需要完整包中的资产才能运行。v0.2.0 网页包包含 Unity 渲染成果和浏览器交互地形；完整可编辑 Unity 工程另见上方 v0.3.0。
 
 ---
 

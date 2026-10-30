@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "unityVersion": "2022.3.62f3c1",
+  "seven_edit_scenes_verified": 7,
+  "seven_play_scenes_verified": 7,
+  "material_switches": 49,
+  "actual_gpu_images": 2,
+  "original_files_checked": 410,
+  "original_files_identical": 407,
+  "only_modified_source_files": [
+    "Assets/Editor/LunarPilotBuilder.cs",
+    "Assets/Editor/LunarPreviewLauncher.cs",
+    "ProjectSettings/EditorBuildSettings.asset"
+  ],
+  "unique_asset_guids": 201,
+  "referenced_asset_guids": 131,
+  "missing_metadata": [],
+  "missing_guid_references": [],
+  "cache_exclusions": [
+    "Library",
+    "Temp",
+    "Logs",
+    "UserSettings",
+    "Outputs"
+  ],
+  "scope": "Saved-asset reference checks and actual Play Mode scene/material/camera smoke test; no walking, contact, or occlusion validation.",
+  "archive_name": "Lunar_Unity_Project_v0.3.0.zip",
+  "archive_bytes": 537043092,
+  "archive_sha256": "32529ccfb60a1b20e4d1802895896f06d843e548b651d03d196375959287a8a7",
+  "archive_members": 442,
+  "crc_passed": true
+}

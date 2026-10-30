@@ -16,3 +16,14 @@ node_modules/
 *token*
 .DS_Store
 Thumbs.db
+
+# Complete downloadable Unity project and import caches
+projects/
+[Ll]ibrary/
+[Tt]emp/
+[Ll]ogs/
+[Uu]serSettings/
+obj/
+*.csproj
+*.sln
+.vs/
